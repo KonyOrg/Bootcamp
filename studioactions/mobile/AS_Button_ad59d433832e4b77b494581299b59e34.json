@@ -1,0 +1,17 @@
+{
+    "AS_Button_ad59d433832e4b77b494581299b59e34": {
+        "id": "AS_Button_ad59d433832e4b77b494581299b59e34",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_ide_onClick_cff0a54e6a7a46ff825aa4258ef6eb6c",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "alert(\"Is camera support available? \"+JSON.stringify(kony.os.hasCameraSupport()));",
+            "callbackType": null
+        }]
+    }
+}

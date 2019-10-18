@@ -1,0 +1,31 @@
+{
+    "AS_Button_ac22fff36a434e4eb07b4a294072d2d3": {
+        "id": "AS_Button_ac22fff36a434e4eb07b4a294072d2d3",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmKonyAPIs",
+            "type": "forms",
+            "platform": null,
+            "KUID": "bad868ee8a5b4334a6c24ae67a116d9f"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "NAVIGATE_TO_FORM__ide_onClick_a2687c886e94499b8f5040955734f569",
+            "type": "NAVIGATE_TO_FORM",
+            "formId": "frmOSLibrary",
+            "formKUID": "dc6fcfc533284add9e77cd5efae0bd69",
+            "mappings": {},
+            "mappingsOrder": [],
+            "parentId": "",
+            "callbackType": null,
+            "enableMappingEditor": true,
+            "package": "",
+            "navigationObj": "{\n    \"_meta_\": {\n        \"eventName\": \"onClick\",\n        \"widgetId\": \"btnOSLibrary\"\n    }\n}",
+            "isCustomInput": false
+        }]
+    }
+}

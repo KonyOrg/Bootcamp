@@ -1,0 +1,32 @@
+{
+    "AS_Button_a8f937de0a334fc1b72534f07a63184d": {
+        "id": "AS_Button_a8f937de0a334fc1b72534f07a63184d",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "KUID": "f59648d3ad0a4ddda2af215e5e0bdfb0",
+            "name": "frmSegmentSelection",
+            "platform": null,
+            "type": "forms"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "SHOW_ALERT__gd2b989224624ab1934996e24a38dbad",
+            "type": "SHOW_ALERT",
+            "alertType": "constants.ALERT_TYPE_INFO",
+            "alertMessage": "\"Selected row is: \" + JSON.stringify(this.view.segSingleSelect.selectedRowItems)",
+            "messageType": "expression",
+            "parentId": null,
+            "callbackType": null,
+            "alertTitlei18n": null,
+            "yesLabeli18n": null,
+            "noLabeli18n": null,
+            "alertMessagei18n": null,
+            "iconPosition": "constants.ALERT_ICON_POSITION_LEFT",
+            "disabled": null
+        }]
+    }
+}

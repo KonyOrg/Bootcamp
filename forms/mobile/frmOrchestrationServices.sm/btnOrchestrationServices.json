@@ -1,0 +1,53 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizButton",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "string",
+        "value": "63dp"
+    },
+    "_margin_": [
+        6,
+        6,
+        6,
+        6
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "sec9100377e04c5c93e722fa7df9382a",
+    "_text_": "Composite Sequential Orchestration Service",
+    "_top_": {
+        "type": "string",
+        "value": "10dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "90%"
+    },
+    "canUpdateUI": true,
+    "centerx": {
+        "type": "string",
+        "value": "50.04%"
+    },
+    "containerweight": 100,
+    "contentalignment": 5,
+    "displaytext": true,
+    "focusskin": "sb95c0f463ec472a9e0f0b3605eeba51",
+    "id": "btnOrchestrationServices",
+    "ide_onClick": "AS_Button_be784ddca1ed4f29890ea8ae211defba",
+    "info": null,
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "hfeaed739fef43efbcde1af7f19cc4fe",
+    "name": "kony.ui.Button",
+    "parent": "frmOrchestrationServices",
+    "pf": "frmOrchestrationServices",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "wType": "Button",
+    "zindex": 1
+}

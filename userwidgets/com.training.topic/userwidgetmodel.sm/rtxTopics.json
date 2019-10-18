@@ -1,0 +1,53 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizRichText",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "ref",
+        "value": "preferred"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "10dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_padding_": [
+        0,
+        5,
+        0,
+        0
+    ],
+    "_skin_": "s5ebbea4c8984824aaa7b9484d36225c",
+    "_text_": "-- Visualizer Basics<br/>\n-- Actions and Animations<br/>\n-- Using Widgets<br/>\n-- Advanced Widgets<br/>\n-- Functional Preview<br/>\n-- Design Techniques<br/>\n-- Actions<br/>\n-- Animations<br/>\n-- Action Editor<br/>\n-- Outside the design<br/>",
+    "_width_": {
+        "type": "string",
+        "value": "260dp"
+    },
+    "_wrapping_": 2,
+    "canUpdateUI": true,
+    "centery": {
+        "type": "string",
+        "value": "50%"
+    },
+    "containerweight": 100,
+    "contentalignment": 4,
+    "id": "rtxTopics",
+    "info": null,
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "ab6fc2158d5d4b8d84955f295e6fe6e9",
+    "linkskin": "sc7100cfd3f34f44943a36d6f0e2c6be",
+    "name": "kony.ui.RichText",
+    "parent": "topic",
+    "pf": "userwidgetmodel",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "wType": "RichText",
+    "widgetalignment": 5,
+    "zindex": 1
+}

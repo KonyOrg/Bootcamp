@@ -1,0 +1,28 @@
+{
+    "AS_Button_hb56364503a9424c9986308115dd9bf0": {
+        "id": "AS_Button_hb56364503a9424c9986308115dd9bf0",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "Form1",
+            "type": "forms",
+            "platform": null,
+            "KUID": "ba81cf6e2b3a45ebbdf2fc6e96b7d159"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION___e9665ea207e8460699716e58c30f8bf5",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "authenticateMFUsingUserStore",
+            "display": "authenticateMFUsingUserStore",
+            "inputparams": [],
+            "parentId": null,
+            "callbackType": null,
+            "disabled": null,
+            "source": "controller"
+        }]
+    }
+}

@@ -1,0 +1,53 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizButton",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "string",
+        "value": "50dp"
+    },
+    "_margin_": [
+        6,
+        6,
+        6,
+        6
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "s72916963e1040d0b0568ff5ac01b45d",
+    "_text_": "Back To Change Startup From",
+    "_top_": {
+        "type": "string",
+        "value": "20dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "80%"
+    },
+    "canUpdateUI": true,
+    "centerx": {
+        "type": "string",
+        "value": "50%"
+    },
+    "containerweight": 100,
+    "contentalignment": 5,
+    "displaytext": true,
+    "focusskin": "s8ce4885fea744648ccf5960c79b5ca6",
+    "id": "btnBackToChangeStartupForm",
+    "ide_onClick": "AS_Button_ac5dbb2141a3467f91ce46b4a31a94ea",
+    "info": null,
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "g6cf78c0aaae4d4b832603622d59dd94",
+    "name": "kony.ui.Button",
+    "parent": "frmFormTwo",
+    "pf": "frmFormTwo",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "wType": "Button",
+    "zindex": 1
+}

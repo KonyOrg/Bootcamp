@@ -1,0 +1,17 @@
+{
+    "AS_Button_af3a15dd04a447278dde1808f75fb709": {
+        "id": "AS_Button_af3a15dd04a447278dde1808f75fb709",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_ide_onClick_ffaa0c77c7594bc2bfa382aaeac6455b",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.view.btnChangeSkin.skin=sknBtn1;",
+            "callbackType": null
+        }]
+    }
+}

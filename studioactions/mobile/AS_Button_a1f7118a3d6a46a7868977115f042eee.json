@@ -1,0 +1,30 @@
+{
+    "AS_Button_a1f7118a3d6a46a7868977115f042eee": {
+        "id": "AS_Button_a1f7118a3d6a46a7868977115f042eee",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmPrePRocessor",
+            "type": "forms",
+            "platform": null,
+            "KUID": "d5236753ce454d7983a713f154f540dc"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION__ide_onClick_b7c774349ff640a484c3f18475affae9",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "getFoxNews",
+            "display": "getFoxNews",
+            "inputparams": [{
+                "name": "eventobject",
+                "value": " eventobject"
+            }],
+            "callbackType": null,
+            "disabled": null,
+            "source": "controller"
+        }]
+    }
+}

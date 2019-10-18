@@ -1,0 +1,24 @@
+{
+    "AS_Form_c6da9d01b25b4488af753d56b83c23a3": {
+        "id": "AS_Form_c6da9d01b25b4488af753d56b83c23a3",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmDay1",
+            "type": "forms",
+            "platform": "",
+            "KUID": "cc842650d91b415ba71db1c8c01d1525"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__bb434826d69e4d3994b8ec9174a2193c",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "kony.application.showLoadingScreen(\"skProgress\", \"Loading the video, Please wait...\",\n                                  constants.LOADING_SCREEN_POSITION_FULL_SCREEN, true, true, \n                                  {enableMenuKey:false, enableBackKey:false});\n",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

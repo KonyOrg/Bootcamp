@@ -1,0 +1,31 @@
+{
+    "AS_Button_j7663f4d5b444e9590d82e8a22fedfd6": {
+        "id": "AS_Button_j7663f4d5b444e9590d82e8a22fedfd6",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmDay3",
+            "type": "forms",
+            "platform": "",
+            "KUID": "aba200319dab4d1c987d966d14a02c74"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "NAVIGATE_TO_FORM__ide_onClick_aef5c6918d2d4820b9e20e1fa859b0c9",
+            "type": "NAVIGATE_TO_FORM",
+            "formId": "frmSegmentAnimations",
+            "formKUID": "i1a40aa5988b4e5584e641e72b9b0dbf",
+            "mappings": {},
+            "mappingsOrder": [],
+            "parentId": "",
+            "callbackType": null,
+            "enableMappingEditor": true,
+            "package": "",
+            "navigationObj": "{\n    \"_meta_\": {\n        \"eventName\": \"onClick\",\n        \"widgetId\": \"btnSegmentWidgetAnimation\"\n    }\n}",
+            "isCustomInput": false
+        }]
+    }
+}

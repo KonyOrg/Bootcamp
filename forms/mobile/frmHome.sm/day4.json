@@ -1,0 +1,115 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizUserWidget",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_android_": {},
+    "_androidwearos_": {},
+    "_children_": [],
+    "_desktopweb_": {},
+    "_height_": {
+        "type": "string",
+        "value": "21%"
+    },
+    "_ipad_": {},
+    "_iphone_": {},
+    "_kiosk_": {},
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 1,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_percent_": true,
+    "_skin_": "s8625d97c68a40e3ba84c6e04b282cb5",
+    "_spa_": {},
+    "_spaan_": {},
+    "_spaandroidtablet_": {},
+    "_spabb_": {},
+    "_spaip_": {},
+    "_spaipad_": {},
+    "_spamobile_": {},
+    "_spatablet_": {},
+    "_spawindowstablet_": {},
+    "_spawinphone8_": {},
+    "_tabrcandroid_": {},
+    "_top_": {
+        "type": "string",
+        "value": "10dp"
+    },
+    "_vizProps_": {
+        "hidewidgethierarchy": false
+    },
+    "_width_": {
+        "type": "string",
+        "value": "90%"
+    },
+    "_windows10_": {},
+    "_windows8_": {},
+    "_winphone10_": {},
+    "_winphone8_": {},
+    "areflexpropsreferenced": true,
+    "canUpdateUI": true,
+    "centerx": {
+        "type": "string",
+        "value": "50%"
+    },
+    "clipbounds": true,
+    "containerweight": 0,
+    "dataDiffs": {
+        "lblDay": {
+            "__events__": {
+                "ide_onTouchEnd": "AS_Label_f968e9e518ef44bb80189944fef29532"
+            },
+            "__info__": {
+                "kuid": "eeee2b6b17284759b0176f4b983e85c5",
+                "srcKUID": "u0fc0e5c34704b9b933049788412d215",
+                "wType": "Label"
+            },
+            "text": "Day 4"
+        },
+        "rtxTopics": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "j694cab7e5ee4ee2a26934b19b290167",
+                "srcKUID": "u66bacc0a9ba4bfa88c295935158b1e8",
+                "wType": "RichText"
+            },
+            "text": "-- More widgets<br/> -- More APIs<br/> -- Change startup form<br/> -- Show / dismiss progress indicator<br/> -- Application Properties<br/>"
+        },
+        "topic": {
+            "__events__": {},
+            "__info__": {
+                "isRoot": true,
+                "kuid": "eb90ef054d534f64be23c5e6be15c50b",
+                "srcKUID": "udf15d8666db4417a52eecfb4c7746af",
+                "wType": "FlexContainer"
+            }
+        }
+    },
+    "enablescrolling": true,
+    "id": "day4",
+    "info": null,
+    "iscustomlayout": false,
+    "isdatareferenced": false,
+    "issegmentchild": false,
+    "isvisible": true,
+    "kuid": "eb90ef054d534f64be23c5e6be15c50b",
+    "layouttype": 3,
+    "masterType": 0,
+    "name": "kony.ui.UserWidgetInstance",
+    "parent": "frmHome",
+    "pf": "frmHome",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "snapgridsize": 10,
+    "snaptogrid": true,
+    "sourceUserWidget": "udf15d8666db4417a52eecfb4c7746af",
+    "wType": "UserWidgetInstance"
+}

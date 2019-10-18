@@ -1,0 +1,22 @@
+{
+    "AS_Button_h28829bd20654a01b5f489f423d73863": {
+        "id": "AS_Button_h28829bd20654a01b5f489f423d73863",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION___b14790fc98d847f8ad781b096d9b0e3a",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "setDataToSegAccounts",
+            "display": "setDataToSegAccounts",
+            "inputparams": [],
+            "parentId": null,
+            "callbackType": null,
+            "disabled": null,
+            "source": "controller"
+        }]
+    }
+}

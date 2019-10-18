@@ -1,0 +1,31 @@
+{
+    "AS_Button_g4dbf1f06edb4ea4993230ef273bcbf3": {
+        "id": "AS_Button_g4dbf1f06edb4ea4993230ef273bcbf3",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmDay4",
+            "type": "forms",
+            "platform": "",
+            "KUID": "c0660105f4164443a8e58e4c85c58265"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "NAVIGATE_TO_FORM__ide_onClick_e74182b56d0749259d8b9d59a2418d7c",
+            "type": "NAVIGATE_TO_FORM",
+            "formId": "frmDynamicWidgets",
+            "formKUID": "ebec7c0a970144a29d6539e4657bc0a5",
+            "mappings": {},
+            "mappingsOrder": [],
+            "parentId": "",
+            "callbackType": null,
+            "enableMappingEditor": true,
+            "package": "",
+            "navigationObj": "{\n    \"_meta_\": {\n        \"eventName\": \"onClick\",\n        \"widgetId\": \"btnDynamicWidgets\"\n    }\n}",
+            "isCustomInput": false
+        }]
+    }
+}

@@ -1,0 +1,31 @@
+{
+    "AS_Button_f70c756b76f74502901ec4fbd6cee766": {
+        "id": "AS_Button_f70c756b76f74502901ec4fbd6cee766",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmUsingWidgets1",
+            "type": "forms",
+            "platform": null,
+            "KUID": "j265b4779ce847ddaa95cfb40658e318"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "NAVIGATE_TO_FORM__ide_onClick_g60435e1f2124a87bdc9dfcbc589eaf9",
+            "type": "NAVIGATE_TO_FORM",
+            "formId": "frmCalenderWidget",
+            "formKUID": "d3dc09144cb14c7a855a4fea22263f8a",
+            "mappings": {},
+            "mappingsOrder": [],
+            "parentId": "",
+            "callbackType": null,
+            "enableMappingEditor": true,
+            "package": "",
+            "navigationObj": "{\n    \"_meta_\": {\n        \"eventName\": \"onClick\",\n        \"widgetId\": \"btnCalenderWidget\"\n    }\n}",
+            "isCustomInput": false
+        }]
+    }
+}

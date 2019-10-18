@@ -1,0 +1,54 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizRichText",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "ref",
+        "value": "preferred"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "s1dc9661798840ed85eafe98e174326a",
+    "_text_": "<h1>This is RichText widget</h1>\n<p>RichText widget can render few HTML tags</p>\n<ol>\n  <li>&nbsp;Linear Regression</li>\n  <li>&nbsp;Logistic Regression</li>\n  <li>&nbsp;K-Mean Clustering</li>\n</ol> \n",
+    "_top_": {
+        "type": "string",
+        "value": "10dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "80%"
+    },
+    "_wrapping_": 2,
+    "canUpdateUI": true,
+    "centerx": {
+        "type": "string",
+        "value": "50%"
+    },
+    "containerweight": 100,
+    "contentalignment": 4,
+    "id": "rchText",
+    "info": null,
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "b64ec9c7863e4f05b557e4c9d9b176fb",
+    "linkskin": "sc7100cfd3f34f44943a36d6f0e2c6be",
+    "name": "kony.ui.RichText",
+    "paddinginpixel": false,
+    "parent": "frmSelectionWidgets",
+    "pf": "frmSelectionWidgets",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "wType": "RichText",
+    "widgetalignment": 5,
+    "zindex": 1
+}

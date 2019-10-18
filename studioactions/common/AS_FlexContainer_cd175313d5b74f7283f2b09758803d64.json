@@ -1,0 +1,23 @@
+{
+    "AS_FlexContainer_cd175313d5b74f7283f2b09758803d64": {
+        "id": "AS_FlexContainer_cd175313d5b74f7283f2b09758803d64",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "KUID": "uf6e3557d18e4dac8ff79ade6a3b1f25",
+            "name": "uwuf6e3557d18e4dac8ff79ade6a3b1f25",
+            "type": "userwidgets"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__c5c55e9de5554e168277c7762080e9b2",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "kony.store.setItem(\"konympLoginInputType\",\"social\");\nthis.invokeIdentityService(\"reusableOffice365Login\",true);\n",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

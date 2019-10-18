@@ -1,0 +1,25 @@
+{
+    "AS_Button_fb0b5afb4d924d3eace7466222d3536c": {
+        "id": "AS_Button_fb0b5afb4d924d3eace7466222d3536c",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION___d88a134eb8bc4906bd1044f2d2579ad0",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "changeCurrentLocale",
+            "display": "changeCurrentLocale",
+            "inputparams": [{
+                "name": "locale",
+                "value": "\"en_US\""
+            }],
+            "parentId": null,
+            "callbackType": null,
+            "disabled": null,
+            "source": "controller"
+        }]
+    }
+}

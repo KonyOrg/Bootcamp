@@ -1,0 +1,27 @@
+{
+    "AS_Button_b75e9127dc3a45739b99b69a0ab1c1fb": {
+        "id": "AS_Button_b75e9127dc3a45739b99b69a0ab1c1fb",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmSegmentWidgetAPIs",
+            "type": "forms",
+            "platform": null,
+            "KUID": "d5c8bf5cacb24119b9a43548b2c63e6f"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION__ide_onClick_e2e205a1a3f4467f8b6b306f899fd37a",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "setDataWithSectionsUsingTemplatesToSegAccounts",
+            "display": "setDataWithSectionsUsingTemplatesToSegAccounts",
+            "inputparams": [],
+            "callbackType": null,
+            "disabled": null,
+            "source": "controller"
+        }]
+    }
+}

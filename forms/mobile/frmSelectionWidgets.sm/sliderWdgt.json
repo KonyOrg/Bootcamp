@@ -1,0 +1,91 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizSlider",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "string",
+        "value": "45dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_max_": 100,
+    "_min_": 0,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_step_": 5,
+    "_thickness_": 5,
+    "_top_": {
+        "type": "string",
+        "value": "5dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "80%"
+    },
+    "android": {},
+    "androidwearos": {
+        "thumbImage": "slider_android.png"
+    },
+    "canUpdateUI": true,
+    "centerx": {
+        "type": "string",
+        "value": "50%"
+    },
+    "containerweight": 100,
+    "desktopweb": {
+        "psp": {
+            "orientation": "horizontal",
+            "viewType": "default"
+        }
+    },
+    "focusthumbimage": "thumb_slider_focus_1.png",
+    "id": "sliderWdgt",
+    "ide_onSelection": "AS_Slider_i4f0eeb64e6b4e83ada3709ed025b086",
+    "imgwt": 64,
+    "info": null,
+    "ipad": {
+        "psp": {
+            "enableThumbTintColor": true,
+            "thumbTintColor": "ffffff00"
+        },
+        "thumbImage": "slider_ios7.png"
+    },
+    "iphone": {
+        "psp": {
+            "enableThumbTintColor": true,
+            "thumbTintColor": "ffffff00"
+        }
+    },
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "c1535396c14e414ab8a0afce37878b35",
+    "leftskin": "sb2ede39a8d94026bb6d6ddd3300117e",
+    "maxlabel": "",
+    "minlabel": "",
+    "name": "kony.ui.Slider",
+    "noofsteps": 20,
+    "osPlatform": "android",
+    "osVersion": "iOS7",
+    "parent": "frmSelectionWidgets",
+    "pf": "frmSelectionWidgets",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "rightskin": "sa79513920f64fb0a2c0f43f8293d4dc",
+    "selectedvalue": 25,
+    "stepwidth": 57.6,
+    "tabrcandroid": {
+        "thumbImage": "slider_android.png"
+    },
+    "thumbimage": "thumb_slider_1.png",
+    "wType": "Slider",
+    "widgetalignment": 5,
+    "zindex": 1
+}

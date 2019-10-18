@@ -1,0 +1,23 @@
+{
+    "AS_FlexContainer_f9e117f60be240b0b9d70cfcb08c4c5b": {
+        "id": "AS_FlexContainer_f9e117f60be240b0b9d70cfcb08c4c5b",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmDay1",
+            "type": "forms",
+            "platform": "",
+            "KUID": "cc842650d91b415ba71db1c8c01d1525"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__f7cbcd5e309b4ae79c586b226303c05a",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "kony.application.showLoadingScreen(\"skProgress\", \"Loading the video, Please wait...\",\n                                  constants.LOADING_SCREEN_POSITION_FULL_SCREEN, true, true, \n                                  {enableMenuKey:false, enableBackKey:false});\nthis.view.videoLecture.setSource({\"mp4\": \"http://d2gfkxg3sax2yx.cloudfront.net/55085/videos/4cf894f398f9c7241c98120c0e/h264/video.mp4?Expires=1570533280&Signature=QcXophNmlsyOB82UotXMhUi7LG4ztDBkbtvA-Wy-AQUGTOb6ELfQPISBir~VFFUapvc30QRZQJc4T3jdyB7QLCNsw6Rq3Ofzom~gFzQAxl2GFYe0E6nri0RTh3dbiZAeN9HNWTKg6EwarWbFADFv2Ff65tGq6-1fEI2lWxdDeNo_&Key-Pair-Id=APKAJ57GT2Q37XGUBNZA\"});\nthis.view.videoLecture.play();",
+            "parentId": null
+        }]
+    }
+}

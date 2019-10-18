@@ -1,0 +1,85 @@
+{
+    "keys": [
+        "key1",
+        "key2",
+        "key3",
+        "key4",
+        "key5",
+        "key6",
+        "key7"
+    ],
+    "locales": {
+        "ar_AE": {
+            "i18nStrings": {
+                "key1": "هذا نموذج i18n",
+                "key2": "تغيير اللغة إلى اللغة الإنجليزية",
+                "key3": "تغيير اللغة إلى الفرنسية",
+                "key4": "تغيير اللغة إلى الإسبانية",
+                "key5": "تغيير اللغة إلى اللغة العربية",
+                "key6": "اذكر اللغات التي تم تكوينها في هذا التطبيق",
+                "key7": "الى الخلف"
+            },
+            "isCustomLocale": false,
+            "isSelected": true,
+            "layoutConfig": {
+                "mirrorContentAlignment": true,
+                "mirrorFlexPositionProperties": true,
+                "mirrorFlowHorizontalAlignment": true
+            }
+        },
+        "en_US": {
+            "i18nStrings": {
+                "key1": "This is an i18n model",
+                "key2": "Change the language to English",
+                "key3": "Change the language to French",
+                "key4": "Change the language to Spanish",
+                "key5": "Change the language to Arabic",
+                "key6": "List the languages ​​that are configured in this application",
+                "key7": "Back"
+            },
+            "isCustomLocale": false,
+            "isSelected": true,
+            "layoutConfig": {
+                "mirrorContentAlignment": false,
+                "mirrorFlexPositionProperties": false,
+                "mirrorFlowHorizontalAlignment": false
+            }
+        },
+        "es_ES": {
+            "i18nStrings": {
+                "key1": "Este es un modelo i18n",
+                "key2": "Cambia el idioma a ingles",
+                "key3": "Cambia el idioma al francés",
+                "key4": "Cambiar el idioma al español",
+                "key5": "Cambia el idioma al árabe",
+                "key6": "Listar los idiomas que están configurados en esta aplicación.",
+                "key7": "Espalda"
+            },
+            "isCustomLocale": false,
+            "isSelected": true,
+            "layoutConfig": {
+                "mirrorContentAlignment": false,
+                "mirrorFlexPositionProperties": false,
+                "mirrorFlowHorizontalAlignment": false
+            }
+        },
+        "fr_FR": {
+            "i18nStrings": {
+                "key1": "Ceci est un modèle i18n",
+                "key2": "Changer la langue en anglais",
+                "key3": "Changer la langue en français",
+                "key4": "Changer la langue en espagnol",
+                "key5": "Changer la langue en arabe",
+                "key6": "Répertorie les langues configurées dans cette application",
+                "key7": "en arrière"
+            },
+            "isCustomLocale": false,
+            "isSelected": true,
+            "layoutConfig": {
+                "mirrorContentAlignment": false,
+                "mirrorFlexPositionProperties": false,
+                "mirrorFlowHorizontalAlignment": false
+            }
+        }
+    }
+}

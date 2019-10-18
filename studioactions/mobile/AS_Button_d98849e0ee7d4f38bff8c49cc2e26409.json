@@ -1,0 +1,31 @@
+{
+    "AS_Button_d98849e0ee7d4f38bff8c49cc2e26409": {
+        "id": "AS_Button_d98849e0ee7d4f38bff8c49cc2e26409",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "KUID": "d533fff7fc234f9fa997c5e64898b796",
+            "name": "frmKonyFabric",
+            "platform": "",
+            "type": "forms"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "NAVIGATE_TO_FORM___a1b118c728f94bba88bf963938244f84",
+            "type": "NAVIGATE_TO_FORM",
+            "formId": "frmFoxNews",
+            "formKUID": "a52fe82aea554508b470c2c6e6121129",
+            "mappings": {},
+            "mappingsOrder": [],
+            "parentId": "",
+            "callbackType": null,
+            "enableMappingEditor": true,
+            "package": "",
+            "navigationObj": "{\n    \"_meta_\": {\n        \"eventName\": \"onClick\",\n        \"widgetId\": \"btnFoxNews\"\n    }\n}",
+            "isCustomInput": false
+        }]
+    }
+}

@@ -1,0 +1,24 @@
+{
+    "AS_Form_dcfd27efe8b24281aecfec10243238f5": {
+        "id": "AS_Form_dcfd27efe8b24281aecfec10243238f5",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmDay1",
+            "type": "forms",
+            "platform": "",
+            "KUID": "cc842650d91b415ba71db1c8c01d1525"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__c1373ff1149348dfb66a172fd3db4ff8",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.view.videoLecture.onPrepared=this.onPreparedCallback;",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

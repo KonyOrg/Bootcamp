@@ -1,0 +1,22 @@
+{
+    "AS_Button_b62778af191247ae9cf1c164d8f9f9a7": {
+        "id": "AS_Button_b62778af191247ae9cf1c164d8f9f9a7",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "KUID": "uf338773fa22443dac15facfdc0bf29b",
+            "type": "userwidgets"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__ibc6b89e72a44562b43c336fc8dc7816",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.touchCancelAction();",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

@@ -1,0 +1,50 @@
+{
+    "AS_Button_ia6965beb27d4e22a97f1627b720b77c": {
+        "id": "AS_Button_ia6965beb27d4e22a97f1627b720b77c",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmDay1",
+            "type": "forms",
+            "platform": "",
+            "KUID": "cc842650d91b415ba71db1c8c01d1525"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "SET_FORM_WIDGET_PROPERTY_Untitled___c02b08f0ef11458fa93d2a7e4a27a2a1",
+            "type": "SET_WIDGET_PROPERTY",
+            "itemType": "FORM",
+            "itemId": "frmDay1",
+            "widgetId": "flexListOfLectures",
+            "propertyName": "isVisible",
+            "propertyValue": "false",
+            "itemKUID": "cc842650d91b415ba71db1c8c01d1525",
+            "widgetKUID": "d632e7d68325459797dab34d5564b8df",
+            "isSkinProperty": false,
+            "wType": "FlexContainer",
+            "forkedPlatform": "all",
+            "parentId": null,
+            "callbackType": null,
+            "widgetPath": "this.view.flexListOfLectures"
+        }, {
+            "id": "SET_FORM_WIDGET_PROPERTY_Untitled___e5b75885631d4108abf975b3d6f26011",
+            "type": "SET_WIDGET_PROPERTY",
+            "itemType": "FORM",
+            "itemId": "frmDay1",
+            "widgetId": "flexListOfExercises",
+            "propertyName": "isVisible",
+            "propertyValue": "true",
+            "itemKUID": "cc842650d91b415ba71db1c8c01d1525",
+            "widgetKUID": "e166247b2dae4b20951712e9ef913262",
+            "isSkinProperty": false,
+            "wType": "FlexContainer",
+            "forkedPlatform": "all",
+            "parentId": null,
+            "callbackType": null,
+            "widgetPath": "this.view.flexListOfExercises"
+        }]
+    }
+}

@@ -1,0 +1,28 @@
+{
+    "AS_Button_d665e51ef4194b9fa86430f64d94d5fd": {
+        "id": "AS_Button_d665e51ef4194b9fa86430f64d94d5fd",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmActionEditor",
+            "type": "forms",
+            "platform": null,
+            "KUID": "j84b1d7863b346f4a6ec8ac7e7eb95c9"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION___c73407d1a40d4a0ba35b5be95ed03baf",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "sayHello",
+            "display": "sayHello",
+            "inputparams": [],
+            "parentId": null,
+            "callbackType": null,
+            "disabled": null,
+            "source": "module"
+        }]
+    }
+}

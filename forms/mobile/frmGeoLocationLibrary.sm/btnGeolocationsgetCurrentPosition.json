@@ -1,0 +1,53 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizButton",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "string",
+        "value": "50dp"
+    },
+    "_margin_": [
+        6,
+        6,
+        6,
+        6
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "scfa942bd36c491c87bca923c8a973f3",
+    "_text_": "getCurrentPosition API",
+    "_top_": {
+        "type": "string",
+        "value": "10dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "90%"
+    },
+    "canUpdateUI": true,
+    "centerx": {
+        "type": "string",
+        "value": "50%"
+    },
+    "containerweight": 100,
+    "contentalignment": 5,
+    "displaytext": true,
+    "focusskin": "s87ecc693ca84c0dbaf02ba24d4be516",
+    "id": "btnGeolocationsgetCurrentPosition",
+    "ide_onClick": "AS_Button_e8c075a1de654407b7bc1b4d05edff27",
+    "info": null,
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "i82a8e3980f747fe8400b94ef3c3f1bf",
+    "name": "kony.ui.Button",
+    "parent": "frmGeoLocationLibrary",
+    "pf": "frmGeoLocationLibrary",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "wType": "Button",
+    "zindex": 1
+}

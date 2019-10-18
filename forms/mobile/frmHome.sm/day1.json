@@ -1,0 +1,116 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizUserWidget",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_android_": {},
+    "_androidwearos_": {},
+    "_children_": [],
+    "_desktopweb_": {},
+    "_height_": {
+        "type": "string",
+        "value": "21%"
+    },
+    "_ipad_": {},
+    "_iphone_": {},
+    "_kiosk_": {},
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 1,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_percent_": true,
+    "_skin_": "s8625d97c68a40e3ba84c6e04b282cb5",
+    "_spa_": {},
+    "_spaan_": {},
+    "_spaandroidtablet_": {},
+    "_spabb_": {},
+    "_spaip_": {},
+    "_spaipad_": {},
+    "_spamobile_": {},
+    "_spatablet_": {},
+    "_spawindowstablet_": {},
+    "_spawinphone8_": {},
+    "_tabrcandroid_": {},
+    "_top_": {
+        "type": "string",
+        "value": "10dp"
+    },
+    "_vizProps_": {
+        "hidewidgethierarchy": false
+    },
+    "_width_": {
+        "type": "string",
+        "value": "90%"
+    },
+    "_windows10_": {},
+    "_windows8_": {},
+    "_winphone10_": {},
+    "_winphone8_": {},
+    "areflexpropsreferenced": true,
+    "canUpdateUI": true,
+    "centerx": {
+        "type": "string",
+        "value": "50%"
+    },
+    "clipbounds": true,
+    "containerweight": 0,
+    "dataDiffs": {
+        "lblDay": {
+            "__events__": {
+                "ide_onTouchEnd": "AS_Label_i8f5c24320d64d7a8f1b921990fd2623"
+            },
+            "__info__": {
+                "kuid": "bd168b240897488994f89c8aa803c434",
+                "srcKUID": "u0fc0e5c34704b9b933049788412d215",
+                "wType": "Label"
+            }
+        },
+        "rtxTopics": {
+            "__events__": {
+                "onTouchEnd": "AS_RichText_a1ed467c1eff43a8ad9cca5b5d25a3cc"
+            },
+            "__info__": {
+                "kuid": "c6ab606d5c0f4156ae0d5a754b023f3d",
+                "srcKUID": "u66bacc0a9ba4bfa88c295935158b1e8",
+                "wType": "RichText"
+            },
+            "text": "-- Visualizer Basics<br/>\n-- Functional Preview<br/>\n-- Widgets<br/>\n-- Design Techniques<br/>\n-- Actions & Animations<br/>\n-- Outside the design<br/>"
+        },
+        "topic": {
+            "__events__": {},
+            "__info__": {
+                "isRoot": true,
+                "kuid": "a8bf0caf2905470c8b0cc9b2ceb6ef32",
+                "srcKUID": "udf15d8666db4417a52eecfb4c7746af",
+                "wType": "FlexContainer"
+            }
+        }
+    },
+    "enablescrolling": true,
+    "id": "day1",
+    "info": null,
+    "iscustomlayout": false,
+    "isdatareferenced": false,
+    "issegmentchild": false,
+    "isvisible": true,
+    "kuid": "a8bf0caf2905470c8b0cc9b2ceb6ef32",
+    "layouttype": 3,
+    "masterType": 0,
+    "name": "kony.ui.UserWidgetInstance",
+    "parent": "frmHome",
+    "pf": "frmHome",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "snapgridsize": 10,
+    "snaptogrid": true,
+    "sourceUserWidget": "udf15d8666db4417a52eecfb4c7746af",
+    "wType": "UserWidgetInstance"
+}

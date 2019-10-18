@@ -1,0 +1,54 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizRichText",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "ref",
+        "value": "preferred"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "s5dce1f0d31d46ecb4a4ab3f66cc6fa2",
+    "_text_": "<ol>\n  <p><h5>JS code at 3 places</h5></p>\n  <li>&nbsp;&nbsp;Controllers</li>\n  <li>&nbsp;&nbsp;Controller Actions</li>\n  <li>&nbsp;&nbsp;Modules</li>\n</ol> \n",
+    "_top_": {
+        "type": "string",
+        "value": "5dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "90%"
+    },
+    "_wrapping_": 2,
+    "canUpdateUI": true,
+    "centerx": {
+        "type": "string",
+        "value": "50.05%"
+    },
+    "containerweight": 100,
+    "contentalignment": 4,
+    "id": "rchMVC",
+    "info": null,
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "j020f319824d4412a9718d2f9229c14c",
+    "linkskin": "sc7100cfd3f34f44943a36d6f0e2c6be",
+    "name": "kony.ui.RichText",
+    "paddinginpixel": false,
+    "parent": "frmMVC",
+    "pf": "frmMVC",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "wType": "RichText",
+    "widgetalignment": 5,
+    "zindex": 1
+}

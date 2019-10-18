@@ -1,0 +1,19 @@
+{
+    "AS_Button_c2956613ad2f4ce9af6f825c8e8a6f89": {
+        "id": "AS_Button_c2956613ad2f4ce9af6f825c8e8a6f89",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "SEND_SMS__a62e4a3254ea48f0a80c2b63bee52692",
+            "type": "SEND_SMS",
+            "phoneNumber": "9865429105",
+            "message": "Hello World!",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

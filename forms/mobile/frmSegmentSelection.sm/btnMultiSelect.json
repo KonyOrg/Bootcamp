@@ -1,0 +1,53 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizButton",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "string",
+        "value": "50dp"
+    },
+    "_margin_": [
+        6,
+        6,
+        6,
+        6
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "s3dd14d53b0844f7b4247af489478efd",
+    "_text_": "Multi Selected Data",
+    "_top_": {
+        "type": "string",
+        "value": "5dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "90%"
+    },
+    "canUpdateUI": true,
+    "centerx": {
+        "type": "string",
+        "value": "50%"
+    },
+    "containerweight": 100,
+    "contentalignment": 5,
+    "displaytext": true,
+    "focusskin": "s2f27f1262cd4c0d9747a400686b46e2",
+    "id": "btnMultiSelect",
+    "ide_onClick": "AS_Button_bdbf865800c44d9a99154c95e3a620a9",
+    "info": null,
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "c6c43f3a317646ce898e4b95daa10bab",
+    "name": "kony.ui.Button",
+    "parent": "frmSegmentSelection",
+    "pf": "frmSegmentSelection",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "wType": "Button",
+    "zindex": 1
+}

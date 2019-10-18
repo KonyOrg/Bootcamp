@@ -1,0 +1,17 @@
+{
+    "AS_Button_j60e24f32935425d867f248a27ccf8f9": {
+        "id": "AS_Button_j60e24f32935425d867f248a27ccf8f9",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_ide_onClick_h849cc82dc5142d5bb5f031502f2c1f7",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "alert(\"Value of the item with key item1 is: \"+kony.store.getItem(\"item1\"));",
+            "callbackType": null
+        }]
+    }
+}

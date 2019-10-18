@@ -1,0 +1,36 @@
+{
+    "AS_Button_c0e3faedd38d45e487614ac428bfc618": {
+        "id": "AS_Button_c0e3faedd38d45e487614ac428bfc618",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "collection",
+            "name": "context"
+        }],
+        "contextObj": {
+            "KUID": "h6d4fd161007454fb1cc91b7429cc3cc",
+            "name": "tplCarModel1",
+            "platform": null,
+            "type": "templates"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION__ide_onClick_j98648e70de14708a499fcc9884e0923",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "onDeleteRow",
+            "display": "onDeleteRow",
+            "inputparams": [{
+                "name": "eventobject",
+                "value": " eventobject"
+            }, {
+                "name": "context",
+                "value": " context"
+            }],
+            "callbackType": null,
+            "disabled": null,
+            "source": "controller"
+        }]
+    }
+}

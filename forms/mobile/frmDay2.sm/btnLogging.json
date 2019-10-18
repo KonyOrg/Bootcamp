@@ -1,0 +1,53 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizButton",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "string",
+        "value": "50dp"
+    },
+    "_margin_": [
+        6,
+        6,
+        6,
+        6
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "se30bbd03484435694c2df20b0dcb49a",
+    "_text_": "Logging & Inline-Debugging",
+    "_top_": {
+        "type": "string",
+        "value": "10dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "90%"
+    },
+    "canUpdateUI": true,
+    "centerx": {
+        "type": "string",
+        "value": "50%"
+    },
+    "containerweight": 100,
+    "contentalignment": 5,
+    "displaytext": true,
+    "focusskin": "s9883802328d45d0802941c6de6a088d",
+    "id": "btnLogging",
+    "ide_onClick": "AS_Button_e41c279b8949405ba3c1281b525a6f7a",
+    "info": null,
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "g320b3a498cf4de582e625b9bcd61723",
+    "name": "kony.ui.Button",
+    "parent": "frmDay2",
+    "pf": "frmDay2",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "wType": "Button",
+    "zindex": 1
+}

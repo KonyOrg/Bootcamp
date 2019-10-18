@@ -1,0 +1,17 @@
+{
+    "AS_Button_g5ee8b938c344f5dbf1045ecd50b5dd8": {
+        "id": "AS_Button_g5ee8b938c344f5dbf1045ecd50b5dd8",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_ide_onClick_b535d57547604f80a39c4722b6658ec9",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "alert(\"User-Agent is: \"+JSON.stringify(kony.os.userAgent()));",
+            "callbackType": null
+        }]
+    }
+}

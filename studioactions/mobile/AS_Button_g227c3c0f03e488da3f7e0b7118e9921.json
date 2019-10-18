@@ -1,0 +1,28 @@
+{
+    "AS_Button_g227c3c0f03e488da3f7e0b7118e9921": {
+        "id": "AS_Button_g227c3c0f03e488da3f7e0b7118e9921",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmInternationalization",
+            "type": "forms",
+            "platform": null,
+            "KUID": "j9ad119a266c4940a33751290e4f3c35"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION___b8ad458fcfaf4cf0a69dd83b42b89a84",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "navigateToi18nForm",
+            "display": "navigateToi18nForm",
+            "inputparams": [],
+            "parentId": null,
+            "callbackType": null,
+            "disabled": null,
+            "source": "controller"
+        }]
+    }
+}

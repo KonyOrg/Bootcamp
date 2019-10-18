@@ -1,0 +1,61 @@
+{
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "string",
+        "value": "200dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 6,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_percent_": true,
+    "_skin_": "s2848280a78c4caf9a6c0edbe154e12f",
+    "_top_": {
+        "type": "number",
+        "value": "20"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "300dp"
+    },
+    "allboxes": [],
+    "autogrowmode": 0,
+    "canUpdateUI": true,
+    "centerx": {
+        "type": "string",
+        "value": "50%"
+    },
+    "children": [
+        "btnTest"
+    ],
+    "clipbounds": true,
+    "containerweight": 100,
+    "enablescrolling": true,
+    "id": "flexTestBed",
+    "info": null,
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "ab8e68c7256747b7a32685a289e3d8fc",
+    "layouttype": 2,
+    "name": "kony.ui.FlexContainer",
+    "parent": "frmAnimations",
+    "pf": "frmAnimations",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "retainflowhorizontalalignment": false,
+    "snapgridsize": 10,
+    "snaptogrid": true,
+    "wType": "FlexContainer",
+    "widgetalignment": 1,
+    "zindex": 1
+}

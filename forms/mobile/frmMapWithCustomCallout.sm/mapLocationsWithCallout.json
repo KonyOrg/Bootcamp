@@ -1,0 +1,58 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizMap",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "string",
+        "value": "50%"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_mode_": 1,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_top_": {
+        "type": "string",
+        "value": "10dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "90%"
+    },
+    "calloutTemplateId": "j36b1b5765eb43dfa50f430abd62c30a",
+    "calloutwidth": 80,
+    "canUpdateUI": true,
+    "centerx": {
+        "type": "string",
+        "value": "50%"
+    },
+    "containerweight": 100,
+    "defaultpinimage": "pinb.png",
+    "id": "mapLocationsWithCallout",
+    "info": null,
+    "invokedProperty": "maps",
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "e746fa0cea474f53b5a2db782ce9b5cd",
+    "locationdata": [],
+    "mapsource": "non-native",
+    "mapsrc": "non-native",
+    "name": "kony.ui.Map",
+    "parent": "frmMapWithCustomCallout",
+    "pf": "frmMapWithCustomCallout",
+    "provider": "google",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "screenlevelwidget": false,
+    "wType": "Map",
+    "zindex": 1,
+    "zoomlevel": 4
+}

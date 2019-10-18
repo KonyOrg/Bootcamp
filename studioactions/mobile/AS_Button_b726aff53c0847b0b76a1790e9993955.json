@@ -1,0 +1,31 @@
+{
+    "AS_Button_b726aff53c0847b0b76a1790e9993955": {
+        "id": "AS_Button_b726aff53c0847b0b76a1790e9993955",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmKonyAPIs",
+            "type": "forms",
+            "platform": null,
+            "KUID": "bad868ee8a5b4334a6c24ae67a116d9f"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "NAVIGATE_TO_FORM__ide_onClick_hf7fc3410be346f1a17e3a0434f1f300",
+            "type": "NAVIGATE_TO_FORM",
+            "formId": "frmGeoLocationLibrary",
+            "formKUID": "bf73b1ec45ba41da8da3b06063ca3fcf",
+            "mappings": {},
+            "mappingsOrder": [],
+            "parentId": "",
+            "callbackType": null,
+            "enableMappingEditor": true,
+            "package": "",
+            "navigationObj": "{\n    \"_meta_\": {\n        \"eventName\": \"onClick\",\n        \"widgetId\": \"btnGeoLocationLibrary\"\n    }\n}",
+            "isCustomInput": false
+        }]
+    }
+}

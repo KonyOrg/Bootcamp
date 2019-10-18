@@ -1,0 +1,24 @@
+{
+    "AS_Form_b674033fa9d7477f8b4f36bf2ae65a0f": {
+        "id": "AS_Form_b674033fa9d7477f8b4f36bf2ae65a0f",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmFormLifeCycleEvents",
+            "type": "forms",
+            "platform": null,
+            "KUID": "ee57f1f574fe4c199b15f62948045eb2"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__c5a3d3d4324b47c3b5c4769d10ccae82",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "kony.print(\"Executing the onHide event of the form\");",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

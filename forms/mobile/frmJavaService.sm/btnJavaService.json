@@ -1,0 +1,53 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizButton",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "string",
+        "value": "63dp"
+    },
+    "_margin_": [
+        6,
+        6,
+        6,
+        6
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "se8dbecbc89e4cb1a03e22de40c671ed",
+    "_text_": "Java Service",
+    "_top_": {
+        "type": "string",
+        "value": "10dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "90%"
+    },
+    "canUpdateUI": true,
+    "centerx": {
+        "type": "string",
+        "value": "50.04%"
+    },
+    "containerweight": 100,
+    "contentalignment": 5,
+    "displaytext": true,
+    "focusskin": "sbe8d3b1848043b097bbd7ee718bb5db",
+    "id": "btnJavaService",
+    "ide_onClick": "AS_Button_i743f2f9c2034dd7b71eae292eeb4d16",
+    "info": null,
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "gf6a99c6b17740e1aa1b692bc7794821",
+    "name": "kony.ui.Button",
+    "parent": "frmJavaService",
+    "pf": "frmJavaService",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "wType": "Button",
+    "zindex": 1
+}

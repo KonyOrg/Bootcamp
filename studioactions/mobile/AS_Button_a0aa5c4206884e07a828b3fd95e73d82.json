@@ -1,0 +1,28 @@
+{
+    "AS_Button_a0aa5c4206884e07a828b3fd95e73d82": {
+        "id": "AS_Button_a0aa5c4206884e07a828b3fd95e73d82",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmActions",
+            "type": "forms",
+            "platform": null,
+            "KUID": "j89c1c233f384fe2b2fc1f053d0cfc80"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "SEND_EMAIL__je113cfaa0d44f55b82879346bb88fd9",
+            "type": "SEND_EMAIL",
+            "torecipients": ["customercare@kony.com"],
+            "bccrecipients": null,
+            "messagebody": "<h2>Hello World!</h2>\n<p>Welcome to the basecamp!</p>",
+            "subject": "Hello World!",
+            "ismessagebodyhtml": true,
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

@@ -1,0 +1,28 @@
+{
+    "AS_Form_cfbf0f15a1154c4080fb90de20c2c0b9": {
+        "id": "AS_Form_cfbf0f15a1154c4080fb90de20c2c0b9",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmGestureAPIs",
+            "type": "forms",
+            "platform": "",
+            "KUID": "h367df8afad04e24878687f3c0c8a089"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION___d10525fd53254f9c8aa3f0a77160afd7",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "addGestureRecognizerToWidgets",
+            "display": "addGestureRecognizerToWidgets",
+            "inputparams": [],
+            "parentId": null,
+            "callbackType": null,
+            "disabled": null,
+            "source": "controller"
+        }]
+    }
+}

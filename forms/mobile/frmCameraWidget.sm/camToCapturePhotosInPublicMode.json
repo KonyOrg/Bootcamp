@@ -1,0 +1,82 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizCamera",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "string",
+        "value": "50dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "sb4ac1bb187243f6883f3083f7bc12ea",
+    "_text_": "Capture Photo - Public Mode",
+    "_top_": {
+        "type": "string",
+        "value": "5dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "90%"
+    },
+    "accessmode": "public",
+    "androidwearos": {
+        "render": false
+    },
+    "canUpdateUI": true,
+    "centerx": {
+        "type": "string",
+        "value": "50.04%"
+    },
+    "containerweight": 100,
+    "contentalignment": 5,
+    "desktopweb": {
+        "render": false
+    },
+    "id": "camToCapturePhotosInPublicMode",
+    "ide_onCapture": "AS_Camera_cfe60d0b583b42adacaae17768d886bd",
+    "info": null,
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "be86918e04364399b599b4c90c7e2245",
+    "name": "kony.ui.Camera",
+    "parent": "frmCameraWidget",
+    "pf": "frmCameraWidget",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "spaan": {
+        "render": false
+    },
+    "spaandroidtablet": {
+        "render": false
+    },
+    "spabb": {
+        "render": false
+    },
+    "spaip": {
+        "render": false
+    },
+    "spaipad": {
+        "render": false
+    },
+    "spawindowstablet": {
+        "render": false
+    },
+    "spawinphone8": {
+        "render": false
+    },
+    "wType": "Camera",
+    "watchos": {
+        "render": false
+    },
+    "zindex": 1
+}

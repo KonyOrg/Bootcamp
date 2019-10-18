@@ -1,0 +1,32 @@
+{
+    "AS_RadioButtonGroup_gbc80a74d5614460b6666630f914127c": {
+        "id": "AS_RadioButtonGroup_gbc80a74d5614460b6666630f914127c",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "KUID": "b2adf7fcaa25495cb2e9e2c787cdaf8e",
+            "name": "frmSelectionWidgets",
+            "platform": null,
+            "type": "forms"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "SHOW_ALERT__b5b25dad76ef4666bad96a7f89d4dd58",
+            "type": "SHOW_ALERT",
+            "alertType": "constants.ALERT_TYPE_INFO",
+            "alertMessage": "\"Selected value from radio button group is: \" + JSON.stringify(eventobject.selectedKeyValue)",
+            "messageType": "expression",
+            "parentId": null,
+            "callbackType": null,
+            "alertTitlei18n": null,
+            "yesLabeli18n": null,
+            "noLabeli18n": null,
+            "alertMessagei18n": null,
+            "iconPosition": "constants.ALERT_ICON_POSITION_LEFT",
+            "disabled": null
+        }]
+    }
+}

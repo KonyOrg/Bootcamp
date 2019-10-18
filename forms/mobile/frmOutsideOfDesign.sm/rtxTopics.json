@@ -1,0 +1,58 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizRichText",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "ref",
+        "value": "preferred"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "10dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "sf88a2ad7f8d494ba2a5bd309627456e",
+    "_text_": "<h2>In outside of design we talked about</h2>\n-- Collections and Libraries<br/>\n-- Themes<br/>\n-- Marketplace<br/>\n-- I18n<br/>",
+    "_top_": {
+        "type": "string",
+        "value": "10dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "90%"
+    },
+    "_wrapping_": 2,
+    "canUpdateUI": true,
+    "centerx": {
+        "type": "string",
+        "value": "50%"
+    },
+    "containerweight": 100,
+    "contentalignment": 4,
+    "id": "rtxTopics",
+    "info": null,
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "d8707d74091b4f7cb3f7b51893e7e7ab",
+    "linkskin": "sc7100cfd3f34f44943a36d6f0e2c6be",
+    "name": "kony.ui.RichText",
+    "paddinginpixel": false,
+    "parent": "frmOutsideOfDesign",
+    "pf": "frmOutsideOfDesign",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "wType": "RichText",
+    "widgetalignment": 5,
+    "zindex": 1
+}

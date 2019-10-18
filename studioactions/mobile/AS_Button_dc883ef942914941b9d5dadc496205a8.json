@@ -1,0 +1,17 @@
+{
+    "AS_Button_dc883ef942914941b9d5dadc496205a8": {
+        "id": "AS_Button_dc883ef942914941b9d5dadc496205a8",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_ide_onClick_ab8617dd86934b60b18a7e83b712ef60",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "alert (\"Are the characrers | and - available in the string abdcdADV: \"+kony.string.containsChars(\"abdcdADV\", [\"|\",\"-\"]));",
+            "callbackType": null
+        }]
+    }
+}

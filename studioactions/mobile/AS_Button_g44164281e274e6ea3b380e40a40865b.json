@@ -1,0 +1,17 @@
+{
+    "AS_Button_g44164281e274e6ea3b380e40a40865b": {
+        "id": "AS_Button_g44164281e274e6ea3b380e40a40865b",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_ide_onClick_h458a668077b443892184061ef245d49",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "kony.store.removeItem(\"item1\");\nalert(\"Removed the item with the key item1: \"+kony.store.getItem(\"item1\"));",
+            "callbackType": null
+        }]
+    }
+}

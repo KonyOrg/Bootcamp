@@ -1,0 +1,24 @@
+{
+    "AS_Form_bef3223abd5d474cb94d3090ac1ded1e": {
+        "id": "AS_Form_bef3223abd5d474cb94d3090ac1ded1e",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmFormLifeCycleEvents",
+            "type": "forms",
+            "platform": null,
+            "KUID": "ee57f1f574fe4c199b15f62948045eb2"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__faf99786bb97459a84d835d1a8f6e4ce",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "kony.print(\"Executing the init event of the form\");",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

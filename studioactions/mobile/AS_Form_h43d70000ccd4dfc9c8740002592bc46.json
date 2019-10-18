@@ -1,0 +1,38 @@
+{
+    "AS_Form_h43d70000ccd4dfc9c8740002592bc46": {
+        "id": "AS_Form_h43d70000ccd4dfc9c8740002592bc46",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmCameraWidget",
+            "type": "forms",
+            "platform": "",
+            "KUID": "e65c6e826c2b443db3b5301482133b94"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION___fb6752fa5f3a4f9da91fa99ec97020a1",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "createfrmCameraOverlay",
+            "display": "createfrmCameraOverlay",
+            "inputparams": [],
+            "parentId": null,
+            "callbackType": null,
+            "disabled": null,
+            "source": "module"
+        }, {
+            "id": "INVOKE_FUNCTION___j00a920719ee46f0ac4d88dde643b7c7",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "setOverConfig",
+            "display": "setOverConfig",
+            "inputparams": [],
+            "parentId": null,
+            "callbackType": null,
+            "disabled": null,
+            "source": "controller"
+        }]
+    }
+}

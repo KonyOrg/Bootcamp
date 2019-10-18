@@ -1,0 +1,17 @@
+{
+    "AS_Button_d663f413ead64660bb3875c8ca55d427": {
+        "id": "AS_Button_d663f413ead64660bb3875c8ca55d427",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_ide_onClick_d06607bfae614dfcba08cc3a1910556e",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "alert(\"Current Theme: \"+JSON.stringify(kony.theme.getCurrentTheme()));",
+            "callbackType": null
+        }]
+    }
+}

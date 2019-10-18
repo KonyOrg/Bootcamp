@@ -1,0 +1,53 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizButton",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "string",
+        "value": "50dp"
+    },
+    "_margin_": [
+        6,
+        6,
+        6,
+        6
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "s34ff374483f4806a20810b92dd3fb5e",
+    "_text_": "openEmail API",
+    "_top_": {
+        "type": "string",
+        "value": "10dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "90%"
+    },
+    "canUpdateUI": true,
+    "centerx": {
+        "type": "string",
+        "value": "50%"
+    },
+    "containerweight": 100,
+    "contentalignment": 5,
+    "displaytext": true,
+    "focusskin": "sd32ade81b0e49e2a3b418526f4cc0d8",
+    "id": "btnPhoneopenEmail",
+    "ide_onClick": "AS_Button_c07aa2b386ed43f09bcecea3fab9f951",
+    "info": null,
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "c6cd3f5b95224d819d3ebe0cf5fbfa9a",
+    "name": "kony.ui.Button",
+    "parent": "frmPhoneLibrary",
+    "pf": "frmPhoneLibrary",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "wType": "Button",
+    "zindex": 1
+}

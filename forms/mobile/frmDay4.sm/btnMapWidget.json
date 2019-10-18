@@ -1,0 +1,53 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizButton",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "string",
+        "value": "50dp"
+    },
+    "_margin_": [
+        6,
+        6,
+        6,
+        6
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "s79f6ec1df434f649d3f9b02b51b88d0",
+    "_text_": "Map Widget",
+    "_top_": {
+        "type": "string",
+        "value": "10dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "90%"
+    },
+    "canUpdateUI": true,
+    "centerx": {
+        "type": "string",
+        "value": "50.04%"
+    },
+    "containerweight": 100,
+    "contentalignment": 5,
+    "displaytext": true,
+    "focusskin": "s53277da9f074f8a84abbe1c09dd607b",
+    "id": "btnMapWidget",
+    "ide_onClick": "AS_Button_d5d79fa4a27e4671abd76d55b8dd15e4",
+    "info": null,
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "h789c3e4f1cd413ab8be11e3a7a47352",
+    "name": "kony.ui.Button",
+    "parent": "frmDay4",
+    "pf": "frmDay4",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "wType": "Button",
+    "zindex": 1
+}

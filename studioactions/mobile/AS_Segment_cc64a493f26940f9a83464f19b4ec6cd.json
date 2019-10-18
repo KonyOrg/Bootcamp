@@ -1,0 +1,38 @@
+{
+    "AS_Segment_cc64a493f26940f9a83464f19b4ec6cd": {
+        "id": "AS_Segment_cc64a493f26940f9a83464f19b4ec6cd",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "number",
+            "name": "sectionNumber"
+        }, {
+            "datatype": "number",
+            "name": "rowNumber"
+        }],
+        "contextObj": {
+            "KUID": "b11ec38e4563421988e3ac6f5bea1abc",
+            "name": "frmSegmentAdvanced",
+            "platform": null,
+            "type": "forms"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "SHOW_ALERT__i7daabe5c8224487b622ccd86280e681",
+            "type": "SHOW_ALERT",
+            "alertType": "constants.ALERT_TYPE_INFO",
+            "alertMessage": "\"Selected row is: \" + JSON.stringify(eventobject.selectedRowItems)",
+            "messageType": "expression",
+            "parentId": null,
+            "callbackType": null,
+            "alertTitlei18n": null,
+            "yesLabeli18n": null,
+            "noLabeli18n": null,
+            "alertMessagei18n": null,
+            "iconPosition": "constants.ALERT_ICON_POSITION_LEFT",
+            "disabled": null
+        }]
+    }
+}

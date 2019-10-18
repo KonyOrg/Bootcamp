@@ -1,0 +1,17 @@
+{
+    "AS_Button_a82efc7f188a4abfaafdacfa50d9fdee": {
+        "id": "AS_Button_a82efc7f188a4abfaafdacfa50d9fdee",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_ide_onClick_i7e036ea965e48ff9fad40cab157010d",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "alert(\"Is GPS support available? \"+JSON.stringify(kony.os.hasGPSSupport()));",
+            "callbackType": null
+        }]
+    }
+}

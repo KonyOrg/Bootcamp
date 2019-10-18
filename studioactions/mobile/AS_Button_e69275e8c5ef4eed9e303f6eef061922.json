@@ -1,0 +1,22 @@
+{
+    "AS_Button_e69275e8c5ef4eed9e303f6eef061922": {
+        "id": "AS_Button_e69275e8c5ef4eed9e303f6eef061922",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION___c78c42d76e4a496ba50c4848bbf9c2e9",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "invokeBrowserJavaScript",
+            "display": "invokeBrowserJavaScript",
+            "inputparams": [],
+            "parentId": null,
+            "callbackType": null,
+            "disabled": null,
+            "source": "controller"
+        }]
+    }
+}

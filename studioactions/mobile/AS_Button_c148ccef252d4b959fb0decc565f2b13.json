@@ -1,0 +1,17 @@
+{
+    "AS_Button_c148ccef252d4b959fb0decc565f2b13": {
+        "id": "AS_Button_c148ccef252d4b959fb0decc565f2b13",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_ide_onClick_ff54c57784b84b57969d5cef2895e22d",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "kony.store.setItem(\"item1\",\"Hello World!\");",
+            "callbackType": null
+        }]
+    }
+}

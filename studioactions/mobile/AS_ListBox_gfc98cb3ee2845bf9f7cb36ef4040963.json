@@ -1,0 +1,28 @@
+{
+    "AS_ListBox_gfc98cb3ee2845bf9f7cb36ef4040963": {
+        "id": "AS_ListBox_gfc98cb3ee2845bf9f7cb36ef4040963",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmFoxNews",
+            "type": "forms",
+            "platform": null,
+            "KUID": "a52fe82aea554508b470c2c6e6121129"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION___d43a353930554ced96d5ee4a950aa3d0",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "getFoxNews",
+            "display": "getFoxNews",
+            "inputparams": [],
+            "parentId": null,
+            "callbackType": null,
+            "disabled": null,
+            "source": "controller"
+        }]
+    }
+}

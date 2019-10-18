@@ -1,0 +1,53 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizButton",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "string",
+        "value": "50dp"
+    },
+    "_margin_": [
+        6,
+        6,
+        6,
+        6
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "s6839925246d41ffac89b6117d5c5988",
+    "_text_": "FoxNews Advanced",
+    "_top_": {
+        "type": "string",
+        "value": "10dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "90%"
+    },
+    "canUpdateUI": true,
+    "centerx": {
+        "type": "string",
+        "value": "50%"
+    },
+    "containerweight": 100,
+    "contentalignment": 5,
+    "displaytext": true,
+    "focusskin": "s5d632486f56452ea7208cc41baf16a0",
+    "id": "btnFoxNewsAdvanced",
+    "ide_onClick": "AS_Button_d258986c509048eb8942e9924e0818c6",
+    "info": null,
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "g76ef1aefa2740118eaa67e57a9aa1f7",
+    "name": "kony.ui.Button",
+    "parent": "frmKonyFabric",
+    "pf": "frmKonyFabric",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "wType": "Button",
+    "zindex": 1
+}

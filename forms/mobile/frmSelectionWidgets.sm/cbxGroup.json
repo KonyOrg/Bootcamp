@@ -1,0 +1,92 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizCheckBox",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "ref",
+        "value": "preferred"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_padding_": [
+        2,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "scb718a3048b4aeaaa6ab423ae6b48db",
+    "_top_": {
+        "type": "string",
+        "value": "5dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "80%"
+    },
+    "canUpdateUI": true,
+    "centerx": {
+        "type": "string",
+        "value": "50%"
+    },
+    "containerweight": 100,
+    "id": "cbxGroup",
+    "info": null,
+    "ipad": {
+        "psp": {
+            "viewType": 4
+        }
+    },
+    "iphone": {
+        "psp": {
+            "viewType": 4
+        }
+    },
+    "iscustomlayout": false,
+    "isvisible": true,
+    "itemorientation": "vertical",
+    "kuid": "e199df181122487c9e8980fde3f6b466",
+    "masterdata": [
+        [
+            "cbg1",
+            "Linear Regression"
+        ],
+        [
+            "cbg2",
+            "Logistic Regression"
+        ],
+        [
+            "cbg3",
+            "K-Mean Clustering"
+        ],
+        [
+            "cbg4",
+            "Markov Models"
+        ],
+        [
+            "cbg5",
+            "Convolution Neural Networks"
+        ]
+    ],
+    "name": "kony.ui.CheckBoxGroup",
+    "orientation": "vertical",
+    "paddinginpixel": false,
+    "parent": "frmSelectionWidgets",
+    "pf": "frmSelectionWidgets",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "selectedkey": null,
+    "selectedkeys": [],
+    "selectedkeyvalue": null,
+    "selectedkeyvalues": null,
+    "size": 18,
+    "tickedimage": "checked.png",
+    "untickedimage": "unchecked_2.png",
+    "viewtype": 0,
+    "wType": "CheckBoxGroup",
+    "widgetalignment": 5,
+    "zindex": 1
+}

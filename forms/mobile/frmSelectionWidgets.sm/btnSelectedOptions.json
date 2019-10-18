@@ -1,0 +1,53 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizButton",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "string",
+        "value": "50dp"
+    },
+    "_margin_": [
+        6,
+        6,
+        6,
+        6
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "s5aea0e75aa0415d81c6e35f6e83240f",
+    "_text_": "Selected options",
+    "_top_": {
+        "type": "string",
+        "value": "5dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "90%"
+    },
+    "canUpdateUI": true,
+    "centerx": {
+        "type": "string",
+        "value": "50%"
+    },
+    "containerweight": 100,
+    "contentalignment": 5,
+    "displaytext": true,
+    "focusskin": "s700e375dc7d4297ac28db9a1a7cdf9e",
+    "id": "btnSelectedOptions",
+    "ide_onClick": "AS_Button_a89f56faf6104abc9643d89443328435",
+    "info": null,
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "a470263e5d11448a8d8ce6f8e8c372ae",
+    "name": "kony.ui.Button",
+    "parent": "frmSelectionWidgets",
+    "pf": "frmSelectionWidgets",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "wType": "Button",
+    "zindex": 1
+}

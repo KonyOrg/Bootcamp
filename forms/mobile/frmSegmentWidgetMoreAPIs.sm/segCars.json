@@ -1,0 +1,242 @@
+{
+    "@class": "com.kony.gen.viz.model.container.KVizSegment2",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_data_": [
+        [
+            {
+                "lblSectionTitle": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "Audi"
+                }
+            },
+            [
+                {
+                    "btnDelete": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Button"
+                    },
+                    "lblTitle": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "TT"
+                    }
+                },
+                {
+                    "btnDelete": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Button"
+                    },
+                    "lblTitle": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Q7"
+                    }
+                },
+                {
+                    "btnDelete": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Button"
+                    },
+                    "lblTitle": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "A5"
+                    }
+                }
+            ]
+        ],
+        [
+            {
+                "lblSectionTitle": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "BMW"
+                }
+            },
+            [
+                {
+                    "btnDelete": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Button"
+                    },
+                    "lblTitle": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "325i"
+                    }
+                },
+                {
+                    "btnDelete": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Button"
+                    },
+                    "lblTitle": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "M6"
+                    }
+                },
+                {
+                    "btnDelete": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Button"
+                    },
+                    "lblTitle": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "X5"
+                    }
+                }
+            ]
+        ],
+        [
+            {
+                "lblSectionTitle": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "Honda"
+                }
+            },
+            [
+                {
+                    "btnDelete": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Button"
+                    },
+                    "lblTitle": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Accord"
+                    }
+                },
+                {
+                    "btnDelete": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Button"
+                    },
+                    "lblTitle": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Civic"
+                    }
+                }
+            ]
+        ],
+        [
+            {
+                "lblSectionTitle": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "Tesla"
+                }
+            },
+            [
+                {
+                    "btnDelete": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Button"
+                    },
+                    "lblTitle": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Model S"
+                    }
+                }
+            ]
+        ]
+    ],
+    "_height_": {
+        "type": "string",
+        "value": "240dp"
+    },
+    "_indicator_": "none",
+    "_left_": {
+        "type": "string",
+        "value": "105dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 2,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_top_": {
+        "type": "string",
+        "value": "10dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "90%"
+    },
+    "autogrowmode": 0,
+    "canUpdateUI": true,
+    "centerx": {
+        "type": "string",
+        "value": "50%"
+    },
+    "containerweight": 100,
+    "counter": "30",
+    "focusedindex": null,
+    "focuseditem": null,
+    "groupcells": false,
+    "hasSections": true,
+    "id": "segCars",
+    "ide_onRowClick": "AS_Segment_a2b364e42f63493c80eb47154b261ff2",
+    "info": null,
+    "ipad": {
+        "psp": {
+            "indicator": "rowselect"
+        }
+    },
+    "iphone": {
+        "psp": {
+            "indicator": "rowselect"
+        }
+    },
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "f2b9df50b8f046b496b80a9ee7a2ce42",
+    "masterdata": {},
+    "name": "kony.ui.SegmentedUI2",
+    "needpageindicator": true,
+    "pageoffdotimage": "pageoffdot.png",
+    "pageondotimage": "pageondot.png",
+    "paginationconfig": {
+        "position": "bottom"
+    },
+    "parent": "frmSegmentWidgetMoreAPIs",
+    "pf": "frmSegmentWidgetMoreAPIs",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "retainselection": false,
+    "rowTemplateId": "afd3f515eddf49528c1e585c85b4ecb8",
+    "rowcounter": 0,
+    "rowfocusskin": "s1dc8efdf17f457881660bea7f16d1f9",
+    "rowskin": "s508368bddb748a3bad041d9c679af2f",
+    "rowtemplate": "CopyflexCarModel",
+    "screenlevelwidget": false,
+    "seccounter": 3,
+    "sectionHeaderTemplateId": "ec5734fb565b42dda0cad53bbc0e6671",
+    "sectionheaderskin": "see7083267f44688b2dfd4cfa55dbf4e",
+    "sectionheadertemplate": "CopyflexTplSegHeader",
+    "selectedRows": null,
+    "selectedState": false,
+    "selectedindex": null,
+    "selectedindices": null,
+    "selecteditems": null,
+    "selectedsectionindex": 0,
+    "selectionbehavior": "default",
+    "separatorcolor": "aaaaaa00",
+    "separatorrequired": true,
+    "separatorthickness": 1,
+    "showscrollbars": false,
+    "viewtype": "tableview",
+    "vizProps": {},
+    "wType": "Segment",
+    "widgetalignment": 5,
+    "widgetdatamap": {
+        "CopyflexCarModel": "CopyflexCarModel",
+        "CopyflexTplSegHeader": "CopyflexTplSegHeader",
+        "btnDelete": "btnDelete",
+        "flexMain": "flexMain",
+        "lblSectionTitle": "lblSectionTitle",
+        "lblTitle": "lblTitle"
+    },
+    "zindex": 1
+}

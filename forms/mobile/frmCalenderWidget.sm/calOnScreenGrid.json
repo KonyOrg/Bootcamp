@@ -1,0 +1,90 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizDateField",
+    "DNDConfig": null,
+    "Image": "calbtn.png",
+    "__parentReadjusting__": false,
+    "_data_": null,
+    "_date_": "2/7/2019",
+    "_height_": {
+        "type": "ref",
+        "value": "preferred"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "s0b417c586804022a960b37f7238845e",
+    "_top_": {
+        "type": "string",
+        "value": "2%"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "300dp"
+    },
+    "advview": "onscreen",
+    "calendaricon": "calbtn.png",
+    "canUpdateUI": true,
+    "centerx": {
+        "type": "string",
+        "value": "50%"
+    },
+    "containerweight": 100,
+    "contentalignment": 5,
+    "datecomponents": [
+        2,
+        7,
+        2019,
+        0,
+        0,
+        0
+    ],
+    "dateeditable": true,
+    "dateformat": "dd/MM/yyyy",
+    "day": 2,
+    "daytextalignmentincell": 5,
+    "disabledSkins": {},
+    "format": "dd/MM/yyyy",
+    "formatteddate": "02/07/2019",
+    "gridCellTodaySkin": "s3b02d51aec84eb48f7ead4e3f0bd9dc",
+    "gridCellWeekendSkin": "s507a5ebff124f929ffc80a4381dd90e",
+    "hidedaysheader": false,
+    "hidemonthsheader": false,
+    "hour": 0,
+    "id": "calOnScreenGrid",
+    "ide_onSelection": "AS_Calendar_c3c083fe12c647ea8f983e06fd764727",
+    "info": null,
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "ba12eabd51224a3b8c40029805cdce6f",
+    "minutes": 0,
+    "month": 7,
+    "name": "kony.ui.Calendar",
+    "noofmonths": 1,
+    "pagedate": "/2019",
+    "parent": "frmCalenderWidget",
+    "pf": "frmCalenderWidget",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "seconds": 0,
+    "selectdate": "//2019",
+    "viewconfig": {
+        "gridConfig": {
+            "gridCellTodaySkin": "s3b02d51aec84eb48f7ead4e3f0bd9dc",
+            "gridCellWeekendSkin": "s507a5ebff124f929ffc80a4381dd90e"
+        }
+    },
+    "viewtype": "onscreen",
+    "wType": "Calendar",
+    "widgetalignment": 5,
+    "year": 2019,
+    "zindex": 1
+}

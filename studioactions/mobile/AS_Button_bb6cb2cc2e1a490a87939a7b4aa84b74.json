@@ -1,0 +1,27 @@
+{
+    "AS_Button_bb6cb2cc2e1a490a87939a7b4aa84b74": {
+        "id": "AS_Button_bb6cb2cc2e1a490a87939a7b4aa84b74",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmAnimationAPI",
+            "type": "forms",
+            "platform": null,
+            "KUID": "ed6eecdf7eaf4e8dbb63bb66ededc6f8"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION__ide_onClick_d2f92f085cc34b2c9c6844e6cf78f57f",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "rotate3D",
+            "display": "rotate3D",
+            "inputparams": [],
+            "callbackType": null,
+            "disabled": null,
+            "source": "controller"
+        }]
+    }
+}

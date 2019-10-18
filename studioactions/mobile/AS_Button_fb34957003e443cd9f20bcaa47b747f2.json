@@ -1,0 +1,32 @@
+{
+    "AS_Button_fb34957003e443cd9f20bcaa47b747f2": {
+        "id": "AS_Button_fb34957003e443cd9f20bcaa47b747f2",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmBrowserNativeCommunication",
+            "type": "forms",
+            "platform": "",
+            "KUID": "c5eea6dff23044c885f660587ff59fe7"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "NAVIGATE_TO_FORM__ide_onClick_ie3fc4a9a75f4b26b9b1f34b7335ba47",
+            "type": "NAVIGATE_TO_FORM",
+            "formId": "frmBrowser",
+            "friendlyName": "frmBrowser",
+            "formKUID": "bb4c20db8ffd4d8b90228de3e6d78dca",
+            "mappings": {},
+            "mappingsOrder": [],
+            "parentId": "",
+            "callbackType": null,
+            "enableMappingEditor": true,
+            "package": "",
+            "navigationObj": "{\n    \"_meta_\": {\n        \"eventName\": \"onClick\",\n        \"widgetId\": \"btnBackToBrowserWidget\"\n    }\n}",
+            "isCustomInput": false
+        }]
+    }
+}

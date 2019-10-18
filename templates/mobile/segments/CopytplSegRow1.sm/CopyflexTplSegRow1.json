@@ -1,0 +1,68 @@
+{
+    "DNDConfig": null,
+    "_height_": {
+        "type": "string",
+        "value": "125dp"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 6,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_percent_": true,
+    "_skin_": "sdbdd4b0875d4978a596c87ebc82acaf",
+    "_top_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "allboxes": [],
+    "autogrowmode": 0,
+    "canUpdateUI": true,
+    "children": [
+        "imgProduct",
+        "flexDetails"
+    ],
+    "clipbounds": true,
+    "containerId": true,
+    "containerweight": 100,
+    "controllerInfo": {
+        "default": {
+            "channel": "mobile",
+            "name": "CopyflexTplSegRow1Controller"
+        }
+    },
+    "enablescrolling": true,
+    "id": "CopyflexTplSegRow1",
+    "info": null,
+    "isTemplate": true,
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "c625021f67934f9bb5710269a19aec25",
+    "layouttype": 2,
+    "name": "kony.ui.FlexContainer",
+    "parent": "CopytplSegRow1",
+    "pf": "CopytplSegRow1",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "retainflowhorizontalalignment": false,
+    "snapgridsize": 10,
+    "snaptogrid": true,
+    "wType": "FlexContainer",
+    "widgetalignment": 1
+}

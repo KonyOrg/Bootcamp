@@ -1,0 +1,17 @@
+{
+    "AS_Button_a08ae9681cfa4044942eb5ba0b81aa8f": {
+        "id": "AS_Button_a08ae9681cfa4044942eb5ba0b81aa8f",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_ide_onClick_ccce18a1289e429c9851d0ad1f01ec61",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "alert(\"Current form is: \"+kony.application.getCurrentForm());",
+            "callbackType": null
+        }]
+    }
+}

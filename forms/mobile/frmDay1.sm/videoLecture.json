@@ -1,0 +1,84 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizVideo",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_controls_": true,
+    "_height_": {
+        "type": "string",
+        "value": "250dp"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_poster_": "kony_stay_ahead.png",
+    "_skin_": "s8aa9711099e4c21ac4c3a0cb5dbd6bc",
+    "_source_": {
+        "mp4": "http://s3.amazonaws.com/hapyak_uploads/group_uploads/10/12985/videos/4f3d1fe4c35d496497c2c576085b3f6e/01N.mp4"
+    },
+    "_text_": "Video",
+    "_top_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_volume_": 1,
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "android": {
+        "controls": true
+    },
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "desktopweb": {
+        "psp": {
+            "render": true
+        }
+    },
+    "id": "videoLecture",
+    "info": null,
+    "iphone": {
+        "controls": true
+    },
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kiosk": {
+        "render": false
+    },
+    "kuid": "b3196afac522484cb579307b306ddc4d",
+    "mp4": "",
+    "name": "kony.ui.Video",
+    "parent": "flexDay1",
+    "pf": "frmDay1",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "spa": {
+        "psp": {
+            "render": true
+        }
+    },
+    "wType": "Video",
+    "watchos": {
+        "render": false
+    },
+    "windows8": {
+        "render": false
+    },
+    "winphone8": {
+        "render": false
+    },
+    "zindex": 1
+}

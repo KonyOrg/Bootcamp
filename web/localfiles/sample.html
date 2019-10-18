@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <script>
+    function OnClick(){
+      var strRefNo = document.getElementById("ref1").value;
+      var strRefNo2 = document.getElementById("ref2").value;
+      var arr = [];
+      arr.push(strRefNo, strRefNo2);
+      kony.evaluateJavaScriptInNativeContext("functionToEvaluateInNativeContext",JSON.stringify(arr)); 	
+    }
+    
+    function sayHello(){
+      return 'Hello World from JS fuction in HTML';
+    }
+  </script>
+  <body>
+    <form>
+      First name:
+      <input id="ref1" type="text" name="firstname" value="Mickey">
+      <br/> Last name:
+      <input id="ref2" name="lastname" value="Mouse">
+      <br/>
+      <br/>
+      <button onclick="OnClick()">Evaluate JS In Kony Context</button>
+    </form>
+  </body>
+</html>

@@ -1,0 +1,53 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizButton",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "string",
+        "value": "50dp"
+    },
+    "_margin_": [
+        6,
+        6,
+        6,
+        6
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "sce99b4c545c4eb9876f8ddd2c907086",
+    "_text_": "Browser Config From Code",
+    "_top_": {
+        "type": "string",
+        "value": "10dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "90%"
+    },
+    "canUpdateUI": true,
+    "centerx": {
+        "type": "string",
+        "value": "50%"
+    },
+    "containerweight": 100,
+    "contentalignment": 5,
+    "displaytext": true,
+    "focusskin": "seeee71ee7b24ba79489f94eb886588b",
+    "id": "btnConfigureBrowserFromCode",
+    "ide_onClick": "AS_Button_c9f5cb5b1b964566ae9c4b5cd7503aa8",
+    "info": null,
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "j5a2b8621ddb4acfb3ae8ae88d75d1db",
+    "name": "kony.ui.Button",
+    "parent": "frmBrowser",
+    "pf": "frmBrowser",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "wType": "Button",
+    "zindex": 1
+}

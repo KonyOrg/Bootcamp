@@ -1,0 +1,95 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizListBox",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "string",
+        "value": "40dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_padding_": [
+        3,
+        0,
+        3,
+        0
+    ],
+    "_placeholder_": "Please Select",
+    "_skin_": "s68f59116a48453db822f13d1910b701",
+    "_top_": {
+        "type": "string",
+        "value": "5dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "90%"
+    },
+    "canUpdateUI": true,
+    "centerx": {
+        "type": "string",
+        "value": "50%"
+    },
+    "containerweight": 100,
+    "contentalignment": 4,
+    "dropdownimage": "pageondot.png",
+    "focusskin": "s44a30fc36e14caba2bdb8f3a37b0ca5",
+    "groupcells": false,
+    "id": "lstBox",
+    "ide_onSelection": "AS_ListBox_c17469827c0f4a1ca04ebe8fd2a34435",
+    "info": null,
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "i39f640d277f4c05ad2f8d5258b28577",
+    "masterdata": [
+        [
+            "lb1",
+            "Please select an option"
+        ],
+        [
+            "lb2",
+            "Linear Regression"
+        ],
+        [
+            "lb3",
+            "Logistic Regression"
+        ],
+        [
+            "lb4",
+            "K-Mean Clustering"
+        ],
+        [
+            "lb5",
+            "Markov Models"
+        ],
+        [
+            "lb6",
+            "Convolutional Neural Networks"
+        ]
+    ],
+    "name": "kony.ui.ListBox",
+    "paddinginpixel": false,
+    "parent": "frmSelectionWidgets",
+    "pf": "frmSelectionWidgets",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "selectedkey": "lb1",
+    "selectedkeys": null,
+    "selectedkeyvalue": [
+        "lb1",
+        "Please select an option"
+    ],
+    "selectedkeyvalues": null,
+    "size": 18,
+    "viewconfig": {
+        "toggleViewConfig": {
+            "viewStyle": 0
+        }
+    },
+    "viewtype": 0,
+    "wType": "ListBox",
+    "zindex": 1
+}

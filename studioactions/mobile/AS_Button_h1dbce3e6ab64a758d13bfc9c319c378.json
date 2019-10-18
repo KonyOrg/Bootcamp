@@ -1,0 +1,29 @@
+{
+    "AS_Button_h1dbce3e6ab64a758d13bfc9c319c378": {
+        "id": "AS_Button_h1dbce3e6ab64a758d13bfc9c319c378",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmActionEditor",
+            "type": "forms",
+            "platform": null,
+            "KUID": "j84b1d7863b346f4a6ec8ac7e7eb95c9"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "CHANNEL_CONDITION__de0a538585c44ffb9e9a744fabceca2c",
+            "type": "CHANNEL_CONDITION",
+            "platforms": ["android"],
+            "parentId": null
+        }, {
+            "id": "ADD_SNIPPET__jb56cae4ba04422c8dadb464068238dc",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "alert(\"This is Android!\");",
+            "parentId": "CHANNEL_CONDITION__de0a538585c44ffb9e9a744fabceca2c",
+            "callbackType": null
+        }]
+    }
+}

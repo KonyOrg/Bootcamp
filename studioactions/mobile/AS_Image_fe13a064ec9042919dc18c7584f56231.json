@@ -1,0 +1,114 @@
+{
+    "AS_Image_fe13a064ec9042919dc18c7584f56231": {
+        "id": "AS_Image_fe13a064ec9042919dc18c7584f56231",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "string",
+            "name": "x"
+        }, {
+            "datatype": "string",
+            "name": "y"
+        }],
+        "contextObj": {
+            "name": "frmDesignTechniques",
+            "type": "forms",
+            "platform": null,
+            "KUID": "g893d3de17af4791b1274ce430605d48"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "____j95064cc3a904cd6bfae750c874a6176",
+            "type": "MOVE_ACTION",
+            "itemType": "FORM",
+            "itemId": "frmDesignTechniques",
+            "widgetId": "flexMenuOptions",
+            "itemKUID": "g893d3de17af4791b1274ce430605d48",
+            "widgetKUID": "b8d1e7aaa4624d08a83af2b26242f3ac",
+            "wType": "FlexContainer",
+            "animationObject": {
+                "left": "-80%",
+                "anchorPoint": {},
+                "stepConfig": {
+                    "timingFunction": "kony.anim.EASE"
+                }
+            },
+            "config": {
+                "delay": "0",
+                "iterationCount": "1",
+                "fillMode": "kony.anim.FILL_MODE_FORWARDS",
+                "duration": "1000"
+            },
+            "start": "Immediately",
+            "parentAnimation": "____cdd1b681d9c84c9aa3c19dfbeaa7651e",
+            "animationId": "____j95064cc3a904cd6bfae750c874a6176",
+            "displayAnimationId": "MOVE_ACTION____ef67786033c042fb8baa0d040f6bfcb7",
+            "forkedPlatform": "all",
+            "parentId": null,
+            "widgetPath": "this.view.flexMenuOptions"
+        }, {
+            "id": "____g4811c7d0a6a42d2baf30338faa7bf69",
+            "type": "MOVE_ACTION",
+            "itemType": "FORM",
+            "itemId": "frmDesignTechniques",
+            "widgetId": "flexMainContent",
+            "itemKUID": "g893d3de17af4791b1274ce430605d48",
+            "widgetKUID": "f17342f4e9fa4e60853811ccddbf2f7c",
+            "wType": "FlexContainer",
+            "animationObject": {
+                "left": "0%",
+                "anchorPoint": {},
+                "stepConfig": {
+                    "timingFunction": "kony.anim.EASE"
+                }
+            },
+            "config": {
+                "delay": "0",
+                "iterationCount": 1,
+                "fillMode": "kony.anim.FILL_MODE_FORWARDS",
+                "duration": "1000"
+            },
+            "start": "Immediately",
+            "parentAnimation": "MOVE_ACTION____ef67786033c042fb8baa0d040f6bfcb7",
+            "animationId": "____g4811c7d0a6a42d2baf30338faa7bf69",
+            "displayAnimationId": "MOVE_ACTION____c18eb32decad4d509d236e4dd626be22",
+            "forkedPlatform": "all",
+            "parentId": null,
+            "widgetPath": "this.view.flexMainContent"
+        }, {
+            "id": "SET_FORM_WIDGET_PROPERTY____g52a3ac96d8f482bac4319e57f286bcb",
+            "type": "SET_WIDGET_PROPERTY",
+            "itemType": "FORM",
+            "itemId": "frmDesignTechniques",
+            "widgetId": "imgHamburgerOpen",
+            "propertyName": "isVisible",
+            "propertyValue": "true",
+            "itemKUID": "g893d3de17af4791b1274ce430605d48",
+            "widgetKUID": "ffa785ec98114b14b51da2f457ae3b2a",
+            "isSkinProperty": false,
+            "wType": "Image",
+            "forkedPlatform": "all",
+            "parentId": "____g4811c7d0a6a42d2baf30338faa7bf69",
+            "callbackType": "Callback",
+            "widgetPath": "this.view.imgHamburgerOpen"
+        }, {
+            "id": "SET_FORM_WIDGET_PROPERTY____f5187dd65df04a6db2044784ec3b7f15",
+            "type": "SET_WIDGET_PROPERTY",
+            "itemType": "FORM",
+            "itemId": "frmDesignTechniques",
+            "widgetId": "imgHamburgerClose",
+            "propertyName": "isVisible",
+            "propertyValue": "false",
+            "itemKUID": "g893d3de17af4791b1274ce430605d48",
+            "widgetKUID": "c591421010824fd6bcf636a33b725a99",
+            "isSkinProperty": false,
+            "wType": "Image",
+            "forkedPlatform": "all",
+            "parentId": "____g4811c7d0a6a42d2baf30338faa7bf69",
+            "callbackType": "Callback",
+            "widgetPath": "this.view.imgHamburgerClose"
+        }]
+    }
+}

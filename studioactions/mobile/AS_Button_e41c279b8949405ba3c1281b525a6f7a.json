@@ -1,0 +1,28 @@
+{
+    "AS_Button_e41c279b8949405ba3c1281b525a6f7a": {
+        "id": "AS_Button_e41c279b8949405ba3c1281b525a6f7a",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmDay2",
+            "type": "forms",
+            "platform": null,
+            "KUID": "a53ee2dd2f274534a54743ef4e278d17"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION___b960b3addb094a389d1f091cbc587ab1",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "loggingAndDebugging",
+            "display": "loggingAndDebugging",
+            "inputparams": [],
+            "parentId": null,
+            "callbackType": null,
+            "disabled": null,
+            "source": "controller"
+        }]
+    }
+}

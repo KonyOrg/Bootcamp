@@ -1,0 +1,68 @@
+{
+    "AS_Button_gd62aabb1b1047789e3bfdcfce926a5b": {
+        "id": "AS_Button_gd62aabb1b1047789e3bfdcfce926a5b",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmActions",
+            "type": "forms",
+            "platform": null,
+            "KUID": "j89c1c233f384fe2b2fc1f053d0cfc80"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "SHOW_ALERT__j00969ee2b5143c9b0afa7eb0d3182a2",
+            "type": "SHOW_ALERT",
+            "alertType": "constants.ALERT_TYPE_CONFIRMATION",
+            "alertTitle": "Alert Title",
+            "yesLabel": "OK",
+            "noLabel": "NO",
+            "alertIcon": "option1.png",
+            "alertMessage": "\nYou are about to logout?",
+            "messageType": "constant",
+            "parentId": null,
+            "callbackType": null,
+            "alertTitlei18n": null,
+            "yesLabeli18n": null,
+            "noLabeli18n": null,
+            "alertMessagei18n": null,
+            "iconPosition": "constants.ALERT_ICON_POSITION_LEFT",
+            "disabled": null
+        }, {
+            "id": "SET_FORM_WIDGET_PROPERTY_Untitled___e325c53467a449bc9fc8b2b98e3e49d4",
+            "type": "SET_WIDGET_PROPERTY",
+            "itemType": "FORM",
+            "itemId": "frmActions",
+            "widgetId": "btnTest",
+            "propertyName": "text",
+            "propertyValue": "User click OK on alert!",
+            "itemKUID": "j89c1c233f384fe2b2fc1f053d0cfc80",
+            "widgetKUID": "f03ff2cd62a8474f845ec8f0cdba447f",
+            "isSkinProperty": false,
+            "wType": "Button",
+            "forkedPlatform": "all",
+            "parentId": "SHOW_ALERT__j00969ee2b5143c9b0afa7eb0d3182a2",
+            "callbackType": "True",
+            "widgetPath": "this.view.btnTest"
+        }, {
+            "id": "SET_FORM_WIDGET_PROPERTY____d4f092d9e554486ea3a5b8400d75e8a1",
+            "type": "SET_WIDGET_PROPERTY",
+            "itemType": "FORM",
+            "itemId": "frmActions",
+            "widgetId": "btnTest",
+            "propertyName": "text",
+            "propertyValue": "User click NO on alert!",
+            "itemKUID": "j89c1c233f384fe2b2fc1f053d0cfc80",
+            "widgetKUID": "f03ff2cd62a8474f845ec8f0cdba447f",
+            "isSkinProperty": false,
+            "wType": "Button",
+            "forkedPlatform": "all",
+            "parentId": "SHOW_ALERT__j00969ee2b5143c9b0afa7eb0d3182a2",
+            "callbackType": "False",
+            "widgetPath": "this.view.btnTest"
+        }]
+    }
+}

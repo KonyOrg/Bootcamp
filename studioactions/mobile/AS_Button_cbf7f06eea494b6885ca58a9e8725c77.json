@@ -1,0 +1,24 @@
+{
+    "AS_Button_cbf7f06eea494b6885ca58a9e8725c77": {
+        "id": "AS_Button_cbf7f06eea494b6885ca58a9e8725c77",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION__ide_onClick_j857582248d0413ba9dd0cebb9cfc24c",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "getStores",
+            "display": "getStores",
+            "inputparams": [{
+                "name": "eventobject",
+                "value": " eventobject"
+            }],
+            "callbackType": null,
+            "disabled": null,
+            "source": "controller"
+        }]
+    }
+}

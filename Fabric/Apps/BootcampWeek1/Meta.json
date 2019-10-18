@@ -1,0 +1,28 @@
+{
+  "subType" : "customapp",
+  "description" : "BootcampWeek1",
+  "version" : "1.0",
+  "intSvcs" : [ {
+    "name" : "BestBuyTraining",
+    "version" : "1.0",
+    "etag" : "eb846566-18d5-4205-87b7-89822ad8865d"
+  }, {
+    "name" : "FoxNews",
+    "version" : "1.0",
+    "etag" : "3850ad8c-aac5-4583-9b16-eac3c4f8c9ba"
+  }, {
+    "name" : "GeoLocation",
+    "version" : "1.0",
+    "etag" : "d74106af-62ba-48ee-8574-beae8eb869ec"
+  }, {
+    "name" : "MyJavaService",
+    "version" : "1.0",
+    "etag" : "dca57ef8-70c5-4a36-8c7f-733b86620e4f"
+  } ],
+  "orchSvcs" : [ {
+    "name" : "BestBuyStoresCompositeService",
+    "version" : "1.0",
+    "etag" : "2203aa5a-d7b6-4b50-9062-f55025633eb5"
+  } ],
+  "identity" : [ "userstore" ]
+}

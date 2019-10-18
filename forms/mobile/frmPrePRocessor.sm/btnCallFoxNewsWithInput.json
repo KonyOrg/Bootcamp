@@ -1,0 +1,53 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizButton",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "string",
+        "value": "65dp"
+    },
+    "_margin_": [
+        6,
+        6,
+        6,
+        6
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "s14a2b2171464bf2987e9ba3345f4c84",
+    "_text_": "Call FoxNews Service With Input",
+    "_top_": {
+        "type": "string",
+        "value": "10dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "90%"
+    },
+    "canUpdateUI": true,
+    "centerx": {
+        "type": "string",
+        "value": "50.04%"
+    },
+    "containerweight": 100,
+    "contentalignment": 5,
+    "displaytext": true,
+    "focusskin": "s0f54cd11afd4082b47a6bb90a846811",
+    "id": "btnCallFoxNewsWithInput",
+    "ide_onClick": "AS_Button_f44de291ab93400a86632d27f54a4fdc",
+    "info": null,
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "g4a40f44365f4efe977fb36828479064",
+    "name": "kony.ui.Button",
+    "parent": "frmPrePRocessor",
+    "pf": "frmPrePRocessor",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "wType": "Button",
+    "zindex": 1
+}

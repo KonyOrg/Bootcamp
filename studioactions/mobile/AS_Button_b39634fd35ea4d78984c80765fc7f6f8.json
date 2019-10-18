@@ -1,0 +1,31 @@
+{
+    "AS_Button_b39634fd35ea4d78984c80765fc7f6f8": {
+        "id": "AS_Button_b39634fd35ea4d78984c80765fc7f6f8",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmDay3",
+            "type": "forms",
+            "platform": "",
+            "KUID": "aba200319dab4d1c987d966d14a02c74"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "NAVIGATE_TO_FORM__ide_onClick_g9d083867b9846968b006c239dc97c45",
+            "type": "NAVIGATE_TO_FORM",
+            "formId": "frmSegmentWidgetMoreAPIs",
+            "formKUID": "h7266a1466f7401682af4731d24560a0",
+            "mappings": {},
+            "mappingsOrder": [],
+            "parentId": "",
+            "callbackType": null,
+            "enableMappingEditor": true,
+            "package": "",
+            "navigationObj": "{\n    \"_meta_\": {\n        \"eventName\": \"onClick\",\n        \"widgetId\": \"btnSegmentMoreAPIs\"\n    }\n}",
+            "isCustomInput": false
+        }]
+    }
+}

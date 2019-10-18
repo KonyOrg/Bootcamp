@@ -1,0 +1,35 @@
+{
+    "AS_Calendar_c3c083fe12c647ea8f983e06fd764727": {
+        "id": "AS_Calendar_c3c083fe12c647ea8f983e06fd764727",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "boolean",
+            "name": "isValidDateSelected"
+        }],
+        "contextObj": {
+            "name": "frmCalenderWidget",
+            "type": "forms",
+            "platform": null,
+            "KUID": "d3dc09144cb14c7a855a4fea22263f8a"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "SHOW_ALERT__c55d93d06ca74813b412798a82bc476b",
+            "type": "SHOW_ALERT",
+            "alertType": "constants.ALERT_TYPE_INFO",
+            "alertMessage": "\"Selected date is: \" + eventobject.formattedDate",
+            "messageType": "expression",
+            "parentId": null,
+            "callbackType": null,
+            "alertTitlei18n": null,
+            "yesLabeli18n": null,
+            "noLabeli18n": null,
+            "alertMessagei18n": null,
+            "iconPosition": "constants.ALERT_ICON_POSITION_LEFT",
+            "disabled": null
+        }]
+    }
+}

@@ -1,0 +1,21 @@
+{
+    "AS_Button_i743f2f9c2034dd7b71eae292eeb4d16": {
+        "id": "AS_Button_i743f2f9c2034dd7b71eae292eeb4d16",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION__ide_onClick_f876003e8b4d4e229884f03781c986f0",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "authenticateMFUsingUserStore",
+            "display": "authenticateMFUsingUserStore",
+            "inputparams": [],
+            "callbackType": null,
+            "disabled": null,
+            "source": "controller"
+        }]
+    }
+}

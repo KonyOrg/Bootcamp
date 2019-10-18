@@ -1,0 +1,109 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizCamera",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "string",
+        "value": "50dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "sb4ac1bb187243f6883f3083f7bc12ea",
+    "_text_": "Capture Photo - Private Mode",
+    "_top_": {
+        "type": "string",
+        "value": "5dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "90%"
+    },
+    "accessmode": "private",
+    "android": {
+        "enableOverlay": true,
+        "overlayConfig": {
+            "captureButtonText": "",
+            "overlayForm": "i20ebadec37c4a1fa021d440f2a638dd",
+            "referenceImageToCrop": "imgOverlay",
+            "startVideoButtonText": "",
+            "stopVideoButtonText": "",
+            "tapAnywhere": false
+        }
+    },
+    "androidwearos": {
+        "render": false
+    },
+    "camerasource": "rear",
+    "canUpdateUI": true,
+    "centerx": {
+        "type": "string",
+        "value": "50%"
+    },
+    "containerweight": 100,
+    "contentalignment": 5,
+    "desktopweb": {
+        "render": false
+    },
+    "enableoverlay": false,
+    "id": "camToCapturePhotosInPrivateMode",
+    "ide_onCapture": "AS_Camera_a7dc95b664aa43c0bf2254ef9445ecd0",
+    "info": null,
+    "iphone": {
+        "enableOverlay": true,
+        "overlayConfig": {
+            "overlayForm": "i20ebadec37c4a1fa021d440f2a638dd",
+            "referenceImageToCrop": "imgOverlay",
+            "startVideoButtonText": "",
+            "stopVideoButtonText": ""
+        }
+    },
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "b8bfe11350684a13a2d8ddead08fbb30",
+    "name": "kony.ui.Camera",
+    "parent": "frmCameraWidget",
+    "pf": "frmCameraWidget",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "spaan": {
+        "render": false
+    },
+    "spaandroidtablet": {
+        "render": false
+    },
+    "spabb": {
+        "render": false
+    },
+    "spaip": {
+        "render": false
+    },
+    "spaipad": {
+        "render": false
+    },
+    "spawindowstablet": {
+        "render": false
+    },
+    "spawinphone8": {
+        "render": false
+    },
+    "wType": "Camera",
+    "watchos": {
+        "render": false
+    },
+    "winphone8": {
+        "overlayConfig": {
+            "tapAnywhere": false
+        }
+    },
+    "zindex": 1
+}

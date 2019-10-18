@@ -1,0 +1,17 @@
+{
+    "AS_Button_ec42158c42ee43cead791d6217cc1f14": {
+        "id": "AS_Button_ec42158c42ee43cead791d6217cc1f14",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_ide_onClick_b301f983f2954eb0886228c3105e5105",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "alert(\"Current device orientation is? \"+JSON.stringify(kony.os.getDeviceCurrentOrientation()));",
+            "callbackType": null
+        }]
+    }
+}

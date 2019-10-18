@@ -1,0 +1,31 @@
+{
+    "AS_Button_f1cdf37c787e4f139bede7d7b2eba958": {
+        "id": "AS_Button_f1cdf37c787e4f139bede7d7b2eba958",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmKonyAPIs",
+            "type": "forms",
+            "platform": null,
+            "KUID": "bad868ee8a5b4334a6c24ae67a116d9f"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "NAVIGATE_TO_FORM__ide_onClick_i592ef7eb40f4b9e8a1947606e7b0747",
+            "type": "NAVIGATE_TO_FORM",
+            "formId": "frmThemesLibrary",
+            "formKUID": "af0beb0002b544b58682b99d180226dd",
+            "mappings": {},
+            "mappingsOrder": [],
+            "parentId": "",
+            "callbackType": null,
+            "enableMappingEditor": true,
+            "package": "",
+            "navigationObj": "{\n    \"_meta_\": {\n        \"eventName\": \"onClick\",\n        \"widgetId\": \"btnThemesLibrary\"\n    }\n}",
+            "isCustomInput": false
+        }]
+    }
+}

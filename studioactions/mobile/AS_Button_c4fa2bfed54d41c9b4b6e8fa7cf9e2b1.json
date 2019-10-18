@@ -1,0 +1,25 @@
+{
+    "AS_Button_c4fa2bfed54d41c9b4b6e8fa7cf9e2b1": {
+        "id": "AS_Button_c4fa2bfed54d41c9b4b6e8fa7cf9e2b1",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "NAVIGATE_TO_FORM__ide_onClick_g907704b3b064531aef6ec19d0818fdc",
+            "type": "NAVIGATE_TO_FORM",
+            "formId": "frmKonyAPIs",
+            "formKUID": "bad868ee8a5b4334a6c24ae67a116d9f",
+            "mappings": {},
+            "mappingsOrder": [],
+            "parentId": "",
+            "callbackType": null,
+            "enableMappingEditor": true,
+            "package": "",
+            "navigationObj": "{\n    \"_meta_\": {\n        \"eventName\": \"onClick\",\n        \"widgetId\": \"btnBackToKonyAPIsIndex\"\n    }\n}",
+            "isCustomInput": false
+        }]
+    }
+}

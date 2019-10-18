@@ -1,0 +1,193 @@
+{
+    "@class": "com.kony.gen.viz.model.container.KVizSegment2",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_data_": [
+        [
+            {
+                "imgFoxNews": {
+                    "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                    "src": "foxnews.png"
+                },
+                "lblFeedDescription": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "Label"
+                },
+                "lblHeaderTitle": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "Label"
+                }
+            },
+            [
+                {
+                    "description": {
+                        "text": ""
+                    },
+                    "lblPubDate": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Label"
+                    },
+                    "lblTitle": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Label"
+                    },
+                    "pubDate": {
+                        "text": ""
+                    },
+                    "rtxDescription": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "RichText"
+                    }
+                },
+                {
+                    "description": {
+                        "text": ""
+                    },
+                    "lblPubDate": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Label"
+                    },
+                    "lblTitle": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Label"
+                    },
+                    "pubDate": {
+                        "text": ""
+                    },
+                    "rtxDescription": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "RichText"
+                    }
+                },
+                {
+                    "description": {
+                        "text": ""
+                    },
+                    "lblPubDate": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Label"
+                    },
+                    "lblTitle": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Label"
+                    },
+                    "pubDate": {
+                        "text": ""
+                    },
+                    "rtxDescription": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "RichText"
+                    }
+                }
+            ]
+        ]
+    ],
+    "_height_": {
+        "type": "string",
+        "value": "450dp"
+    },
+    "_indicator_": "none",
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 2,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_top_": {
+        "type": "string",
+        "value": "10dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "90%"
+    },
+    "autogrowmode": 0,
+    "canUpdateUI": true,
+    "centerx": {
+        "type": "string",
+        "value": "50%"
+    },
+    "containerweight": 100,
+    "counter": "02",
+    "focusedindex": null,
+    "focuseditem": null,
+    "groupcells": false,
+    "hasSections": true,
+    "hiddencolumns": {
+        "description": "text",
+        "pubDate": "text"
+    },
+    "id": "segNewsAtricles",
+    "ide_onRowClick": "AS_Segment_jc4a24a751834d46a2c22058d45650ae",
+    "info": null,
+    "ipad": {
+        "psp": {
+            "indicator": "rowselect"
+        }
+    },
+    "iphone": {
+        "psp": {
+            "indicator": "none"
+        }
+    },
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "b4a296f887d4434f8330d7f704899ce1",
+    "masterdata": {},
+    "name": "kony.ui.SegmentedUI2",
+    "needpageindicator": true,
+    "pageoffdotimage": "pageoffdot.png",
+    "pageondotimage": "pageondot.png",
+    "paginationconfig": {
+        "position": "bottom"
+    },
+    "parent": "frmFoxNewsAdvanced",
+    "pf": "frmFoxNewsAdvanced",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "retainselection": false,
+    "rowTemplateId": "hf7c187b8175462d9b33ed44d7037d77",
+    "rowcounter": 2,
+    "rowfocusskin": "s1dc8efdf17f457881660bea7f16d1f9",
+    "rowskin": "s508368bddb748a3bad041d9c679af2f",
+    "rowtemplate": "flexSegSectionRow1",
+    "screenlevelwidget": false,
+    "seccounter": 0,
+    "sectionHeaderTemplateId": "jcbd1c22659f4a348ef0e23176841e78",
+    "sectionheaderskin": "see7083267f44688b2dfd4cfa55dbf4e",
+    "sectionheadertemplate": "flexSegSectionHeader1",
+    "selectedRows": null,
+    "selectedState": false,
+    "selectedindex": null,
+    "selectedindices": null,
+    "selecteditems": null,
+    "selectedsectionindex": 0,
+    "selectionbehavior": "default",
+    "separatorcolor": "aaaaaa00",
+    "separatorrequired": true,
+    "separatorthickness": 1,
+    "showscrollbars": false,
+    "viewtype": "tableview",
+    "vizProps": {},
+    "wType": "Segment",
+    "widgetalignment": 5,
+    "widgetdatamap": {
+        "flexMain": "flexMain",
+        "flexSegSectionHeader1": "flexSegSectionHeader1",
+        "flexSegSectionRow1": "flexSegSectionRow1",
+        "imgFoxNews": "imgFoxNews",
+        "lblFeedDescription": "lblFeedDescription",
+        "lblHeaderTitle": "lblHeaderTitle",
+        "lblPubDate": "lblPubDate",
+        "lblTitle": "lblTitle",
+        "rtxDescription": "rtxDescription"
+    },
+    "zindex": 1
+}

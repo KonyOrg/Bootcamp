@@ -1,0 +1,25 @@
+{
+    "AS_FlexContainer_bf52fb7e23154720825b7a16967a02bf": {
+        "id": "AS_FlexContainer_bf52fb7e23154720825b7a16967a02bf",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "NAVIGATE_TO_FORM___b46eac833c514ce6b9cc33e3148d832f",
+            "type": "NAVIGATE_TO_FORM",
+            "formId": "frmAnimations",
+            "formKUID": "f1404b7a0d04417c8621c7669ec1fd0d",
+            "mappings": {},
+            "mappingsOrder": [],
+            "parentId": "",
+            "callbackType": null,
+            "enableMappingEditor": true,
+            "package": "",
+            "navigationObj": "{\n    \"_meta_\": {\n        \"eventName\": \"onClick\",\n        \"widgetId\": \"flexEx6\"\n    }\n}",
+            "isCustomInput": false
+        }]
+    }
+}

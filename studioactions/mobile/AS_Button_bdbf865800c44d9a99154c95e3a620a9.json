@@ -1,0 +1,25 @@
+{
+    "AS_Button_bdbf865800c44d9a99154c95e3a620a9": {
+        "id": "AS_Button_bdbf865800c44d9a99154c95e3a620a9",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "SHOW_ALERT_ide_onClick_aa64516443f847be8ede1fb6ae518854",
+            "type": "SHOW_ALERT",
+            "alertType": "constants.ALERT_TYPE_INFO",
+            "alertMessage": "\"Selected row is: \" + JSON.stringify(this.view.segMultiSelect.selectedRowItems)",
+            "messageType": "expression",
+            "callbackType": null,
+            "alertTitlei18n": null,
+            "yesLabeli18n": null,
+            "noLabeli18n": null,
+            "alertMessagei18n": null,
+            "iconPosition": "constants.ALERT_ICON_POSITION_LEFT",
+            "disabled": null
+        }]
+    }
+}

@@ -1,0 +1,53 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizButton",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "string",
+        "value": "50dp"
+    },
+    "_margin_": [
+        6,
+        6,
+        6,
+        6
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_right_": {
+        "type": "number",
+        "value": "12"
+    },
+    "_skin_": "sb41774d06af42f29faad30e4f35023e",
+    "_text_": "Delete",
+    "_width_": {
+        "type": "string",
+        "value": "50dp"
+    },
+    "canUpdateUI": true,
+    "centery": {
+        "type": "string",
+        "value": "50%"
+    },
+    "containerId": true,
+    "containerweight": 100,
+    "contentalignment": 5,
+    "displaytext": false,
+    "focusskin": "sb41774d06af42f29faad30e4f35023e",
+    "id": "btnDelete",
+    "info": null,
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "a962b187f5df432a8ea16ae2ec0f28bb",
+    "name": "kony.ui.Button",
+    "parent": "CopyflexCarModel",
+    "pf": "CopytplCarModel",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "wType": "Button",
+    "zindex": 1
+}

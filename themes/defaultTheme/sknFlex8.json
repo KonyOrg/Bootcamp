@@ -1,0 +1,55 @@
+{
+  "android": {
+    "background_color": {
+      "angle": 90,
+      "colors": [
+        "383838ff",
+        "5e5e5eff",
+        "949494ff"
+      ],
+      "cs": [
+        0,
+        48,
+        97
+      ],
+      "gradientType": "toRight",
+      "gt": "linear"
+    },
+    "background_style": "linear",
+    "bg_type": "ms_gradient",
+    "border_color": "ffffffff",
+    "border_type": 0,
+    "isForked": true
+  },
+  "background_color": "525252ff",
+  "bg_type": "one",
+  "border_color": "00000000",
+  "border_style": "rc",
+  "border_type": 0,
+  "border_width": 1,
+  "iphone": {
+    "background_color": {
+      "angle": 90,
+      "colors": [
+        "383838ff",
+        "5e5e5eff",
+        "949494ff"
+      ],
+      "cs": [
+        0,
+        48,
+        97
+      ],
+      "gradientType": "toRight",
+      "gt": "linear"
+    },
+    "background_style": "linear",
+    "bg_type": "ms_gradient",
+    "border_color": "ffffffff",
+    "border_type": 0,
+    "isForked": true
+  },
+  "isDefaultSkin": false,
+  "kuid": "s02710f294504a7bb9522dcaa8e1969c",
+  "wType": "FlexContainer"
+}

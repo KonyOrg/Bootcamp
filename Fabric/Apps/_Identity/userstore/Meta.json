@@ -1,0 +1,16 @@
+{
+  "name" : "userstore",
+  "displayName" : "Kony User Repository",
+  "type" : "userstore",
+  "version" : "1.0",
+  "loginText" : "v1",
+  "metaPreference" : -1,
+  "config" : "{}",
+  "policyConfig" : "{\"def_user_status\":\"pending\",\"max_login_fail\":5}",
+  "admissionPolicy" : "pre_login_approval_needed",
+  "proxyConfig" : "{}",
+  "identityMeta" : {
+    "allow_sso" : false
+  },
+  "ssoenabled" : false
+}

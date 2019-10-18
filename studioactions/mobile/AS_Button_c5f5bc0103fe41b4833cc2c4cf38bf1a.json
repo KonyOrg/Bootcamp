@@ -1,0 +1,17 @@
+{
+    "AS_Button_c5f5bc0103fe41b4833cc2c4cf38bf1a": {
+        "id": "AS_Button_c5f5bc0103fe41b4833cc2c4cf38bf1a",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_ide_onClick_b78f847ca46d4112a875ac262c65319d",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "alert (\"Trimming the string removes the trailing spaces: \"+kony.string.trim(\"    Hello JS user    \"));",
+            "callbackType": null
+        }]
+    }
+}

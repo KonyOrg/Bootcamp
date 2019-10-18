@@ -1,0 +1,34 @@
+{
+    "AS_Segment_b611e7d6bbf54f7e9b8b78e13995e28d": {
+        "id": "AS_Segment_b611e7d6bbf54f7e9b8b78e13995e28d",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "number",
+            "name": "sectionNumber"
+        }, {
+            "datatype": "number",
+            "name": "rowNumber"
+        }],
+        "contextObj": {
+            "name": "frmFoxNews",
+            "type": "forms",
+            "platform": null,
+            "KUID": "a52fe82aea554508b470c2c6e6121129"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION___d4169d28dbf94b0dae14fa0728de6b33",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "showNewsDetails",
+            "display": "showNewsDetails",
+            "inputparams": [],
+            "parentId": null,
+            "callbackType": null,
+            "disabled": false,
+            "source": "controller"
+        }]
+    }
+}

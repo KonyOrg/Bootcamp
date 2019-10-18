@@ -1,0 +1,55 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizButton",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "ref",
+        "value": "preferred"
+    },
+    "_margin_": [
+        6,
+        6,
+        6,
+        6
+    ],
+    "_padding_": [
+        0,
+        1,
+        0,
+        1
+    ],
+    "_skin_": "sd0d12fc7797431594e5b7392e3cd283",
+    "_text_": "Back",
+    "_top_": {
+        "type": "string",
+        "value": "20dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "80%"
+    },
+    "canUpdateUI": true,
+    "centerx": {
+        "type": "string",
+        "value": "50%"
+    },
+    "containerweight": 100,
+    "contentalignment": 5,
+    "displaytext": true,
+    "focusskin": "sa3b79fff1b14ad099083f46f2139a4e",
+    "id": "btnBackToFormInternalization",
+    "ide_onClick": "AS_Button_e3cb889083c2437288873679626329e4",
+    "info": null,
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "c9dc608535154fcbb036ad5d57ac917c",
+    "name": "kony.ui.Button",
+    "paddinginpixel": false,
+    "parent": "frmi18NForm",
+    "pf": "frmi18NForm",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "texti18n": "key7",
+    "wType": "Button",
+    "zindex": 1
+}

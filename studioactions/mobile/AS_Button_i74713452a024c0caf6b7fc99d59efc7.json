@@ -1,0 +1,18 @@
+{
+    "AS_Button_i74713452a024c0caf6b7fc99d59efc7": {
+        "id": "AS_Button_i74713452a024c0caf6b7fc99d59efc7",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__e400bb74b1604dfd92a136c3f617e860",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "kony.store.setItem(\"startupForm\", \"frmFormOne\");",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

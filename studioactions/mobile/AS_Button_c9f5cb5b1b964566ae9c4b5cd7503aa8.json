@@ -1,0 +1,22 @@
+{
+    "AS_Button_c9f5cb5b1b964566ae9c4b5cd7503aa8": {
+        "id": "AS_Button_c9f5cb5b1b964566ae9c4b5cd7503aa8",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION___faee18dc44964353a72464a78ebd3f5b",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "configureBrowserFromCode",
+            "display": "configureBrowserFromCode",
+            "inputparams": [],
+            "parentId": null,
+            "callbackType": null,
+            "disabled": null,
+            "source": "controller"
+        }]
+    }
+}

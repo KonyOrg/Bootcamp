@@ -1,0 +1,17 @@
+{
+    "AS_Button_deda946d69194e099bc2c60a9d81b129": {
+        "id": "AS_Button_deda946d69194e099bc2c60a9d81b129",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_ide_onClick_c653940de79e490c9ad77c038b4a0716",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "kony.application.exit();",
+            "callbackType": null
+        }]
+    }
+}

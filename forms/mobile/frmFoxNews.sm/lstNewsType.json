@@ -1,0 +1,94 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizListBox",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "string",
+        "value": "40dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_padding_": [
+        3,
+        0,
+        0,
+        0
+    ],
+    "_placeholder_": "Please Select",
+    "_skin_": "sd5e3fbedaea46a5b1dfdbddca6ec148",
+    "_top_": {
+        "type": "string",
+        "value": "10dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "325dp"
+    },
+    "canUpdateUI": true,
+    "centerx": {
+        "type": "string",
+        "value": "50%"
+    },
+    "containerweight": 100,
+    "contentalignment": 4,
+    "dropdownimage": "listboxarw.png",
+    "focusskin": "s44a30fc36e14caba2bdb8f3a37b0ca5",
+    "groupcells": false,
+    "id": "lstNewsType",
+    "ide_onSelection": "AS_ListBox_gfc98cb3ee2845bf9f7cb36ef4040963",
+    "info": null,
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "h8728e2002a4486bbc4e1398b53d4c7f",
+    "masterdata": [
+        [
+            "none",
+            "Please select news type"
+        ],
+        [
+            "world",
+            "World"
+        ],
+        [
+            "sports",
+            "Sports"
+        ],
+        [
+            "national",
+            "National"
+        ],
+        [
+            "entertainment",
+            "Entertainment"
+        ],
+        [
+            "scitech",
+            "Science & Technology"
+        ]
+    ],
+    "name": "kony.ui.ListBox",
+    "parent": "frmFoxNews",
+    "pf": "frmFoxNews",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "selectedkey": "none",
+    "selectedkeys": null,
+    "selectedkeyvalue": [
+        "none",
+        "Please select news type"
+    ],
+    "selectedkeyvalues": null,
+    "size": 18,
+    "viewconfig": {
+        "toggleViewConfig": {
+            "viewStyle": 0
+        }
+    },
+    "viewtype": 0,
+    "wType": "ListBox",
+    "zindex": 1
+}

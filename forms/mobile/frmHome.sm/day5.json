@@ -1,0 +1,115 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizUserWidget",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_android_": {},
+    "_androidwearos_": {},
+    "_children_": [],
+    "_desktopweb_": {},
+    "_height_": {
+        "type": "string",
+        "value": "21%"
+    },
+    "_ipad_": {},
+    "_iphone_": {},
+    "_kiosk_": {},
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 1,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_percent_": true,
+    "_skin_": "s8625d97c68a40e3ba84c6e04b282cb5",
+    "_spa_": {},
+    "_spaan_": {},
+    "_spaandroidtablet_": {},
+    "_spabb_": {},
+    "_spaip_": {},
+    "_spaipad_": {},
+    "_spamobile_": {},
+    "_spatablet_": {},
+    "_spawindowstablet_": {},
+    "_spawinphone8_": {},
+    "_tabrcandroid_": {},
+    "_top_": {
+        "type": "string",
+        "value": "10dp"
+    },
+    "_vizProps_": {
+        "hidewidgethierarchy": false
+    },
+    "_width_": {
+        "type": "string",
+        "value": "90%"
+    },
+    "_windows10_": {},
+    "_windows8_": {},
+    "_winphone10_": {},
+    "_winphone8_": {},
+    "areflexpropsreferenced": true,
+    "canUpdateUI": true,
+    "centerx": {
+        "type": "string",
+        "value": "50%"
+    },
+    "clipbounds": true,
+    "containerweight": 0,
+    "dataDiffs": {
+        "lblDay": {
+            "__events__": {
+                "ide_onTouchEnd": "AS_Label_d46d301deeed42ce974677c071a13543"
+            },
+            "__info__": {
+                "kuid": "e8777c98d9dc44b2b12fd20035eb17e3",
+                "srcKUID": "u0fc0e5c34704b9b933049788412d215",
+                "wType": "Label"
+            },
+            "text": "Day 5"
+        },
+        "rtxTopics": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "e4b9d77d0e2743e4b5a4490f671de3a8",
+                "srcKUID": "u66bacc0a9ba4bfa88c295935158b1e8",
+                "wType": "RichText"
+            },
+            "text": "-- More services<br/>\n-- Server-Side programming<br/>"
+        },
+        "topic": {
+            "__events__": {},
+            "__info__": {
+                "isRoot": true,
+                "kuid": "df8588887b5941a38f29ccac6d6d6079",
+                "srcKUID": "udf15d8666db4417a52eecfb4c7746af",
+                "wType": "FlexContainer"
+            }
+        }
+    },
+    "enablescrolling": true,
+    "id": "day5",
+    "info": null,
+    "iscustomlayout": false,
+    "isdatareferenced": false,
+    "issegmentchild": false,
+    "isvisible": true,
+    "kuid": "df8588887b5941a38f29ccac6d6d6079",
+    "layouttype": 3,
+    "masterType": 0,
+    "name": "kony.ui.UserWidgetInstance",
+    "parent": "frmHome",
+    "pf": "frmHome",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "snapgridsize": 10,
+    "snaptogrid": true,
+    "sourceUserWidget": "udf15d8666db4417a52eecfb4c7746af",
+    "wType": "UserWidgetInstance"
+}

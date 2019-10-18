@@ -1,0 +1,54 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizRichText",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "ref",
+        "value": "preferred"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "s5dce1f0d31d46ecb4a4ab3f66cc6fa2",
+    "_text_": "<ol>\n  <li>&nbsp;Free Flow Project Vs MVC</li>\n  <li>&nbsp;MVC</li>\n  <li>&nbsp;JS Code in MVC</li>\n  <li>&nbsp;Syntax to write code in controller</li>\n  <li>&nbsp;Syntax to access widget properties in controller</li>\n  <li>&nbsp;Navigate between forms</li>\n  <li>&nbsp;Passing current context into callbacks</li>\n</ol> \n",
+    "_top_": {
+        "type": "string",
+        "value": "5dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "90%"
+    },
+    "_wrapping_": 2,
+    "canUpdateUI": true,
+    "centerx": {
+        "type": "string",
+        "value": "50%"
+    },
+    "containerweight": 100,
+    "contentalignment": 4,
+    "id": "rchText",
+    "info": null,
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "j490b9fe81ea4c208d9d0026798b06d5",
+    "linkskin": "sc7100cfd3f34f44943a36d6f0e2c6be",
+    "name": "kony.ui.RichText",
+    "paddinginpixel": false,
+    "parent": "frmMVC",
+    "pf": "frmMVC",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "wType": "RichText",
+    "widgetalignment": 5,
+    "zindex": 1
+}

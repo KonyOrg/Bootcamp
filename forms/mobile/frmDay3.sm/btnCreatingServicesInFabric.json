@@ -1,0 +1,53 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizButton",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "string",
+        "value": "50dp"
+    },
+    "_margin_": [
+        6,
+        6,
+        6,
+        6
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "s7491cc1abf343ad8d285757434e0151",
+    "_text_": "Kony Fabric",
+    "_top_": {
+        "type": "string",
+        "value": "10dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "90%"
+    },
+    "canUpdateUI": true,
+    "centerx": {
+        "type": "string",
+        "value": "50.04%"
+    },
+    "containerweight": 100,
+    "contentalignment": 5,
+    "displaytext": true,
+    "focusskin": "s281a08e89fd407f8da25cf810eb3f82",
+    "id": "btnCreatingServicesInFabric",
+    "ide_onClick": "AS_Button_i8c441b4970e4803b97e1ee25413d81d",
+    "info": null,
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "e04a9add12e54ae6b5ec4ac3df9efc21",
+    "name": "kony.ui.Button",
+    "parent": "frmDay3",
+    "pf": "frmDay3",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "wType": "Button",
+    "zindex": 1
+}

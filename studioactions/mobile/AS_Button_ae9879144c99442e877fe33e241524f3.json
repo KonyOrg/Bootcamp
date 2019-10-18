@@ -1,0 +1,49 @@
+{
+    "AS_Button_ae9879144c99442e877fe33e241524f3": {
+        "id": "AS_Button_ae9879144c99442e877fe33e241524f3",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmAnimations",
+            "type": "forms",
+            "platform": null,
+            "KUID": "f1404b7a0d04417c8621c7669ec1fd0d"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "MOVE_ACTION____g5743fbd7c8e4895bc106910dd2a0ced",
+            "type": "MOVE_ACTION",
+            "itemType": "FORM",
+            "itemId": "frmAnimations",
+            "widgetId": "btnTest",
+            "itemKUID": "f1404b7a0d04417c8621c7669ec1fd0d",
+            "widgetKUID": "e30f60542d6b4b2da339f6e4d4df2cb3",
+            "wType": "Button",
+            "animationObject": {
+                "top": "0dp",
+                "left": "0dp",
+                "anchorPoint": {},
+                "stepConfig": {
+                    "timingFunction": "kony.anim.EASE"
+                }
+            },
+            "config": {
+                "delay": "0",
+                "iterationCount": "2",
+                "fillMode": "kony.anim.FILL_MODE_FORWARDS",
+                "duration": "1000",
+                "direction": "kony.anim.DIRECTION_NONE"
+            },
+            "start": "Immediately",
+            "animationId": "MOVE_ACTION____g5743fbd7c8e4895bc106910dd2a0ced",
+            "displayAnimationId": "MOVE_ACTION____g5743fbd7c8e4895bc106910dd2a0ced",
+            "forkedPlatform": "all",
+            "parentId": null,
+            "callbackType": null,
+            "widgetPath": "this.view.btnTest"
+        }]
+    }
+}

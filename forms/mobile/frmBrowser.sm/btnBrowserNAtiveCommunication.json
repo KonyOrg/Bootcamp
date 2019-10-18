@@ -1,0 +1,53 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizButton",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "string",
+        "value": "50dp"
+    },
+    "_margin_": [
+        6,
+        6,
+        6,
+        6
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "sce99b4c545c4eb9876f8ddd2c907086",
+    "_text_": "Browser Native Communication",
+    "_top_": {
+        "type": "string",
+        "value": "10dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "90%"
+    },
+    "canUpdateUI": true,
+    "centerx": {
+        "type": "string",
+        "value": "50%"
+    },
+    "containerweight": 100,
+    "contentalignment": 5,
+    "displaytext": true,
+    "focusskin": "seeee71ee7b24ba79489f94eb886588b",
+    "id": "btnBrowserNAtiveCommunication",
+    "ide_onClick": "AS_Button_b6bc4ff08065454cbe7f8073a884433f",
+    "info": null,
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "jaa355a8c9ad4c8691913ba4e82231b9",
+    "name": "kony.ui.Button",
+    "parent": "frmBrowser",
+    "pf": "frmBrowser",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "wType": "Button",
+    "zindex": 1
+}

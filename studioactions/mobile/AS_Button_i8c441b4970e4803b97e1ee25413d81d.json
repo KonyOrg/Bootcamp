@@ -1,0 +1,25 @@
+{
+    "AS_Button_i8c441b4970e4803b97e1ee25413d81d": {
+        "id": "AS_Button_i8c441b4970e4803b97e1ee25413d81d",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "NAVIGATE_TO_FORM___e27e1344c580459e89ce680646fa2a20",
+            "type": "NAVIGATE_TO_FORM",
+            "formId": "frmKonyFabric",
+            "formKUID": "d533fff7fc234f9fa997c5e64898b796",
+            "mappings": {},
+            "mappingsOrder": [],
+            "parentId": "",
+            "callbackType": null,
+            "enableMappingEditor": true,
+            "package": "",
+            "navigationObj": "{\n    \"_meta_\": {\n        \"eventName\": \"onClick\",\n        \"widgetId\": \"btnCreatingServicesInFabric\"\n    }\n}",
+            "isCustomInput": false
+        }]
+    }
+}

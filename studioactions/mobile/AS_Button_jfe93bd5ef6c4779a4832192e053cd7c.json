@@ -1,0 +1,48 @@
+{
+    "AS_Button_jfe93bd5ef6c4779a4832192e053cd7c": {
+        "id": "AS_Button_jfe93bd5ef6c4779a4832192e053cd7c",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmAnimations",
+            "type": "forms",
+            "platform": null,
+            "KUID": "f1404b7a0d04417c8621c7669ec1fd0d"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ROTATE_ACTION____g37d6cb558c5447193ac76448e7f2b7b",
+            "type": "ROTATE_ACTION",
+            "itemType": "FORM",
+            "itemId": "frmAnimations",
+            "widgetId": "btnTest",
+            "itemKUID": "f1404b7a0d04417c8621c7669ec1fd0d",
+            "widgetKUID": "e30f60542d6b4b2da339f6e4d4df2cb3",
+            "wType": "Button",
+            "animationObject": {
+                "anchorPoint": {},
+                "stepConfig": {
+                    "timingFunction": "kony.anim.EASE"
+                },
+                "rotate": "90"
+            },
+            "config": {
+                "delay": "0",
+                "iterationCount": "2",
+                "fillMode": "kony.anim.FILL_MODE_FORWARDS",
+                "duration": "1000",
+                "direction": "kony.anim.DIRECTION_ALTERNATE"
+            },
+            "start": "Immediately",
+            "animationId": "ROTATE_ACTION____g37d6cb558c5447193ac76448e7f2b7b",
+            "displayAnimationId": "ROTATE_ACTION____g37d6cb558c5447193ac76448e7f2b7b",
+            "forkedPlatform": "all",
+            "parentId": null,
+            "callbackType": null,
+            "widgetPath": "this.view.btnTest"
+        }]
+    }
+}

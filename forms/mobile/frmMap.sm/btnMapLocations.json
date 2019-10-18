@@ -1,0 +1,53 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizButton",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "string",
+        "value": "50dp"
+    },
+    "_margin_": [
+        6,
+        6,
+        6,
+        6
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "sbd38a4b598345269a699985bbdca2fd",
+    "_text_": "Map Locations",
+    "_top_": {
+        "type": "string",
+        "value": "10dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "90%"
+    },
+    "canUpdateUI": true,
+    "centerx": {
+        "type": "string",
+        "value": "50%"
+    },
+    "containerweight": 100,
+    "contentalignment": 5,
+    "displaytext": true,
+    "focusskin": "sf83e5d8e00c42d4a9942373d5d089d9",
+    "id": "btnMapLocations",
+    "ide_onClick": "AS_Button_b8f3334608ba47f8a62e3325ff880627",
+    "info": null,
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "eedae370ba51425e93739071b6b6b684",
+    "name": "kony.ui.Button",
+    "parent": "frmMap",
+    "pf": "frmMap",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "wType": "Button",
+    "zindex": 1
+}

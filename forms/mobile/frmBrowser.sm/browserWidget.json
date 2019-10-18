@@ -1,0 +1,62 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizBrowser",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "string",
+        "value": "350dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_top_": {
+        "type": "string",
+        "value": "10dp"
+    },
+    "_type_": 4,
+    "_width_": {
+        "type": "string",
+        "value": "90%"
+    },
+    "androidwearos": {
+        "render": false
+    },
+    "canUpdateUI": true,
+    "centerx": {
+        "type": "string",
+        "value": "50%"
+    },
+    "containerweight": 69,
+    "detecttelnumber": true,
+    "htmlstring": "Browser",
+    "id": "browserWidget",
+    "info": null,
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "fbb9fd11f5364e41905d5e8efa82562b",
+    "margininpixel": false,
+    "method": "get",
+    "name": "kony.ui.Browser",
+    "paddinginpixel": false,
+    "parent": "frmBrowser",
+    "pf": "frmBrowser",
+    "requesturlconfig": {
+        "URL": "http://www.kony.com",
+        "requestMethod": "get"
+    },
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "screenlevelwidget": false,
+    "url": "",
+    "wType": "Browser",
+    "zindex": 1
+}

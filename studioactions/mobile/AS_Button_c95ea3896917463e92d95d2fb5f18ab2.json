@@ -1,0 +1,17 @@
+{
+    "AS_Button_c95ea3896917463e92d95d2fb5f18ab2": {
+        "id": "AS_Button_c95ea3896917463e92d95d2fb5f18ab2",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_ide_onClick_bae2c9d915f340aaa05a18b932093dcf",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "alert (\"Is 10.34 a numeric value: \"+kony.string.isNumeric(\"10.34\"));",
+            "callbackType": null
+        }]
+    }
+}

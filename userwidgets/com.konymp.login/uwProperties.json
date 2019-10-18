@@ -1,0 +1,1276 @@
+{
+    "classname": "login",
+    "definitions": {
+        "apis": {
+            "custom": [
+                {
+                    "group": "General",
+                    "kuid": "c216a451b03b4e12ae1ea1cbf3d42d7f",
+                    "paramList": [
+                        {
+                            "name": "providername"
+                        },
+                        {
+                            "name": "browserRecquired"
+                        }
+                    ],
+                    "propertyKey": "invokeIdentityService",
+                    "pw": {
+                        "displayName": "invokeIdentityService",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "cd4834da3fd340b8a65f483ef9d593a7",
+                    "type": "event"
+                },
+                {
+                    "group": "General",
+                    "kuid": "ae89730ceecd4708aed376798b84f108",
+                    "paramList": [],
+                    "propertyKey": "getUsername",
+                    "pw": {
+                        "displayName": "getUsername",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "cd4834da3fd340b8a65f483ef9d593a7",
+                    "type": "event"
+                },
+                {
+                    "group": "General",
+                    "kuid": "b6aab67b7a744227a57597c81535828b",
+                    "paramList": [],
+                    "propertyKey": "getPassword",
+                    "pw": {
+                        "displayName": "getPassword",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "cd4834da3fd340b8a65f483ef9d593a7",
+                    "type": "event"
+                },
+                {
+                    "group": "General",
+                    "kuid": "a635bb5738474c2e9438c96cdc64340a",
+                    "paramList": [
+                        {
+                            "name": "input"
+                        }
+                    ],
+                    "propertyKey": "enableTouchID",
+                    "pw": {
+                        "displayName": "enableTouchID",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "cd4834da3fd340b8a65f483ef9d593a7",
+                    "type": "event"
+                },
+                {
+                    "group": "General",
+                    "kuid": "j1bbf74bfc0d4b87946ca2e2ebae6b6a",
+                    "paramList": [],
+                    "propertyKey": "rememberMe",
+                    "pw": {
+                        "displayName": "rememberMe",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "cd4834da3fd340b8a65f483ef9d593a7",
+                    "type": "event"
+                }
+            ],
+            "passthrough": []
+        },
+        "events": {
+            "custom": [
+                {
+                    "group": "General",
+                    "kuid": "fee9c69edf4541f395f3a32c2e28ce37",
+                    "paramList": [
+                        {
+                            "name": "error"
+                        }
+                    ],
+                    "propertyIndex": 1,
+                    "propertyKey": "onErrorCallback",
+                    "pw": {
+                        "displayName": "onErrorCallback",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "cd4834da3fd340b8a65f483ef9d593a7",
+                    "type": "event"
+                },
+                {
+                    "group": "input Options",
+                    "kuid": "jbe233d556fc4f2d8a84eaaa65383d87",
+                    "paramList": [],
+                    "propertyIndex": 1,
+                    "propertyKey": "usernameOnDone",
+                    "pw": {
+                        "displayName": "usernameOnDone",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "cd4834da3fd340b8a65f483ef9d593a7",
+                    "type": "event"
+                },
+                {
+                    "group": "input Options",
+                    "kuid": "f2127839cc5d4124845d3d7e9c684890",
+                    "paramList": [],
+                    "propertyIndex": 2,
+                    "propertyKey": "passwordOnDone",
+                    "pw": {
+                        "displayName": "passwordOnDone",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "cd4834da3fd340b8a65f483ef9d593a7",
+                    "type": "event"
+                },
+                {
+                    "group": "Login Option",
+                    "kuid": "da9a60c5a722499299f01a69dc6a60d6",
+                    "paramList": [
+                        {
+                            "name": "response"
+                        }
+                    ],
+                    "propertyIndex": 2,
+                    "propertyKey": "loginSuccessEvent",
+                    "pw": {
+                        "displayName": "loginSuccessEvent",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "cd4834da3fd340b8a65f483ef9d593a7",
+                    "type": "event"
+                },
+                {
+                    "group": "Login Option",
+                    "kuid": "h2d36c87f2b44bcdb1771069662fdfe6",
+                    "paramList": [
+                        {
+                            "name": "error"
+                        }
+                    ],
+                    "propertyIndex": 3,
+                    "propertyKey": "loginFailureEvent",
+                    "pw": {
+                        "displayName": "loginFailureEvent",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "cd4834da3fd340b8a65f483ef9d593a7",
+                    "type": "event"
+                },
+                {
+                    "group": "Login Option",
+                    "kuid": "e41e8c3c3f4f4611ba751235bc25fe49",
+                    "paramList": [],
+                    "propertyIndex": 4,
+                    "propertyKey": "remembermeOnSelection",
+                    "pw": {
+                        "displayName": "remembermeOnSelection",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "cd4834da3fd340b8a65f483ef9d593a7",
+                    "type": "event"
+                },
+                {
+                    "group": "Login Option",
+                    "kuid": "a47d106358b6469383c730429a3a6af5",
+                    "paramList": [],
+                    "propertyIndex": 5,
+                    "propertyKey": "submitOnClick",
+                    "pw": {
+                        "displayName": "submitOnClick",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "cd4834da3fd340b8a65f483ef9d593a7",
+                    "type": "event"
+                }
+            ],
+            "passthrough": [
+                {
+                    "access": "Enable",
+                    "group": "Login Option",
+                    "kuid": "ef890fa3847e4a77a86a62e09b12f831",
+                    "originalPropertyKey": "onClick",
+                    "propertyIndex": 1,
+                    "propertyKey": "forgotPasswordOnClick",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "action",
+                        "displayName": "forgotPasswordOnClick",
+                        "srcWidget": "btnForgotPassword",
+                        "type": "action",
+                        "uiRepresentation": "Label-Label-Button-Button",
+                        "wType": "Button"
+                    },
+                    "srcWgtKUID": "b2de6f8330d14c2489a31088725ac514"
+                }
+            ]
+        },
+        "groups": {
+            "apis": [
+                "General"
+            ],
+            "events": [
+                "input Options",
+                "Login Option"
+            ],
+            "properties": [
+                "General/Genric",
+                "Logo Properties",
+                "Username Properties",
+                "Password Properties",
+                "Signin Options",
+                "Login Options",
+                "Office365",
+                "Facebook ",
+                "LinkedIn"
+            ],
+            "widgets": []
+        },
+        "properties": {
+            "custom": [
+                {
+                    "access": "Write",
+                    "defaultValue": true,
+                    "group": "General",
+                    "kuid": "cb1bfd5cb4474ae9b74368873de34381",
+                    "originalPropertyKey": "encryptCredentials",
+                    "propertyIndex": 1,
+                    "propertyKey": "encryptCredentials",
+                    "pw": {
+                        "displayName": "Encrypt Credentials",
+                        "uiRepresentation": "Label-Radiobuttongroup"
+                    },
+                    "srcWgtKUID": "cd4834da3fd340b8a65f483ef9d593a7",
+                    "type": "boolean",
+                    "value": "true/false"
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": 8,
+                    "group": "Password Properties",
+                    "kuid": "jcef18d9a5264f73bbebbd28e3127e2d",
+                    "originalPropertyKey": "passwordMinimumChar",
+                    "propertyIndex": 4,
+                    "propertyKey": "passwordMinimumChar",
+                    "pw": {
+                        "displayName": "Password Min Characters",
+                        "type": "integer",
+                        "uiRepresentation": "Label-Textbox",
+                        "validationData": "^(\\+|-)?\\d+$"
+                    },
+                    "srcWgtKUID": "cd4834da3fd340b8a65f483ef9d593a7",
+                    "type": "integer",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": 8,
+                    "group": "Username Properties",
+                    "kuid": "ab735a2f701c4c50b3c0bbd2f79918c1",
+                    "originalPropertyKey": "usernameMinimumChar",
+                    "propertyIndex": 4,
+                    "propertyKey": "usernameMinimumChar",
+                    "pw": {
+                        "displayName": "Username Min Characters",
+                        "type": "integer",
+                        "uiRepresentation": "Label-Textbox",
+                        "validationData": "^(\\+|-)?\\d+$"
+                    },
+                    "srcWgtKUID": "cd4834da3fd340b8a65f483ef9d593a7",
+                    "type": "integer",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "Password Too Small",
+                    "group": "Password Properties",
+                    "kuid": "f4bfda84c3864b22af3b3a2301ae0cc5",
+                    "originalPropertyKey": "passwordValidationMsg",
+                    "propertyIndex": 5,
+                    "propertyKey": "passwordValidationMsg",
+                    "pw": {
+                        "displayName": "Password Validation Message",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "cd4834da3fd340b8a65f483ef9d593a7",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "Username Too Small",
+                    "group": "Username Properties",
+                    "kuid": "i8cf548ad845427fb8e101016098474a",
+                    "originalPropertyKey": "usernameValidationMsg",
+                    "propertyIndex": 5,
+                    "propertyKey": "usernameValidationMsg",
+                    "pw": {
+                        "displayName": "Username Validation Message",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "cd4834da3fd340b8a65f483ef9d593a7",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "userstore",
+                    "group": "Login Options",
+                    "kuid": "i89c5a88d7f2424a8bdfa40556ee02a1",
+                    "originalPropertyKey": "providerName",
+                    "propertyIndex": 5,
+                    "propertyKey": "providerName",
+                    "pw": {
+                        "displayName": "Identity service name",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "cd4834da3fd340b8a65f483ef9d593a7",
+                    "type": "string",
+                    "value": ""
+                }
+            ],
+            "passthrough": [
+                {
+                    "access": "Enable",
+                    "group": "Facebook ",
+                    "kuid": "e4e21a9f29c24c1e8bb5fd0e40134cdc",
+                    "originalPropertyKey": "isVisible",
+                    "propertyIndex": 1,
+                    "propertyKey": "facebookLogin",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "dependentKeysKUIDs": null,
+                        "displayName": "Enable Facebook Login",
+                        "srcWidget": "flxFacebook",
+                        "type": "boolean",
+                        "uiRepresentation": "Label-Radiobuttongroup",
+                        "wType": "FlexContainer"
+                    },
+                    "srcWgtKUID": "a3f2635a7b1148f0a25c7ea99ae7925d"
+                },
+                {
+                    "access": "Enable",
+                    "group": "Signin Options",
+                    "kuid": "if2902e2af764ac8baa85e4af19948f7",
+                    "originalPropertyKey": "text",
+                    "propertyIndex": 1,
+                    "propertyKey": "submitButtonText",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "dependentKeysKUIDs": null,
+                        "displayName": "Submit Button Text",
+                        "srcWidget": "btnLogin",
+                        "type": "string",
+                        "uiRepresentation": "Label-Textbox",
+                        "wType": "Button"
+                    },
+                    "srcWgtKUID": "ac33479c328846cabd62987b86200716"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "a82625897daf4e67a211e5c124cb7af0",
+                    "originalPropertyKey": "skin",
+                    "propertyIndex": 1,
+                    "propertyKey": "socialBackground",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "skin",
+                        "dependentKeysKUIDs": null,
+                        "displayName": "Login Background",
+                        "srcWidget": "flxBottomContainer",
+                        "wType": "FlexContainer"
+                    },
+                    "srcWgtKUID": "f20110eab463468388843979d5b75491"
+                },
+                {
+                    "access": "Enable",
+                    "group": "Username Properties",
+                    "kuid": "da8273745da84f3dbbf0dec209651adf",
+                    "originalPropertyKey": "text",
+                    "propertyIndex": 1,
+                    "propertyKey": "usernamePlaceholder",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "dependentKeysKUIDs": null,
+                        "displayName": "Username Placeholder",
+                        "srcWidget": "lblUsername",
+                        "type": "string",
+                        "uiRepresentation": "Label-Textbox",
+                        "wType": "Label"
+                    },
+                    "srcWgtKUID": "d03f0805474d4c07a5835e5475eeaebf"
+                },
+                {
+                    "access": "Enable",
+                    "group": "Office365",
+                    "kuid": "ce1ecd3ac2b64706980066c73f2d0834",
+                    "originalPropertyKey": "isVisible",
+                    "propertyIndex": 1,
+                    "propertyKey": "office365Login",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "dependentKeysKUIDs": null,
+                        "displayName": "Enable Office365 Login",
+                        "srcWidget": "flxOffice365",
+                        "type": "boolean",
+                        "uiRepresentation": "Label-Radiobuttongroup",
+                        "wType": "FlexContainer"
+                    },
+                    "srcWgtKUID": "j5327bd254d0417284300f18efec6c3e"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "daf7e3f93b7e4272b1825849041fa0e5",
+                    "originalPropertyKey": "skin",
+                    "propertyIndex": 1,
+                    "propertyKey": "logoBackground",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "skin",
+                        "dependentKeysKUIDs": null,
+                        "displayName": "Logo Background",
+                        "srcWidget": "flxlogo",
+                        "wType": "FlexContainer"
+                    },
+                    "srcWgtKUID": "h5335b2837b54092be89a1eba9c74d3c"
+                },
+                {
+                    "access": "Enable",
+                    "group": "Login Options",
+                    "kuid": "d79992f4134e489a98fdd51dc2a51d3e",
+                    "originalPropertyKey": "isVisible",
+                    "propertyIndex": 1,
+                    "propertyKey": "touchIDProperty",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "dependentKeysKUIDs": null,
+                        "displayName": "Enable Touch ID",
+                        "srcWidget": "flxTouchId",
+                        "type": "boolean",
+                        "uiRepresentation": "Label-Radiobuttongroup",
+                        "wType": "FlexContainer"
+                    },
+                    "srcWgtKUID": "h8acbf5c60e54bbb996b0bafbecf7855"
+                },
+                {
+                    "access": "Enable",
+                    "group": "LinkedIn",
+                    "kuid": "fed5e57a840a42e2a028b9a4af07bae9",
+                    "originalPropertyKey": "isVisible",
+                    "propertyIndex": 1,
+                    "propertyKey": "linkedinLogin",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "dependentKeysKUIDs": null,
+                        "displayName": "Enable LinkedIn Login",
+                        "srcWidget": "flxLinkedin",
+                        "type": "boolean",
+                        "uiRepresentation": "Label-Radiobuttongroup",
+                        "wType": "FlexContainer"
+                    },
+                    "srcWgtKUID": "a045f8dd5e154608b8fc97111029c516"
+                },
+                {
+                    "access": "Enable",
+                    "group": "Logo Properties",
+                    "kuid": "a88adf11eb0e4ecba62305699fa1ee3c",
+                    "originalPropertyKey": "src",
+                    "propertyIndex": 1,
+                    "propertyKey": "logoSource",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "widget",
+                        "dependentKeysKUIDs": null,
+                        "displayName": "Logo Image",
+                        "srcWidget": "imgLogo",
+                        "type": "string",
+                        "uiConfig": {
+                            "Button": {
+                                "dataRetrieverId": "Imagelist",
+                                "dataUpdaterId": "Imagelist",
+                                "popupId": "Imagelist",
+                                "type": "ImageEditBtn"
+                            },
+                            "Label": {}
+                        },
+                        "uiRepresentation": "Label-Label-Button",
+                        "wType": "Image"
+                    },
+                    "srcWgtKUID": "a4ac20b92ce749369d921131f8b509ab"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "gf7ce1f39d754d7e9a01af000e2436e0",
+                    "originalPropertyKey": "skin",
+                    "propertyIndex": 1,
+                    "propertyKey": "loginCardBackground",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "skin",
+                        "dependentKeysKUIDs": null,
+                        "displayName": "Login Card Background",
+                        "srcWidget": "flxCredentials",
+                        "wType": "FlexContainer"
+                    },
+                    "srcWgtKUID": "i18603fc53a34cff8d030e1d7ca23734"
+                },
+                {
+                    "access": "Enable",
+                    "group": "Password Properties",
+                    "kuid": "ae385bfaebcd4e2699ddff6afb455baa",
+                    "originalPropertyKey": "text",
+                    "propertyIndex": 1,
+                    "propertyKey": "passwordPlaceholder",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "dependentKeysKUIDs": null,
+                        "displayName": "Password Placeholder",
+                        "srcWidget": "lblPassword",
+                        "type": "string",
+                        "uiRepresentation": "Label-Textbox",
+                        "wType": "Label"
+                    },
+                    "srcWgtKUID": "d417c05db98746ec93fa492a64345c9a"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "e9482a424ae14991b3e38f6d865a17bd",
+                    "originalPropertyKey": "src",
+                    "propertyIndex": 1,
+                    "propertyKey": "rememberMeUnSelectedSource",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "widget",
+                        "dependentKeysKUIDs": null,
+                        "displayName": "RememberMe Unselected Image",
+                        "srcWidget": "imgUnselected",
+                        "type": "string",
+                        "uiConfig": {
+                            "Button": {
+                                "dataRetrieverId": "Imagelist",
+                                "dataUpdaterId": "Imagelist",
+                                "popupId": "Imagelist",
+                                "type": "ImageEditBtn"
+                            },
+                            "Label": {}
+                        },
+                        "uiRepresentation": "Label-Label-Button",
+                        "wType": "Image"
+                    },
+                    "srcWgtKUID": "j3b4c73f0b00483481a025d338aa853a"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "a357bdae66da4024ba19aee89dcf9190",
+                    "originalPropertyKey": "skin",
+                    "propertyIndex": 1,
+                    "propertyKey": "sknbtnLogin",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "skin",
+                        "dependentKeysKUIDs": null,
+                        "displayName": "Login Button",
+                        "srcWidget": "btnLogin",
+                        "wType": "Button"
+                    },
+                    "srcWgtKUID": "ac33479c328846cabd62987b86200716"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "d1423cd031af4887afee493efede6c06",
+                    "originalPropertyKey": "src",
+                    "propertyIndex": 1,
+                    "propertyKey": "rememberMeSelectedSource",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "widget",
+                        "dependentKeysKUIDs": null,
+                        "displayName": "RememberMe Selected Image",
+                        "srcWidget": "imgRememberme",
+                        "type": "string",
+                        "uiConfig": {
+                            "Button": {
+                                "dataRetrieverId": "Imagelist",
+                                "dataUpdaterId": "Imagelist",
+                                "popupId": "Imagelist",
+                                "type": "ImageEditBtn"
+                            },
+                            "Label": {}
+                        },
+                        "uiRepresentation": "Label-Label-Button",
+                        "wType": "Image"
+                    },
+                    "srcWgtKUID": "b6ff806b221a416e9603abc1f85f509d"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "d5bc6460f0b54a84b3815f6571eafd9c",
+                    "originalPropertyKey": "skin",
+                    "propertyIndex": 1,
+                    "propertyKey": "sknForgotPassword",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "skin",
+                        "dependentKeysKUIDs": null,
+                        "displayName": "Forgot Password",
+                        "srcWidget": "btnForgotPassword",
+                        "wType": "Button"
+                    },
+                    "srcWgtKUID": "b2de6f8330d14c2489a31088725ac514"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "c86736bba76e467c917f47db24508387",
+                    "originalPropertyKey": "skin",
+                    "propertyIndex": 1,
+                    "propertyKey": "sknCredentials",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "skin",
+                        "dependentKeysKUIDs": null,
+                        "displayName": "Credentials Skin",
+                        "srcWidget": "tbxUsername",
+                        "wType": "TextField"
+                    },
+                    "srcWgtKUID": "ba4d8931f18a4668a1925e427654036d"
+                },
+                {
+                    "access": "Enable",
+                    "group": "Login Options",
+                    "kuid": "e12cc864c707407f8133ab04cf0cebeb",
+                    "originalPropertyKey": "isVisible",
+                    "propertyIndex": 2,
+                    "propertyKey": "socialLoginVisible",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "dependentKeysKUIDs": null,
+                        "displayName": "Enable Social Login",
+                        "srcWidget": "flxSocialLogin",
+                        "type": "boolean",
+                        "uiRepresentation": "Label-Radiobuttongroup",
+                        "wType": "FlexContainer"
+                    },
+                    "srcWgtKUID": "ia9cb1844c1e4a14933adfe44a01f223"
+                },
+                {
+                    "access": "Enable",
+                    "group": "Facebook ",
+                    "kuid": "d64c0eba273c4d56b460035dbe8bb980",
+                    "originalPropertyKey": "src",
+                    "propertyIndex": 2,
+                    "propertyKey": "facebookSource",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "widget",
+                        "dependentKeysKUIDs": null,
+                        "displayName": "Facebook Icon",
+                        "srcWidget": "imgFaceBook",
+                        "type": "string",
+                        "uiConfig": {
+                            "Button": {
+                                "dataRetrieverId": "Imagelist",
+                                "dataUpdaterId": "Imagelist",
+                                "popupId": "Imagelist",
+                                "type": "ImageEditBtn"
+                            },
+                            "Label": {}
+                        },
+                        "uiRepresentation": "Label-Label-Button",
+                        "wType": "Image"
+                    },
+                    "srcWgtKUID": "a0878c9c74144a3483d0213c7be973ee"
+                },
+                {
+                    "access": "Enable",
+                    "group": "Username Properties",
+                    "kuid": "ed3dd4ecf8084be7aecec30241fd6944",
+                    "originalPropertyKey": "maxTextLength",
+                    "propertyIndex": 2,
+                    "propertyKey": "usernameMaxChar",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "widget",
+                        "dependentKeysKUIDs": null,
+                        "displayName": "Username Max Characters",
+                        "srcWidget": "tbxUsername",
+                        "type": "integer",
+                        "uiRepresentation": "Label-Textbox",
+                        "wType": "TextField"
+                    },
+                    "srcWgtKUID": "ba4d8931f18a4668a1925e427654036d"
+                },
+                {
+                    "access": "Enable",
+                    "group": "LinkedIn",
+                    "kuid": "f1e7f26b8ae7420db3186e66892c7797",
+                    "originalPropertyKey": "src",
+                    "propertyIndex": 2,
+                    "propertyKey": "linkedinSource",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "widget",
+                        "dependentKeysKUIDs": null,
+                        "displayName": "Linkedin Icon",
+                        "srcWidget": "imgLinkedIn",
+                        "type": "string",
+                        "uiConfig": {
+                            "Button": {
+                                "dataRetrieverId": "Imagelist",
+                                "dataUpdaterId": "Imagelist",
+                                "popupId": "Imagelist",
+                                "type": "ImageEditBtn"
+                            },
+                            "Label": {}
+                        },
+                        "uiRepresentation": "Label-Label-Button",
+                        "wType": "Image"
+                    },
+                    "srcWgtKUID": "c164d468402242d881b840ac74c6c1b9"
+                },
+                {
+                    "access": "Enable",
+                    "group": "Password Properties",
+                    "kuid": "adb694dc827540f5a8cdd0c5e1472db0",
+                    "originalPropertyKey": "maxTextLength",
+                    "propertyIndex": 2,
+                    "propertyKey": "passwordMaxChar",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "widget",
+                        "dependentKeysKUIDs": null,
+                        "displayName": "Password Max Characters",
+                        "srcWidget": "tbxPassword",
+                        "type": "integer",
+                        "uiRepresentation": "Label-Textbox",
+                        "wType": "TextField"
+                    },
+                    "srcWgtKUID": "cef4b5d91eb6484286324bd4aa00811e"
+                },
+                {
+                    "access": "Enable",
+                    "group": "Logo Properties",
+                    "kuid": "j0ff889341cb4bcdbd9a59aa15723fe7",
+                    "originalPropertyKey": "imageScaleMode",
+                    "propertyIndex": 2,
+                    "propertyKey": "logoScaleMode",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "widget",
+                        "dependentKeysKUIDs": null,
+                        "displayName": "Logo Scale Mode",
+                        "srcWidget": "imgLogo",
+                        "type": "enum",
+                        "uiRepresentation": "Label-Combobox",
+                        "wType": "Image"
+                    },
+                    "srcWgtKUID": "a4ac20b92ce749369d921131f8b509ab"
+                },
+                {
+                    "access": "Enable",
+                    "group": "Signin Options",
+                    "kuid": "ec69448663374bba809f4dd0fef9fe7d",
+                    "originalPropertyKey": "text",
+                    "propertyIndex": 2,
+                    "propertyKey": "forgotPasswordText",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "dependentKeysKUIDs": null,
+                        "displayName": "Forgot Password Text",
+                        "srcWidget": "btnForgotPassword",
+                        "type": "string",
+                        "uiRepresentation": "Label-Textbox",
+                        "wType": "Button"
+                    },
+                    "srcWgtKUID": "b2de6f8330d14c2489a31088725ac514"
+                },
+                {
+                    "access": "Enable",
+                    "group": "Office365",
+                    "kuid": "dbeb22cba6db471f803ce3197e5b4b55",
+                    "originalPropertyKey": "src",
+                    "propertyIndex": 2,
+                    "propertyKey": "office365Source",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "widget",
+                        "dependentKeysKUIDs": null,
+                        "displayName": "Office365 Icon",
+                        "srcWidget": "imgOffice365",
+                        "type": "string",
+                        "uiConfig": {
+                            "Button": {
+                                "dataRetrieverId": "Imagelist",
+                                "dataUpdaterId": "Imagelist",
+                                "popupId": "Imagelist",
+                                "type": "ImageEditBtn"
+                            },
+                            "Label": {}
+                        },
+                        "uiRepresentation": "Label-Label-Button",
+                        "wType": "Image"
+                    },
+                    "srcWgtKUID": "he5fc1573bfc411f8922c76c4b6d7cde"
+                },
+                {
+                    "access": "Enable",
+                    "group": "Signin Options",
+                    "kuid": "j58626456c424c4a814d7e7177add7bc",
+                    "originalPropertyKey": "isVisible",
+                    "propertyIndex": 3,
+                    "propertyKey": "remembermeProperty",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "dependentKeysKUIDs": null,
+                        "displayName": "Enable Remember Me",
+                        "srcWidget": "flxRememberMe",
+                        "type": "boolean",
+                        "uiRepresentation": "Label-Radiobuttongroup",
+                        "wType": "FlexContainer"
+                    },
+                    "srcWgtKUID": "ff579d5517a3414aa5cc0f2912f33f0a"
+                },
+                {
+                    "access": "Enable",
+                    "group": "Office365",
+                    "kuid": "f67341ef6c924345963e661b71b1f327",
+                    "originalPropertyKey": "centerX",
+                    "propertyIndex": 3,
+                    "propertyKey": "office365CenterX",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "defaultValue": {
+                            "type": "string",
+                            "value": ""
+                        },
+                        "dependentKeysKUIDs": null,
+                        "displayName": "Office365 Icon CenterX",
+                        "forkablePlatforms": {
+                            "desktop": [
+                                "desktopweb",
+                                "kiosk"
+                            ],
+                            "mobile": [
+                                "iphone",
+                                "android",
+                                "winphone8",
+                                "spaip",
+                                "spaan",
+                                "spawinphone8",
+                                "spabb"
+                            ],
+                            "tablet": [
+                                "ipad",
+                                "android",
+                                "windows8",
+                                "spaipad",
+                                "spaandroidtablet",
+                                "spawindowstablet"
+                            ]
+                        },
+                        "srcWidget": "flxOffice365",
+                        "type": "object",
+                        "uiConfig": {
+                            "Combobox": {
+                                "masterData": [
+                                    [
+                                        "Dp",
+                                        "dp"
+                                    ],
+                                    [
+                                        "Px",
+                                        "px"
+                                    ],
+                                    [
+                                        "%",
+                                        "%"
+                                    ],
+                                    [
+                                        "Default",
+                                        "Default"
+                                    ]
+                                ]
+                            },
+                            "Label": {},
+                            "Textbox": {}
+                        },
+                        "uiRepresentation": "Label-Textbox-Combobox",
+                        "wType": "FlexContainer"
+                    },
+                    "srcWgtKUID": "j5327bd254d0417284300f18efec6c3e"
+                },
+                {
+                    "access": "Enable",
+                    "group": "Login Options",
+                    "kuid": "bdf45432801047bbbc6bbfa3f00bc1a9",
+                    "originalPropertyKey": "centerY",
+                    "propertyIndex": 3,
+                    "propertyKey": "touchIdCenterY",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "defaultValue": {
+                            "type": "string",
+                            "value": ""
+                        },
+                        "dependentKeysKUIDs": null,
+                        "displayName": "Touch ID Icon Center Y",
+                        "forkablePlatforms": {
+                            "desktop": [
+                                "desktopweb",
+                                "kiosk"
+                            ],
+                            "mobile": [
+                                "iphone",
+                                "android",
+                                "winphone8",
+                                "spaip",
+                                "spaan",
+                                "spawinphone8",
+                                "spabb"
+                            ],
+                            "tablet": [
+                                "ipad",
+                                "android",
+                                "windows8",
+                                "spaipad",
+                                "spaandroidtablet",
+                                "spawindowstablet"
+                            ]
+                        },
+                        "srcWidget": "flxTouchId",
+                        "type": "object",
+                        "uiConfig": {
+                            "Combobox": {
+                                "masterData": [
+                                    [
+                                        "Dp",
+                                        "dp"
+                                    ],
+                                    [
+                                        "Px",
+                                        "px"
+                                    ],
+                                    [
+                                        "%",
+                                        "%"
+                                    ],
+                                    [
+                                        "Default",
+                                        "Default"
+                                    ]
+                                ]
+                            },
+                            "Label": {},
+                            "Textbox": {}
+                        },
+                        "uiRepresentation": "Label-Textbox-Combobox",
+                        "wType": "FlexContainer"
+                    },
+                    "srcWgtKUID": "h8acbf5c60e54bbb996b0bafbecf7855"
+                },
+                {
+                    "access": "Enable",
+                    "group": "Password Properties",
+                    "kuid": "d9a2ba81e49e4b958db4588a2969010f",
+                    "originalPropertyKey": "textInputMode",
+                    "propertyIndex": 3,
+                    "propertyKey": "passwordInputMode",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "widget",
+                        "dependentKeysKUIDs": null,
+                        "displayName": "Password Input Mode",
+                        "srcWidget": "tbxPassword",
+                        "type": "enum",
+                        "uiConfig": {
+                            "Combobox": {
+                                "masterData": [
+                                    [
+                                        "Any",
+                                        "A"
+                                    ],
+                                    [
+                                        "Numeric Only",
+                                        "N"
+                                    ]
+                                ]
+                            },
+                            "Label": {}
+                        },
+                        "uiRepresentation": "Label-Combobox",
+                        "wType": "TextField"
+                    },
+                    "srcWgtKUID": "cef4b5d91eb6484286324bd4aa00811e"
+                },
+                {
+                    "access": "Enable",
+                    "group": "Username Properties",
+                    "kuid": "ad1d0ea95cb944b8b70421e9a65ffd08",
+                    "originalPropertyKey": "textInputMode",
+                    "propertyIndex": 3,
+                    "propertyKey": "usernameInputMode",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "widget",
+                        "dependentKeysKUIDs": null,
+                        "displayName": "Username Input Mode",
+                        "srcWidget": "tbxUsername",
+                        "type": "enum",
+                        "uiConfig": {
+                            "Combobox": {
+                                "masterData": [
+                                    [
+                                        "Any",
+                                        "A"
+                                    ],
+                                    [
+                                        "Numeric Only",
+                                        "N"
+                                    ]
+                                ]
+                            },
+                            "Label": {}
+                        },
+                        "uiRepresentation": "Label-Combobox",
+                        "wType": "TextField"
+                    },
+                    "srcWgtKUID": "ba4d8931f18a4668a1925e427654036d"
+                },
+                {
+                    "access": "Enable",
+                    "group": "LinkedIn",
+                    "kuid": "idff89f30b804af7b7f8dd8c0b5d53c8",
+                    "originalPropertyKey": "centerX",
+                    "propertyIndex": 3,
+                    "propertyKey": "linkedinCenterX",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "defaultValue": {
+                            "type": "string",
+                            "value": ""
+                        },
+                        "dependentKeysKUIDs": null,
+                        "displayName": "LinkedIn Icon CenterX",
+                        "forkablePlatforms": {
+                            "desktop": [
+                                "desktopweb",
+                                "kiosk"
+                            ],
+                            "mobile": [
+                                "iphone",
+                                "android",
+                                "winphone8",
+                                "spaip",
+                                "spaan",
+                                "spawinphone8",
+                                "spabb"
+                            ],
+                            "tablet": [
+                                "ipad",
+                                "android",
+                                "windows8",
+                                "spaipad",
+                                "spaandroidtablet",
+                                "spawindowstablet"
+                            ]
+                        },
+                        "srcWidget": "flxLinkedin",
+                        "type": "object",
+                        "uiConfig": {
+                            "Combobox": {
+                                "masterData": [
+                                    [
+                                        "Dp",
+                                        "dp"
+                                    ],
+                                    [
+                                        "Px",
+                                        "px"
+                                    ],
+                                    [
+                                        "%",
+                                        "%"
+                                    ],
+                                    [
+                                        "Default",
+                                        "Default"
+                                    ]
+                                ]
+                            },
+                            "Label": {},
+                            "Textbox": {}
+                        },
+                        "uiRepresentation": "Label-Textbox-Combobox",
+                        "wType": "FlexContainer"
+                    },
+                    "srcWgtKUID": "a045f8dd5e154608b8fc97111029c516"
+                },
+                {
+                    "access": "Enable",
+                    "group": "Facebook ",
+                    "kuid": "ibf5630fcdc7432391081acdacaa6c66",
+                    "originalPropertyKey": "centerX",
+                    "propertyIndex": 3,
+                    "propertyKey": "facebookCenterX",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "defaultValue": {
+                            "type": "string",
+                            "value": ""
+                        },
+                        "dependentKeysKUIDs": null,
+                        "displayName": "Facebook Icon CenterX",
+                        "forkablePlatforms": {
+                            "desktop": [
+                                "desktopweb",
+                                "kiosk"
+                            ],
+                            "mobile": [
+                                "iphone",
+                                "android",
+                                "winphone8",
+                                "spaip",
+                                "spaan",
+                                "spawinphone8",
+                                "spabb"
+                            ],
+                            "tablet": [
+                                "ipad",
+                                "android",
+                                "windows8",
+                                "spaipad",
+                                "spaandroidtablet",
+                                "spawindowstablet"
+                            ]
+                        },
+                        "srcWidget": "flxFacebook",
+                        "type": "object",
+                        "uiConfig": {
+                            "Combobox": {
+                                "masterData": [
+                                    [
+                                        "Dp",
+                                        "dp"
+                                    ],
+                                    [
+                                        "Px",
+                                        "px"
+                                    ],
+                                    [
+                                        "%",
+                                        "%"
+                                    ],
+                                    [
+                                        "Default",
+                                        "Default"
+                                    ]
+                                ]
+                            },
+                            "Label": {},
+                            "Textbox": {}
+                        },
+                        "uiRepresentation": "Label-Textbox-Combobox",
+                        "wType": "FlexContainer"
+                    },
+                    "srcWgtKUID": "a3f2635a7b1148f0a25c7ea99ae7925d"
+                },
+                {
+                    "access": "Enable",
+                    "group": "Login Options",
+                    "kuid": "b286b1db07934a01a1a9bfc19411e91e",
+                    "originalPropertyKey": "centerY",
+                    "propertyIndex": 4,
+                    "propertyKey": "socialLoginCenterY",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "defaultValue": {
+                            "type": "string",
+                            "value": ""
+                        },
+                        "dependentKeysKUIDs": null,
+                        "displayName": "Social Login Icon Center Y",
+                        "forkablePlatforms": {
+                            "desktop": [
+                                "desktopweb",
+                                "kiosk"
+                            ],
+                            "mobile": [
+                                "iphone",
+                                "android",
+                                "winphone8",
+                                "spaip",
+                                "spaan",
+                                "spawinphone8",
+                                "spabb"
+                            ],
+                            "tablet": [
+                                "ipad",
+                                "android",
+                                "windows8",
+                                "spaipad",
+                                "spaandroidtablet",
+                                "spawindowstablet"
+                            ]
+                        },
+                        "srcWidget": "flxSocialLogin",
+                        "type": "object",
+                        "uiConfig": {
+                            "Combobox": {
+                                "masterData": [
+                                    [
+                                        "Dp",
+                                        "dp"
+                                    ],
+                                    [
+                                        "Px",
+                                        "px"
+                                    ],
+                                    [
+                                        "%",
+                                        "%"
+                                    ],
+                                    [
+                                        "Default",
+                                        "Default"
+                                    ]
+                                ]
+                            },
+                            "Label": {},
+                            "Textbox": {}
+                        },
+                        "uiRepresentation": "Label-Textbox-Combobox",
+                        "wType": "FlexContainer"
+                    },
+                    "srcWgtKUID": "ia9cb1844c1e4a14933adfe44a01f223"
+                }
+            ]
+        },
+        "widgets": {
+            "expose": [],
+            "passthrough": []
+        }
+    },
+    "namespace": "com.konymp",
+    "version": "1.0.0"
+}

@@ -1,0 +1,30 @@
+{
+    "AS_Segment_a789a95daf85485a94d8ce3cdc057237": {
+        "id": "AS_Segment_a789a95daf85485a94d8ce3cdc057237",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "number",
+            "name": "sectionNumber"
+        }, {
+            "datatype": "number",
+            "name": "rowNumber"
+        }],
+        "contextObj": {
+            "name": "frmSegmentWidgetAPIs",
+            "type": "forms",
+            "platform": null,
+            "KUID": "d5c8bf5cacb24119b9a43548b2c63e6f"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__f87fc56b00ba48eea01de03cba8f2298",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "alert(\"Selected row from segment is: \"+JSON.stringify(this.view.segAccounts.selectedRowItems));",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

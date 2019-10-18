@@ -1,0 +1,53 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizButton",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "string",
+        "value": "50dp"
+    },
+    "_margin_": [
+        6,
+        6,
+        6,
+        6
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "sbd38a4b598345269a699985bbdca2fd",
+    "_text_": "Navigate To A Given Location",
+    "_top_": {
+        "type": "string",
+        "value": "10dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "90%"
+    },
+    "canUpdateUI": true,
+    "centerx": {
+        "type": "string",
+        "value": "50%"
+    },
+    "containerweight": 100,
+    "contentalignment": 5,
+    "displaytext": true,
+    "focusskin": "sf83e5d8e00c42d4a9942373d5d089d9",
+    "id": "btnNavigateToALocation",
+    "ide_onClick": "AS_Button_aa20be2b413448c9a595210646dff7ba",
+    "info": null,
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "c5266b29d5d6420c9d546d450fbdb0b6",
+    "name": "kony.ui.Button",
+    "parent": "frmMap",
+    "pf": "frmMap",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "wType": "Button",
+    "zindex": 1
+}

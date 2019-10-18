@@ -1,0 +1,53 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizButton",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "string",
+        "value": "50dp"
+    },
+    "_margin_": [
+        6,
+        6,
+        6,
+        6
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "s9873ac50c8143618741476baf337417",
+    "_text_": "removeItem API",
+    "_top_": {
+        "type": "string",
+        "value": "10dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "90%"
+    },
+    "canUpdateUI": true,
+    "centerx": {
+        "type": "string",
+        "value": "49.99%"
+    },
+    "containerweight": 100,
+    "contentalignment": 5,
+    "displaytext": true,
+    "focusskin": "s00b3787e11844f3b090e18c0d868c88",
+    "id": "btnStoreRemoveItem",
+    "ide_onClick": "AS_Button_g44164281e274e6ea3b380e40a40865b",
+    "info": null,
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "ae893eed45304e329be629575e221b18",
+    "name": "kony.ui.Button",
+    "parent": "frmStoreLibrary",
+    "pf": "frmStoreLibrary",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "wType": "Button",
+    "zindex": 1
+}

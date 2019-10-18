@@ -1,0 +1,28 @@
+{
+    "AS_Button_b8f3334608ba47f8a62e3325ff880627": {
+        "id": "AS_Button_b8f3334608ba47f8a62e3325ff880627",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmMap",
+            "type": "forms",
+            "platform": null,
+            "KUID": "f9dd5b26c7964258af20f673461f98f8"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION___a29c55ee0d9f451e9971abf88e31b019",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "mapLocations",
+            "display": "mapLocations",
+            "inputparams": [],
+            "parentId": null,
+            "callbackType": null,
+            "disabled": null,
+            "source": "controller"
+        }]
+    }
+}

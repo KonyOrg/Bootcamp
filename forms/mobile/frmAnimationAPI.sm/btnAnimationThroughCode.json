@@ -1,0 +1,53 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizButton",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "string",
+        "value": "50dp"
+    },
+    "_margin_": [
+        6,
+        6,
+        6,
+        6
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "sbbb914e1792446b884563306f044610",
+    "_text_": "Animation Using Code",
+    "_top_": {
+        "type": "string",
+        "value": "10dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "300dp"
+    },
+    "canUpdateUI": true,
+    "centerx": {
+        "type": "string",
+        "value": "50%"
+    },
+    "containerweight": 100,
+    "contentalignment": 5,
+    "displaytext": true,
+    "focusskin": "s193e5cca89c4b71957ec34e71105387",
+    "id": "btnAnimationThroughCode",
+    "ide_onClick": "AS_Button_bfc63bae843b4ccd8b548f756f17ca9b",
+    "info": null,
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "f0f2ebe6ae4b40dfb29db40480cb3bb0",
+    "name": "kony.ui.Button",
+    "parent": "frmAnimationAPI",
+    "pf": "frmAnimationAPI",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "wType": "Button",
+    "zindex": 1
+}

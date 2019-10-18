@@ -1,0 +1,34 @@
+{
+    "AS_Segment_a2b364e42f63493c80eb47154b261ff2": {
+        "id": "AS_Segment_a2b364e42f63493c80eb47154b261ff2",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "number",
+            "name": "sectionNumber"
+        }, {
+            "datatype": "number",
+            "name": "rowNumber"
+        }],
+        "contextObj": {
+            "KUID": "h7266a1466f7401682af4731d24560a0",
+            "name": "frmSegmentWidgetMoreAPIs",
+            "platform": null,
+            "type": "forms"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION___f09e244130564e8d8405b2f523e18bfc",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "removeCar",
+            "display": "removeCar",
+            "inputparams": [],
+            "parentId": null,
+            "callbackType": null,
+            "disabled": null,
+            "source": "controller"
+        }]
+    }
+}

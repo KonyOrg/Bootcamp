@@ -1,0 +1,25 @@
+{
+    "AS_Button_aca9c06408e04cb2a4795130248f30a8": {
+        "id": "AS_Button_aca9c06408e04cb2a4795130248f30a8",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "NAVIGATE_TO_FORM___ge20b46f210a4843b52632e34c8e6eec",
+            "type": "NAVIGATE_TO_FORM",
+            "formId": "frmChangeStartupForm",
+            "formKUID": "h19776c21fb349bd8382606ead1855f6",
+            "mappings": {},
+            "mappingsOrder": [],
+            "parentId": "",
+            "callbackType": null,
+            "enableMappingEditor": true,
+            "package": "",
+            "navigationObj": "{\n    \"_meta_\": {\n        \"eventName\": \"onClick\",\n        \"widgetId\": \"btnBackToChangeStartupForm\"\n    }\n}",
+            "isCustomInput": false
+        }]
+    }
+}

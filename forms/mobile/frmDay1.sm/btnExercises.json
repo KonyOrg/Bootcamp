@@ -1,0 +1,53 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizButton",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "string",
+        "value": "60dp"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "1dp"
+    },
+    "_margin_": [
+        6,
+        6,
+        6,
+        6
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "sef9ae9c783e4197a26aa7e35f91519d",
+    "_text_": "Exercises",
+    "_top_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "100dp"
+    },
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "contentalignment": 5,
+    "displaytext": true,
+    "focusskin": "s4d7125089d24bc0bc8ae98b731ff3bd",
+    "id": "btnExercises",
+    "ide_onClick": "AS_Button_ia6965beb27d4e22a97f1627b720b77c",
+    "info": null,
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "f2c7cba45fc643b0a29000986a394ed7",
+    "name": "kony.ui.Button",
+    "parent": "flexLecturesAndExercises",
+    "pf": "frmDay1",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "wType": "Button",
+    "zindex": 1
+}

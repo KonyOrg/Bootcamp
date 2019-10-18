@@ -1,0 +1,53 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizButton",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "string",
+        "value": "50dp"
+    },
+    "_margin_": [
+        6,
+        6,
+        6,
+        6
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "sbd38a4b598345269a699985bbdca2fd",
+    "_text_": "Map With Custom Callout",
+    "_top_": {
+        "type": "string",
+        "value": "10dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "90%"
+    },
+    "canUpdateUI": true,
+    "centerx": {
+        "type": "string",
+        "value": "50.00%"
+    },
+    "containerweight": 100,
+    "contentalignment": 5,
+    "displaytext": true,
+    "focusskin": "sf83e5d8e00c42d4a9942373d5d089d9",
+    "id": "btnMapWithCallout",
+    "ide_onClick": "AS_Button_hf9c71ee7d95466c8be45f49f4011d88",
+    "info": null,
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "j99541bdd126451681ee27bc40958129",
+    "name": "kony.ui.Button",
+    "parent": "frmMap",
+    "pf": "frmMap",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "wType": "Button",
+    "zindex": 1
+}

@@ -1,0 +1,61 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizSwitch",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "ref",
+        "value": "preferred"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "75dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "s19234d79e544588bccd61d6809dcd3c",
+    "_top_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_width_": {
+        "type": "ref",
+        "value": "preferred"
+    },
+    "canUpdateUI": true,
+    "centery": {
+        "type": "string",
+        "value": "50%"
+    },
+    "containerweight": 100,
+    "id": "swtchRememberMe",
+    "info": null,
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kiosk": {
+        "render": false
+    },
+    "kuid": "j9016436d09d4d20aff7b55a51458355",
+    "leftsidetext": "ON",
+    "name": "kony.ui.Switch",
+    "osPlatform": "android",
+    "osVersion": "iOS7",
+    "parent": "flexRememberMe",
+    "pf": "frmLogin",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "rightsidetext": "OFF",
+    "selectedindex": 0,
+    "wType": "Switch",
+    "widgetalignment": 5,
+    "zindex": 1
+}

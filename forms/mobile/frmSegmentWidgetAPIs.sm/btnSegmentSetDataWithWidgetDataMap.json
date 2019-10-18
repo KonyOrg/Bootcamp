@@ -1,0 +1,53 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizButton",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "string",
+        "value": "50dp"
+    },
+    "_margin_": [
+        6,
+        6,
+        6,
+        6
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "s98495aa5da54842a179876576177ed2",
+    "_text_": "widgetDataMap API",
+    "_top_": {
+        "type": "string",
+        "value": "5dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "90%"
+    },
+    "canUpdateUI": true,
+    "centerx": {
+        "type": "string",
+        "value": "50.04%"
+    },
+    "containerweight": 100,
+    "contentalignment": 5,
+    "displaytext": true,
+    "focusskin": "s70bd47d43d44a7dbb08fdc3a4316858",
+    "id": "btnSegmentSetDataWithWidgetDataMap",
+    "ide_onClick": "AS_Button_h85dcf51a83d40cbb765f0edee3d57d5",
+    "info": null,
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "g336631c3d0448c089d5e26a73afbc29",
+    "name": "kony.ui.Button",
+    "parent": "frmSegmentWidgetAPIs",
+    "pf": "frmSegmentWidgetAPIs",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "wType": "Button",
+    "zindex": 1
+}

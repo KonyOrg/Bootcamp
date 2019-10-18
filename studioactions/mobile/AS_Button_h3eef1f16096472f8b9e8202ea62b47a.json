@@ -1,0 +1,31 @@
+{
+    "AS_Button_h3eef1f16096472f8b9e8202ea62b47a": {
+        "id": "AS_Button_h3eef1f16096472f8b9e8202ea62b47a",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmUsingWidgets1",
+            "type": "forms",
+            "platform": null,
+            "KUID": "j265b4779ce847ddaa95cfb40658e318"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "NAVIGATE_TO_FORM___ed19d034291248e883feb2dd4e42174f",
+            "type": "NAVIGATE_TO_FORM",
+            "formId": "frmLogin",
+            "formKUID": "abe86e91a1ec46608ed94fcd457e90ed",
+            "mappings": {},
+            "mappingsOrder": [],
+            "parentId": "",
+            "callbackType": null,
+            "enableMappingEditor": true,
+            "package": "",
+            "navigationObj": "{\n    \"_meta_\": {\n        \"eventName\": \"onClick\",\n        \"widgetId\": \"btnLoginPage\"\n    }\n}",
+            "isCustomInput": false
+        }]
+    }
+}

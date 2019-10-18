@@ -1,0 +1,264 @@
+{
+    "@class": "com.kony.gen.viz.model.container.KVizSegment2",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_data_": [
+        [
+            {
+                "lblSectionTitle": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "Products"
+                }
+            },
+            [
+                {
+                    "imgProduct": {
+                        "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                        "src": "facebook_1.png"
+                    },
+                    "imgRating": {
+                        "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                        "src": "ratings_star_4_1.png"
+                    },
+                    "lblProductDetails": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Move fast and break things."
+                    },
+                    "lblProductName": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Facebook"
+                    },
+                    "lblProductOnSale": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "On Sale!"
+                    }
+                },
+                {
+                    "imgProduct": {
+                        "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                        "src": "twitter_1.png"
+                    },
+                    "imgRating": {
+                        "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                        "src": "ratings_star_5_1.png"
+                    },
+                    "lblProductDetails": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "See What's Happening"
+                    },
+                    "lblProductName": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Twitter"
+                    },
+                    "lblProductOnSale": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": ""
+                    }
+                },
+                {
+                    "imgProduct": {
+                        "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                        "src": "linkedin_1.png"
+                    },
+                    "imgRating": {
+                        "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                        "src": "ratings_star_3_1.png"
+                    },
+                    "lblProductDetails": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Connecting the world's professionals to make them more productive and successful"
+                    },
+                    "lblProductName": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "LinkedIn"
+                    },
+                    "lblProductOnSale": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": ""
+                    }
+                }
+            ]
+        ],
+        [
+            {
+                "lblSectionTitle": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "Technologies"
+                }
+            },
+            [
+                {
+                    "imgProduct": {
+                        "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                        "src": "javascript_1.png"
+                    },
+                    "imgRating": {
+                        "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                        "src": "ratings_star_4_1.png"
+                    },
+                    "lblProductDetails": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Move fast and break things."
+                    },
+                    "lblProductName": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "JavaScript"
+                    },
+                    "lblProductOnSale": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "On Sale!"
+                    }
+                },
+                {
+                    "imgProduct": {
+                        "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                        "src": "rlanguage_1.png"
+                    },
+                    "imgRating": {
+                        "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                        "src": "ratings_star_5_1.png"
+                    },
+                    "lblProductDetails": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "See What's Happening"
+                    },
+                    "lblProductName": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "R Language"
+                    },
+                    "lblProductOnSale": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": ""
+                    }
+                },
+                {
+                    "imgProduct": {
+                        "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                        "src": "tensorflow_1.png"
+                    },
+                    "imgRating": {
+                        "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                        "src": "ratings_star_3_1.png"
+                    },
+                    "lblProductDetails": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Connecting the world's professionals to make them more productive and successful"
+                    },
+                    "lblProductName": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "TensorFlow"
+                    },
+                    "lblProductOnSale": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": ""
+                    }
+                }
+            ]
+        ]
+    ],
+    "_height_": {
+        "type": "ref",
+        "value": "preferred"
+    },
+    "_indicator_": "none",
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 2,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_top_": {
+        "type": "string",
+        "value": "5dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "90%"
+    },
+    "autogrowmode": 1,
+    "canUpdateUI": true,
+    "centerx": {
+        "type": "string",
+        "value": "50%"
+    },
+    "containerweight": 100,
+    "counter": "12",
+    "focusedindex": null,
+    "focuseditem": null,
+    "generatedtemplate": "d688c9ec052749eb978bdc296c9ad33d",
+    "groupcells": false,
+    "hasSections": true,
+    "id": "segWithSections",
+    "ide_onRowClick": "AS_Segment_cc64a493f26940f9a83464f19b4ec6cd",
+    "info": null,
+    "ipad": {
+        "psp": {
+            "indicator": "rowselect"
+        }
+    },
+    "iphone": {
+        "psp": {
+            "indicator": "rowselect"
+        }
+    },
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "fe36f61103ed44b28f0d5eea725634d9",
+    "masterdata": {},
+    "name": "kony.ui.SegmentedUI2",
+    "needpageindicator": true,
+    "pageoffdotimage": "pageoffdot.png",
+    "pageondotimage": "pageondot.png",
+    "paginationconfig": {
+        "position": "bottom"
+    },
+    "parent": "frmSegmentAdvanced",
+    "pf": "frmSegmentAdvanced",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "retainselection": false,
+    "rowTemplateId": "c68f8a52ff8149cd98ad764d6ccefe3b",
+    "rowcounter": 2,
+    "rowfocusskin": "s1dc8efdf17f457881660bea7f16d1f9",
+    "rowskin": "s508368bddb748a3bad041d9c679af2f",
+    "rowtemplate": "flexTplSegRow1",
+    "screenlevelwidget": false,
+    "seccounter": 1,
+    "sectionHeaderTemplateId": "bd8609b253b447369c439621de6d363c",
+    "sectionheaderskin": "see7083267f44688b2dfd4cfa55dbf4e",
+    "sectionheadertemplate": "flexTplSegHeader1",
+    "selectedRows": null,
+    "selectedState": false,
+    "selectedindex": null,
+    "selectedindices": null,
+    "selecteditems": null,
+    "selectedsectionindex": 0,
+    "selectionbehavior": "default",
+    "separatorcolor": "aaaaaa00",
+    "separatorrequired": true,
+    "separatorthickness": 1,
+    "showscrollbars": false,
+    "viewtype": "tableview",
+    "vizProps": {},
+    "wType": "Segment",
+    "widgetalignment": 5,
+    "widgetdatamap": {
+        "flexDetails": "flexDetails",
+        "flexTplSegHeader1": "flexTplSegHeader1",
+        "flexTplSegRow1": "flexTplSegRow1",
+        "imgProduct": "imgProduct",
+        "imgRating": "imgRating",
+        "lblProductDetails": "lblProductDetails",
+        "lblProductName": "lblProductName",
+        "lblProductOnSale": "lblProductOnSale",
+        "lblSectionTitle": "lblSectionTitle"
+    },
+    "zindex": 1
+}

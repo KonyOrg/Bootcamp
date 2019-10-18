@@ -1,0 +1,53 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizButton",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "string",
+        "value": "50dp"
+    },
+    "_margin_": [
+        6,
+        6,
+        6,
+        6
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "se3eab7939bc46638e9882bf3ec54979",
+    "_text_": "Java Service",
+    "_top_": {
+        "type": "string",
+        "value": "10dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "90%"
+    },
+    "canUpdateUI": true,
+    "centerx": {
+        "type": "string",
+        "value": "50.04%"
+    },
+    "containerweight": 100,
+    "contentalignment": 5,
+    "displaytext": true,
+    "focusskin": "sa2fc6ef1c0249ce998e6312fcde1563",
+    "id": "btnJavaService",
+    "ide_onClick": "AS_Button_e9b3c5e126cf432a8677d7f44afe59b8",
+    "info": null,
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "d70a4206e5d44b7c9db19f11c5bbd3ec",
+    "name": "kony.ui.Button",
+    "parent": "frmDay5",
+    "pf": "frmDay5",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "wType": "Button",
+    "zindex": 1
+}

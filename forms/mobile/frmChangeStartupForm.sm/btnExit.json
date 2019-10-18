@@ -1,0 +1,53 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizButton",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "string",
+        "value": "50dp"
+    },
+    "_margin_": [
+        6,
+        6,
+        6,
+        6
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "s2b8f5d75d184cedb83b033a7e7f2961",
+    "_text_": "Exit App",
+    "_top_": {
+        "type": "string",
+        "value": "20dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "80%"
+    },
+    "canUpdateUI": true,
+    "centerx": {
+        "type": "string",
+        "value": "50%"
+    },
+    "containerweight": 100,
+    "contentalignment": 5,
+    "displaytext": true,
+    "focusskin": "s20fe668181b4ca8b39ddcd98ea733a8",
+    "id": "btnExit",
+    "ide_onClick": "AS_Button_ca07ddafb8874475ab71e88c34979f32",
+    "info": null,
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "i3483e2e794843aeb3d41ce3e4c19edc",
+    "name": "kony.ui.Button",
+    "parent": "frmChangeStartupForm",
+    "pf": "frmChangeStartupForm",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "wType": "Button",
+    "zindex": 1
+}

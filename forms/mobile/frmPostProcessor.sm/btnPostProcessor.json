@@ -1,0 +1,53 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizButton",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "string",
+        "value": "50dp"
+    },
+    "_margin_": [
+        6,
+        6,
+        6,
+        6
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "sca2c92276d643b99ed1d66c6861022f",
+    "_text_": "Prost Processor",
+    "_top_": {
+        "type": "string",
+        "value": "10dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "90%"
+    },
+    "canUpdateUI": true,
+    "centerx": {
+        "type": "string",
+        "value": "50%"
+    },
+    "containerweight": 100,
+    "contentalignment": 5,
+    "displaytext": true,
+    "focusskin": "sdb6e4fab0c04811a58b567a34cf40a0",
+    "id": "btnPostProcessor",
+    "ide_onClick": "AS_Button_cbf7f06eea494b6885ca58a9e8725c77",
+    "info": null,
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "c4d52b9e8b5b4c7ebd0f637167c0dbdd",
+    "name": "kony.ui.Button",
+    "parent": "frmPostProcessor",
+    "pf": "frmPostProcessor",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "wType": "Button",
+    "zindex": 1
+}

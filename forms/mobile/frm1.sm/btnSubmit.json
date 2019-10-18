@@ -1,0 +1,53 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizButton",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "string",
+        "value": "50dp"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "48dp"
+    },
+    "_margin_": [
+        6,
+        6,
+        6,
+        6
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "scfce9769367439cb1c5d677f4bf49c6",
+    "_text_": "Navigate to Form 2",
+    "_top_": {
+        "type": "string",
+        "value": "156dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "300dp"
+    },
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "contentalignment": 5,
+    "displaytext": true,
+    "focusskin": "sa08a9bbb04e4bc6b16e4da78993484a",
+    "id": "btnSubmit",
+    "ide_onClick": "AS_Button_d154411997904f5bb198f9887a1c3d40",
+    "info": null,
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "d901c6de8346475f9d50429fc8e7eeb8",
+    "name": "kony.ui.Button",
+    "parent": "frm1",
+    "pf": "frm1",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "wType": "Button",
+    "zindex": 1
+}

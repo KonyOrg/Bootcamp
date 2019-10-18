@@ -1,0 +1,24 @@
+{
+    "AS_Form_bac824dbfc2e4f348d37eeafacf55ffb": {
+        "id": "AS_Form_bac824dbfc2e4f348d37eeafacf55ffb",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "KUID": "i1a40aa5988b4e5584e641e72b9b0dbf",
+            "name": "frmSegmentAnimations",
+            "platform": null,
+            "type": "forms"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__fc3af98ebfb54b3793da7fdd641144a0",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.segmentWidgeLevelAnimation();\n//alert(JSON.stringify(this.view.segCars1));\n\n//this.view.segCars1.rowTemplate.addGestureRecognizer(2, {fingers:1,swipedistance:50,swipevelocity:75}, this.segmentRowLevelAnimation);",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

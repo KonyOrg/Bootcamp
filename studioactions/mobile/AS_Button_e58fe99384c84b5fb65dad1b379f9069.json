@@ -1,0 +1,17 @@
+{
+    "AS_Button_e58fe99384c84b5fb65dad1b379f9069": {
+        "id": "AS_Button_e58fe99384c84b5fb65dad1b379f9069",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_ide_onClick_f10822ef853e4643b27caab71f0cffbe",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "alert(\"Is accelerometer support available? \"+JSON.stringify(kony.os.hasAccelerometerSupport()));",
+            "callbackType": null
+        }]
+    }
+}

@@ -1,0 +1,175 @@
+{
+    "@class": "com.kony.gen.viz.model.container.KVizSegment2",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_data_": [
+        {
+            "imgProduct": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "facebook_2.png"
+            },
+            "imgRating": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "ratings_star_4_2.png"
+            },
+            "lblProductDetails": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Move fast and break things."
+            },
+            "lblProductName": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Facebook"
+            },
+            "lblProductOnSale": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "On Sale!"
+            }
+        },
+        {
+            "imgProduct": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "twitter_2.png"
+            },
+            "imgRating": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "ratings_star_5_2.png"
+            },
+            "lblProductDetails": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "See What's Happening"
+            },
+            "lblProductName": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Twitter"
+            },
+            "lblProductOnSale": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": ""
+            }
+        },
+        {
+            "imgProduct": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "linkedin_2.png"
+            },
+            "imgRating": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "ratings_star_3_2.png"
+            },
+            "lblProductDetails": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Connecting the world's professionals to make them more productive and successful"
+            },
+            "lblProductName": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "LinkedIn"
+            },
+            "lblProductOnSale": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": ""
+            }
+        }
+    ],
+    "_height_": {
+        "type": "ref",
+        "value": "preferred"
+    },
+    "_indicator_": "none",
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 2,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_top_": {
+        "type": "string",
+        "value": "5dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "90%"
+    },
+    "autogrowmode": 1,
+    "canUpdateUI": true,
+    "centerx": {
+        "type": "string",
+        "value": "50%"
+    },
+    "containerweight": 100,
+    "counter": "02",
+    "focusedindex": null,
+    "focuseditem": null,
+    "generatedtemplate": "e3cd1359064142848b1414729a5a4e93",
+    "groupcells": false,
+    "hasSections": false,
+    "id": "segWithRowTemplate",
+    "ide_onRowClick": "AS_Segment_c9d52ee6a3aa4ce5bb3d4df9b4e0882c",
+    "info": null,
+    "ipad": {
+        "psp": {
+            "indicator": "rowselect"
+        }
+    },
+    "iphone": {
+        "psp": {
+            "indicator": "rowselect"
+        }
+    },
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "c1d0eff6b82248ad91dcd4b27d48a63b",
+    "masterdata": {},
+    "name": "kony.ui.SegmentedUI2",
+    "needpageindicator": true,
+    "pageoffdotimage": "pageoffdot.png",
+    "pageondotimage": "pageondot.png",
+    "paginationconfig": {
+        "position": "bottom"
+    },
+    "parent": "frmSegmentBasics",
+    "pf": "frmSegmentBasics",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "retainselection": false,
+    "rowTemplateId": "db3cb5809e534b53a6ba0a9148e19dd4",
+    "rowcounter": 2,
+    "rowfocusskin": "s1dc8efdf17f457881660bea7f16d1f9",
+    "rowskin": "s508368bddb748a3bad041d9c679af2f",
+    "rowtemplate": "CopyflexTplSegRow",
+    "screenlevelwidget": false,
+    "seccounter": 0,
+    "sectionHeaderTemplateId": null,
+    "sectionheaderskin": "see7083267f44688b2dfd4cfa55dbf4e",
+    "selectedRows": null,
+    "selectedState": false,
+    "selectedindex": null,
+    "selectedindices": null,
+    "selecteditems": null,
+    "selectedsectionindex": 0,
+    "selectionbehavior": "default",
+    "separatorcolor": "aaaaaa00",
+    "separatorrequired": true,
+    "separatorthickness": 1,
+    "showscrollbars": false,
+    "viewtype": "tableview",
+    "vizProps": {},
+    "wType": "Segment",
+    "widgetalignment": 5,
+    "widgetdatamap": {
+        "CopyflexTplSegRow": "CopyflexTplSegRow",
+        "flexDetails": "flexDetails",
+        "imgProduct": "imgProduct",
+        "imgRating": "imgRating",
+        "lblProductDetails": "lblProductDetails",
+        "lblProductName": "lblProductName",
+        "lblProductOnSale": "lblProductOnSale"
+    },
+    "zindex": 1
+}

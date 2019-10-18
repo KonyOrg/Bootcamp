@@ -1,0 +1,23 @@
+{
+    "AS_Form_g33fbde3be144ca196bc6009b14c4bc4": {
+        "id": "AS_Form_g33fbde3be144ca196bc6009b14c4bc4",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frm2",
+            "type": "forms",
+            "platform": null,
+            "KUID": "b39f557f1620446482ed75ebbe6b7e90"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__c458088ced4d4283a1ea092f1f75392b",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "kony.print(\"Executing the onHide event of frm2\");",
+            "parentId": null
+        }]
+    }
+}

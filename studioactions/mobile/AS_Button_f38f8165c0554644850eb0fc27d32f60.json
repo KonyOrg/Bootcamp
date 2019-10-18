@@ -1,0 +1,17 @@
+{
+    "AS_Button_f38f8165c0554644850eb0fc27d32f60": {
+        "id": "AS_Button_f38f8165c0554644850eb0fc27d32f60",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_ide_onClick_df33341a934a4ebd9ad877ccc7994c95",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "alert (\"Is abcd@abc.com a valid email? \"+kony.string.isValidEmail(\"abcd@abc.com\"));",
+            "callbackType": null
+        }]
+    }
+}

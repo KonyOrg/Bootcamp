@@ -1,0 +1,24 @@
+{
+    "AS_Button_d22e7a0e914a4aa8bf531249ad17b5b0": {
+        "id": "AS_Button_d22e7a0e914a4aa8bf531249ad17b5b0",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmDay4",
+            "type": "forms",
+            "platform": "",
+            "KUID": "c0660105f4164443a8e58e4c85c58265"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__cf19e48414ea46dd8bd4e1bcf04ecf9a",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "kony.application.dismissLoadingScreen();",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

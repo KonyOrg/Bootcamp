@@ -1,0 +1,17 @@
+{
+    "AS_Button_f7a0ef16237b4fda8fd3504b35732eb5": {
+        "id": "AS_Button_f7a0ef16237b4fda8fd3504b35732eb5",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_ide_onClick_e2eead18cce142298cc13e7f1a3615b5",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "alert(\"Device-Info is: \"+JSON.stringify(kony.os.deviceInfo()));",
+            "callbackType": null
+        }]
+    }
+}

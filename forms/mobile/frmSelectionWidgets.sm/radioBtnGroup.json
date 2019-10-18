@@ -1,0 +1,101 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizRadio",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "ref",
+        "value": "preferred"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "sab5b11e2a904f25bea45199f4c802d9",
+    "_top_": {
+        "type": "string",
+        "value": "10dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "80%"
+    },
+    "android": {
+        "psp": {
+            "viewType": 0
+        }
+    },
+    "canUpdateUI": true,
+    "centerx": {
+        "type": "string",
+        "value": "50%"
+    },
+    "containerweight": 100,
+    "groupcells": false,
+    "id": "radioBtnGroup",
+    "ide_onSelection": "AS_RadioButtonGroup_gbc80a74d5614460b6666630f914127c",
+    "info": null,
+    "ipad": {
+        "psp": {
+            "viewType": 0
+        }
+    },
+    "iphone": {
+        "psp": {
+            "viewType": 0
+        }
+    },
+    "iscustomlayout": false,
+    "isvisible": true,
+    "itemorientation": "vertical",
+    "kuid": "fa2acfbe4cc94bfd8e4aaf5c21352acd",
+    "masterdata": [
+        [
+            "rbg2",
+            "Logistic Regression"
+        ],
+        [
+            "rbg3",
+            "K-Mean Clustering"
+        ],
+        [
+            "rbg4",
+            "Markov Models"
+        ],
+        [
+            "rbg5",
+            "Convolutional Neural Networks"
+        ],
+        [
+            "rbg1",
+            "Linear Regression"
+        ]
+    ],
+    "name": "kony.ui.RadioButtonGroup",
+    "parent": "frmSelectionWidgets",
+    "pf": "frmSelectionWidgets",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "selectedkey": "rbg2",
+    "selectedkeyvalue": [
+        "rbg2",
+        "Logistic Regression"
+    ],
+    "size": 18,
+    "viewconfig": {
+        "toggleViewConfig": {
+            "viewStyle": 0
+        }
+    },
+    "viewtype": 0,
+    "wType": "RadioButtonGroup",
+    "widgetalignment": 5,
+    "zindex": 1
+}

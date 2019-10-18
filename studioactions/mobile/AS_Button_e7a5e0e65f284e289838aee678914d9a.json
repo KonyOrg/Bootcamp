@@ -1,0 +1,17 @@
+{
+    "AS_Button_e7a5e0e65f284e289838aee678914d9a": {
+        "id": "AS_Button_e7a5e0e65f284e289838aee678914d9a",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_ide_onClick_b85f7d52a9b44c53a93c75e648d863f1",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "//#ifdef iphone\n\tthis.view.btnChannelCondition.text=\"This is iPhone\"\n//#endif\n\n//#ifdef android\n    this.view.btnChannelCondition.text=\"This is Android\"\n//#endif",
+            "callbackType": null
+        }]
+    }
+}

@@ -1,0 +1,17 @@
+{
+    "AS_Button_e9a053291586445c8097bdc8ce2b51ea": {
+        "id": "AS_Button_e9a053291586445c8097bdc8ce2b51ea",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_ide_onClick_ca9e8a33e6eb4c8ca16675dadda80c5b",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "kony.application.openMediaURL(\"http://www.html5videoplayer.net/videos/toystory.mp4\");",
+            "callbackType": null
+        }]
+    }
+}

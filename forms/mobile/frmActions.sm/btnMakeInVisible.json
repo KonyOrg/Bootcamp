@@ -1,0 +1,53 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizButton",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "string",
+        "value": "50dp"
+    },
+    "_margin_": [
+        6,
+        6,
+        6,
+        6
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "sdbacae64a92473f9adc0474467cb2a8",
+    "_text_": "Make Invisible",
+    "_top_": {
+        "type": "string",
+        "value": "5dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "90%"
+    },
+    "canUpdateUI": true,
+    "centerx": {
+        "type": "string",
+        "value": "50%"
+    },
+    "containerweight": 100,
+    "contentalignment": 5,
+    "displaytext": true,
+    "focusskin": "sbbf7f391c734b7d9631e305025dd75c",
+    "id": "btnMakeInVisible",
+    "ide_onClick": "AS_Button_c7077bd0a8564e2385041b37765ee479",
+    "info": null,
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "beb9ff5026a9499f8ad484f1da121a79",
+    "name": "kony.ui.Button",
+    "parent": "frmActions",
+    "pf": "frmActions",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "wType": "Button",
+    "zindex": 1
+}

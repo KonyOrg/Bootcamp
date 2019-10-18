@@ -1,0 +1,25 @@
+{
+    "AS_FlexContainer_j83df165c0d8477180f93dc6280786f2": {
+        "id": "AS_FlexContainer_j83df165c0d8477180f93dc6280786f2",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "NAVIGATE_TO_FORM___c691b405775049e1baea2e1af3be71f8",
+            "type": "NAVIGATE_TO_FORM",
+            "formId": "frmCalculator",
+            "formKUID": "f78ba6a39b5043fb8c29b44741414cb1",
+            "mappings": {},
+            "mappingsOrder": [],
+            "parentId": "",
+            "callbackType": null,
+            "enableMappingEditor": true,
+            "package": "",
+            "navigationObj": "{\n    \"_meta_\": {\n        \"eventName\": \"onClick\",\n        \"widgetId\": \"flexEx1\"\n    }\n}",
+            "isCustomInput": false
+        }]
+    }
+}

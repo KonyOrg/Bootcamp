@@ -1,0 +1,28 @@
+{
+    "AS_Button_bfc63bae843b4ccd8b548f756f17ca9b": {
+        "id": "AS_Button_bfc63bae843b4ccd8b548f756f17ca9b",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmAnimationAPI",
+            "type": "forms",
+            "platform": null,
+            "KUID": "ed6eecdf7eaf4e8dbb63bb66ededc6f8"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION___h98171437bcf4dc29952d0e6b9dedabb",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "animationUsingCode",
+            "display": "animationUsingCode",
+            "inputparams": [],
+            "parentId": null,
+            "callbackType": null,
+            "disabled": null,
+            "source": "controller"
+        }]
+    }
+}

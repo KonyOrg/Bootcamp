@@ -1,0 +1,53 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizButton",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "string",
+        "value": "50dp"
+    },
+    "_margin_": [
+        6,
+        6,
+        6,
+        6
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "s08997da26aa4654b765713f40a70c0e",
+    "_text_": "Selection Widgets",
+    "_top_": {
+        "type": "string",
+        "value": "30dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "80%"
+    },
+    "canUpdateUI": true,
+    "centerx": {
+        "type": "string",
+        "value": "50%"
+    },
+    "containerweight": 100,
+    "contentalignment": 5,
+    "displaytext": true,
+    "focusskin": "sf9beb57c0c14d3aa32993e4ef4940f8",
+    "id": "btnSelectionWidgets",
+    "ide_onClick": "AS_Button_a15ae9ce130a43b69b4b27257ff39b05",
+    "info": null,
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "deda7e9497a340098827b885052300ec",
+    "name": "kony.ui.Button",
+    "parent": "frmUsingWidgets1",
+    "pf": "frmUsingWidgets1",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "wType": "Button",
+    "zindex": 1
+}

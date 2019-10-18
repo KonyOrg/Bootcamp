@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<service serviceGroup="" cachable="false" cacheduration="" description="" endpoint="default" groupType="" id="getOptions" passwordencrypted="false" security="authorized_app_user" type="javaConnector" smscode="" smsenabled="false">
+    <service-config>
+        <config-param api-version="" appid="" name="preprocessorname" value=""/>
+        <config-param api-version="" appid="" name="postprocessorname" value=""/>
+        <config-param api-version="" appid="" name="preprocessorJS" value=""/>
+        <config-param api-version="" appid="" name="postprocessorJS" value=""/>
+        <config-param api-version="" appid="" name="kony_http_supported_methods" value="POST"/>
+        <config-param api-version="" appid="" name="className" value="com.kony.javaservice.TestJavaService"/>
+        <config-param api-version="" appid="" name="methodName" value="getOptions"/>
+        <config-param api-version="" appid="" name="sockettimeout" value=""/>
+    </service-config>
+    <service-input passthrough="false"/>
+    <service-output passthrough="false"/>
+</service>

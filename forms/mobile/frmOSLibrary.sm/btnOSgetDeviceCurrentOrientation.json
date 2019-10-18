@@ -1,0 +1,53 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizButton",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "string",
+        "value": "50dp"
+    },
+    "_margin_": [
+        6,
+        6,
+        6,
+        6
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "sd99f0fc3a7241c59287bebcb88105fe",
+    "_text_": "getDeviceCurrentOrientation API",
+    "_top_": {
+        "type": "string",
+        "value": "10dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "90%"
+    },
+    "canUpdateUI": true,
+    "centerx": {
+        "type": "string",
+        "value": "50.00%"
+    },
+    "containerweight": 100,
+    "contentalignment": 5,
+    "displaytext": true,
+    "focusskin": "s2b00f5c76884706ad8684620b1cad5b",
+    "id": "btnOSgetDeviceCurrentOrientation",
+    "ide_onClick": "AS_Button_ec42158c42ee43cead791d6217cc1f14",
+    "info": null,
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "b9aed150e7154714a6a82e7a117658c2",
+    "name": "kony.ui.Button",
+    "parent": "frmOSLibrary",
+    "pf": "frmOSLibrary",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "wType": "Button",
+    "zindex": 1
+}

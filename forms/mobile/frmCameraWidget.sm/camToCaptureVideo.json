@@ -1,0 +1,125 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizCamera",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "string",
+        "value": "50dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "sb4ac1bb187243f6883f3083f7bc12ea",
+    "_text_": "Capture Video",
+    "_top_": {
+        "type": "string",
+        "value": "5dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "90%"
+    },
+    "accessmode": "public",
+    "android": {
+        "cameraOptions": {
+            "captureButtonSkin": "",
+            "captureButtonText": "",
+            "flashMode": 1,
+            "hideControlBar": false
+        },
+        "overlayConfig": {
+            "captureButtonText": "",
+            "overlayForm": "i20ebadec37c4a1fa021d440f2a638dd",
+            "referenceImageToCrop": "imgOverlay",
+            "startVideoButtonText": "",
+            "stopVideoButtonText": "",
+            "tapAnywhere": false
+        },
+        "psp": {
+            "videoStabilization": true
+        }
+    },
+    "androidwearos": {
+        "render": false
+    },
+    "camerasource": "rear",
+    "canUpdateUI": true,
+    "capturemode": "video",
+    "centerx": {
+        "type": "string",
+        "value": "50%"
+    },
+    "containerweight": 100,
+    "contentalignment": 5,
+    "desktopweb": {
+        "render": false
+    },
+    "enableoverlay": false,
+    "id": "camToCaptureVideo",
+    "ide_onCapture": "AS_Camera_a34d159b45f04d01b4eb79f5ae2383b4",
+    "info": null,
+    "iphone": {
+        "cameraOptions": {
+            "flashMode": 1,
+            "hideControlBar": false
+        },
+        "overlayConfig": {
+            "overlayForm": "i20ebadec37c4a1fa021d440f2a638dd",
+            "referenceImageToCrop": "imgOverlay",
+            "startVideoButtonText": "",
+            "stopVideoButtonText": ""
+        }
+    },
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "ae0bbd8ba1ba48e6babdb12556f1daee",
+    "name": "kony.ui.Camera",
+    "parent": "frmCameraWidget",
+    "pf": "frmCameraWidget",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "spaan": {
+        "render": false
+    },
+    "spaandroidtablet": {
+        "render": false
+    },
+    "spabb": {
+        "render": false
+    },
+    "spaip": {
+        "render": false
+    },
+    "spaipad": {
+        "render": false
+    },
+    "spawindowstablet": {
+        "render": false
+    },
+    "spawinphone8": {
+        "render": false
+    },
+    "wType": "Camera",
+    "watchos": {
+        "render": false
+    },
+    "winphone8": {
+        "cameraOptions": {
+            "flashMode": 1,
+            "hideControlBar": false
+        },
+        "overlayConfig": {
+            "tapAnywhere": false
+        }
+    },
+    "zindex": 1
+}

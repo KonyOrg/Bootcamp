@@ -1,0 +1,53 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizButton",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "string",
+        "value": "50dp"
+    },
+    "_margin_": [
+        6,
+        6,
+        6,
+        6
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "sbd38a4b598345269a699985bbdca2fd",
+    "_text_": "Navigate To An Existing Pin ",
+    "_top_": {
+        "type": "string",
+        "value": "10dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "90%"
+    },
+    "canUpdateUI": true,
+    "centerx": {
+        "type": "string",
+        "value": "50%"
+    },
+    "containerweight": 100,
+    "contentalignment": 5,
+    "displaytext": true,
+    "focusskin": "sf83e5d8e00c42d4a9942373d5d089d9",
+    "id": "btnNavigateToAPin",
+    "ide_onClick": "AS_Button_h959e4c71b8741ac9964004b8e8a7a4b",
+    "info": null,
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "ie2528b3683940278b581299990ba3a3",
+    "name": "kony.ui.Button",
+    "parent": "frmMap",
+    "pf": "frmMap",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "wType": "Button",
+    "zindex": 1
+}

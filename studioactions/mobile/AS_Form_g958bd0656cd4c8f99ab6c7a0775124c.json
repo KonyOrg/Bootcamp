@@ -1,0 +1,23 @@
+{
+    "AS_Form_g958bd0656cd4c8f99ab6c7a0775124c": {
+        "id": "AS_Form_g958bd0656cd4c8f99ab6c7a0775124c",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frm2",
+            "type": "forms",
+            "platform": null,
+            "KUID": "b39f557f1620446482ed75ebbe6b7e90"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__ef9dffd39981463798117d0d99896eea",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "kony.print(\"Executing the postShow event of frm2\");",
+            "parentId": null
+        }]
+    }
+}

@@ -1,0 +1,31 @@
+{
+    "AS_Button_c97db61be34841d0b7ac65f28a330eed": {
+        "id": "AS_Button_c97db61be34841d0b7ac65f28a330eed",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmDay4",
+            "type": "forms",
+            "platform": "",
+            "KUID": "c0660105f4164443a8e58e4c85c58265"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "NAVIGATE_TO_FORM__ide_onClick_c9111607c1ef465db2fd63c40a50bb60",
+            "type": "NAVIGATE_TO_FORM",
+            "formId": "frmChangeStartupForm",
+            "formKUID": "h19776c21fb349bd8382606ead1855f6",
+            "mappings": {},
+            "mappingsOrder": [],
+            "parentId": "",
+            "callbackType": null,
+            "enableMappingEditor": true,
+            "package": "",
+            "navigationObj": "{\n    \"_meta_\": {\n        \"eventName\": \"onClick\",\n        \"widgetId\": \"btnChangeTheStartUpForm\"\n    }\n}",
+            "isCustomInput": false
+        }]
+    }
+}

@@ -1,0 +1,28 @@
+{
+    "AS_Button_e67e1088f3ec4322a8529a9d7e03d950": {
+        "id": "AS_Button_e67e1088f3ec4322a8529a9d7e03d950",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmKonyAPIs",
+            "type": "forms",
+            "platform": null,
+            "KUID": "bad868ee8a5b4334a6c24ae67a116d9f"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION___j7375c6c22a74d44ae62589bba895e69",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "navigateToPhoneLibraryForm",
+            "display": "navigateToPhoneLibraryForm",
+            "inputparams": [],
+            "parentId": null,
+            "callbackType": null,
+            "disabled": null,
+            "source": "controller"
+        }]
+    }
+}

@@ -1,0 +1,37 @@
+{
+    "AS_Label_i35f5e76f4fd4da683a8de4b3d4d01ae": {
+        "id": "AS_Label_i35f5e76f4fd4da683a8de4b3d4d01ae",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "string",
+            "name": "x"
+        }, {
+            "datatype": "string",
+            "name": "y"
+        }],
+        "contextObj": {
+            "name": "frmHome",
+            "type": "forms",
+            "platform": "",
+            "KUID": "e5e5bddcdcaf4472a36efe7712413470"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "NAVIGATE_TO_FORM___b2533b1a56f646009b7212ffb6634940",
+            "type": "NAVIGATE_TO_FORM",
+            "formId": "frmDay2",
+            "formKUID": "a53ee2dd2f274534a54743ef4e278d17",
+            "mappings": {},
+            "mappingsOrder": [],
+            "parentId": "",
+            "callbackType": null,
+            "enableMappingEditor": true,
+            "package": "",
+            "navigationObj": "{\n    \"_meta_\": {\n        \"eventName\": \"onTouchEnd\",\n        \"widgetId\": \"b3641a924cdb4318a59958b84317c5f7\"\n    }\n}",
+            "isCustomInput": false
+        }]
+    }
+}

@@ -1,0 +1,27 @@
+{
+    "AS_Button_d2798923e19c4e3d958312a2158fec80": {
+        "id": "AS_Button_d2798923e19c4e3d958312a2158fec80",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmMapWithCustomCallout",
+            "type": "forms",
+            "platform": null,
+            "KUID": "e0762259f45b489a9a53621898b2f982"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION__ide_onClick_b13c2ae54fc8434aba349531ce2d8742",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "getLocation",
+            "display": "getLocation",
+            "inputparams": [],
+            "callbackType": null,
+            "disabled": null,
+            "source": "controller"
+        }]
+    }
+}

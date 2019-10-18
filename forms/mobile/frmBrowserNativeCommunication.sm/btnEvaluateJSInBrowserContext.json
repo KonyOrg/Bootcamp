@@ -1,0 +1,53 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizButton",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "string",
+        "value": "50dp"
+    },
+    "_margin_": [
+        6,
+        6,
+        6,
+        6
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "s3d964bc892c400b9e629e92e7e2fd3f",
+    "_text_": "Evaluate JS In Browser Context",
+    "_top_": {
+        "type": "string",
+        "value": "10dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "90%"
+    },
+    "canUpdateUI": true,
+    "centerx": {
+        "type": "string",
+        "value": "50%"
+    },
+    "containerweight": 100,
+    "contentalignment": 5,
+    "displaytext": true,
+    "focusskin": "s64702b4d61c4f5ab948b4f98f913506",
+    "id": "btnEvaluateJSInBrowserContext",
+    "ide_onClick": "AS_Button_e69275e8c5ef4eed9e303f6eef061922",
+    "info": null,
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "d6973ec998bd4e0589e7fedf84945b75",
+    "name": "kony.ui.Button",
+    "parent": "frmBrowserNativeCommunication",
+    "pf": "frmBrowserNativeCommunication",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "wType": "Button",
+    "zindex": 1
+}

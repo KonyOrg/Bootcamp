@@ -1,0 +1,53 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizButton",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "string",
+        "value": "50dp"
+    },
+    "_margin_": [
+        6,
+        6,
+        6,
+        6
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "sbbb914e1792446b884563306f044610",
+    "_text_": "Transform Using Code",
+    "_top_": {
+        "type": "string",
+        "value": "10dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "300dp"
+    },
+    "canUpdateUI": true,
+    "centerx": {
+        "type": "string",
+        "value": "50%"
+    },
+    "containerweight": 100,
+    "contentalignment": 5,
+    "displaytext": true,
+    "focusskin": "s193e5cca89c4b71957ec34e71105387",
+    "id": "btnTransformAnimation",
+    "ide_onClick": "AS_Button_c549768579ee482b91971cb06e29bff2",
+    "info": null,
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "d7fe4ca78cd14c249e8918a6caa35b71",
+    "name": "kony.ui.Button",
+    "parent": "frmAnimationAPI",
+    "pf": "frmAnimationAPI",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "wType": "Button",
+    "zindex": 1
+}

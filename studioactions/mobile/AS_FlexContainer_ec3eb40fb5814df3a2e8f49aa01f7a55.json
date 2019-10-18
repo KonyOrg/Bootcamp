@@ -1,0 +1,23 @@
+{
+    "AS_FlexContainer_ec3eb40fb5814df3a2e8f49aa01f7a55": {
+        "id": "AS_FlexContainer_ec3eb40fb5814df3a2e8f49aa01f7a55",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmDay1",
+            "type": "forms",
+            "platform": "",
+            "KUID": "cc842650d91b415ba71db1c8c01d1525"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__f820914ef7a64439b4740eac5177e1db",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "kony.application.showLoadingScreen(\"skProgress\", \"Loading the video, Please wait...\",\n                                  constants.LOADING_SCREEN_POSITION_FULL_SCREEN, true, true, \n                                  {enableMenuKey:false, enableBackKey:false});\nthis.view.videoLecture.setSource({\"mp4\": \"http://s3.amazonaws.com/hapyak_uploads/group_uploads/10/12985/videos/a3cb28629767463d976112945e5d370f/03N.mp4\"});\nthis.view.videoLecture.play();",
+            "parentId": null
+        }]
+    }
+}

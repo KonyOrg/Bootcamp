@@ -1,0 +1,24 @@
+{
+    "AS_Form_h8b193af529a4050b764ebf00daa4fee": {
+        "id": "AS_Form_h8b193af529a4050b764ebf00daa4fee",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmFormLifeCycleEvents",
+            "type": "forms",
+            "platform": null,
+            "KUID": "ee57f1f574fe4c199b15f62948045eb2"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__bac140f0eb0a4467828e4688d8697435",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "kony.print(\"Executing the onDestroy event of the form\");",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

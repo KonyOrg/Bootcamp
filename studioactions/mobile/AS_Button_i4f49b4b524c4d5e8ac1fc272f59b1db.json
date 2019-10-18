@@ -1,0 +1,31 @@
+{
+    "AS_Button_i4f49b4b524c4d5e8ac1fc272f59b1db": {
+        "id": "AS_Button_i4f49b4b524c4d5e8ac1fc272f59b1db",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmDay4",
+            "type": "forms",
+            "platform": "",
+            "KUID": "c0660105f4164443a8e58e4c85c58265"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "NAVIGATE_TO_FORM___bc9150ac26814124923f55b19b78b981",
+            "type": "NAVIGATE_TO_FORM",
+            "formId": "frmGestureAPIs",
+            "formKUID": "h367df8afad04e24878687f3c0c8a089",
+            "mappings": {},
+            "mappingsOrder": [],
+            "parentId": "",
+            "callbackType": null,
+            "enableMappingEditor": true,
+            "package": "",
+            "navigationObj": "{\n    \"_meta_\": {\n        \"eventName\": \"onClick\",\n        \"widgetId\": \"btnGestures\"\n    }\n}",
+            "isCustomInput": false
+        }]
+    }
+}

@@ -1,0 +1,17 @@
+{
+    "AS_Button_c07aa2b386ed43f09bcecea3fab9f951": {
+        "id": "AS_Button_c07aa2b386ed43f09bcecea3fab9f951",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_ide_onClick_c708df26700545fb80e5c1fb76ec1ded",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "var to = [\"training@kony.com\"];\nvar cc = [\"myself@gmail.com\"];\nvar bcc = [\"mymanager@gmail.com\"];\nvar sub = \"Welcome to Kony training!!!\"; \nvar msgbody = \"This is a Bootcamp training\"; \nkony.phone.openEmail( to, cc, bcc, sub, msgbody, false ); ",
+            "callbackType": null
+        }]
+    }
+}

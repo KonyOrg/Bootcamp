@@ -1,0 +1,17 @@
+{
+    "AS_Button_d4c75379c7e14380bbcccfb00ff1739a": {
+        "id": "AS_Button_d4c75379c7e14380bbcccfb00ff1739a",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_ide_onClick_e6faa9fbfeb74e0aa11e78457dcf260b",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "alert(\"Is touch support available? \"+JSON.stringify(kony.os.hasTouchSupport()));",
+            "callbackType": null
+        }]
+    }
+}

@@ -1,0 +1,53 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizButton",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "string",
+        "value": "50dp"
+    },
+    "_margin_": [
+        6,
+        6,
+        6,
+        6
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "s2b8f5d75d184cedb83b033a7e7f2961",
+    "_text_": "Select Form Home",
+    "_top_": {
+        "type": "string",
+        "value": "20dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "80%"
+    },
+    "canUpdateUI": true,
+    "centerx": {
+        "type": "string",
+        "value": "49.96%"
+    },
+    "containerweight": 100,
+    "contentalignment": 5,
+    "displaytext": true,
+    "focusskin": "s20fe668181b4ca8b39ddcd98ea733a8",
+    "id": "btnSelectFormHome",
+    "ide_onClick": "AS_Button_ceb61f48ff684e4f9f0afed42470230c",
+    "info": null,
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "cbe771b2d0794f05926e980ba6018cca",
+    "name": "kony.ui.Button",
+    "parent": "frmChangeStartupForm",
+    "pf": "frmChangeStartupForm",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "wType": "Button",
+    "zindex": 1
+}

@@ -1,0 +1,53 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizButton",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "string",
+        "value": "50dp"
+    },
+    "_margin_": [
+        6,
+        6,
+        6,
+        6
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "sd99f0fc3a7241c59287bebcb88105fe",
+    "_text_": "hasAccelerometerSupport API",
+    "_top_": {
+        "type": "string",
+        "value": "10dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "90%"
+    },
+    "canUpdateUI": true,
+    "centerx": {
+        "type": "string",
+        "value": "50%"
+    },
+    "containerweight": 100,
+    "contentalignment": 5,
+    "displaytext": true,
+    "focusskin": "s2b00f5c76884706ad8684620b1cad5b",
+    "id": "btnOShasAccelerometerSupport",
+    "ide_onClick": "AS_Button_e58fe99384c84b5fb65dad1b379f9069",
+    "info": null,
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "f964c58362e54812b19f96d39db49de9",
+    "name": "kony.ui.Button",
+    "parent": "frmOSLibrary",
+    "pf": "frmOSLibrary",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "wType": "Button",
+    "zindex": 1
+}

@@ -1,0 +1,17 @@
+{
+    "AS_Button_g10e094641b3413f9692105bb12c6303": {
+        "id": "AS_Button_g10e094641b3413f9692105bb12c6303",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_ide_onClick_c6a979e26ef74bd4a756aafb928f2e70",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "kony.application.openURL(\"https://www.kony.com/\");",
+            "callbackType": null
+        }]
+    }
+}

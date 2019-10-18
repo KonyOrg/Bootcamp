@@ -1,0 +1,58 @@
+{
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "string",
+        "value": "40dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 6,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_percent_": true,
+    "_skin_": "s6a2e6994ce146549d68ca9e862a113a",
+    "_width_": {
+        "type": "string",
+        "value": "40dp"
+    },
+    "allboxes": [],
+    "autogrowmode": 0,
+    "canUpdateUI": true,
+    "centerx": {
+        "type": "string",
+        "value": "35%"
+    },
+    "centery": {
+        "type": "string",
+        "value": "60%"
+    },
+    "children": [
+        "imgOffice365"
+    ],
+    "clipbounds": true,
+    "containerweight": 100,
+    "enablescrolling": true,
+    "id": "flxOffice365",
+    "ide_onClick": "AS_FlexContainer_cd175313d5b74f7283f2b09758803d64",
+    "info": null,
+    "isvisible": true,
+    "kuid": "j5327bd254d0417284300f18efec6c3e",
+    "layouttype": 2,
+    "name": "kony.ui.FlexContainer",
+    "parent": "flxSocialLogin",
+    "pf": "userwidgetmodel",
+    "snapgridsize": 10,
+    "snaptogrid": true,
+    "wType": "FlexContainer",
+    "widgetalignment": 1,
+    "zindex": 8
+}

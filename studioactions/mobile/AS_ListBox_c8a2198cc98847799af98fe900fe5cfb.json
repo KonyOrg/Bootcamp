@@ -1,0 +1,21 @@
+{
+    "AS_ListBox_c8a2198cc98847799af98fe900fe5cfb": {
+        "id": "AS_ListBox_c8a2198cc98847799af98fe900fe5cfb",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION__ide_onSelection_g3d75980ed504effb55bf7e02045d0bd",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "getFoxNews",
+            "display": "getFoxNews",
+            "inputparams": [],
+            "callbackType": null,
+            "disabled": null,
+            "source": "controller"
+        }]
+    }
+}

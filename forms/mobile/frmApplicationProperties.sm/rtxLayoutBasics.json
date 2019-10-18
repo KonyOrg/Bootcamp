@@ -1,0 +1,54 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizRichText",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "ref",
+        "value": "preferred"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_padding_": [
+        2,
+        2,
+        0,
+        2
+    ],
+    "_skin_": "s02911a6268b47dbb7d8629179061e59",
+    "_text_": "<ol>   \n <li>>>Company Name</li>  \n <li>>> Application Name</li>  \n <li>>> Application Logo</li>  \n <li>>> Application Version</li> \n <li>>> Package Name</li> \n <li>>> Fabric Environment Details</li> \n <li>>> Splash Screen</li> \n <li>>> Build Mode</li> \n <li>>> Splash Screen</li> \n <li>>> Application Life Cycle Events</li> \n <br>\n<li>>>>> Pre-appinit</li>\n <li>- Building dynamic app menus</li>\n <li>- Call services to retrieve necessary localization datasets</li>\n <li>- Setting callbacks to background and foreground events</li>\n<br>\n<li>>>>> Post-appinit</li>\n <li>- Dynamically set the startup form</li>\n <li>- Invoke the services to retrieve the data to display on the startup screen</li>\n<br>\n<li>>>>> iOS App Settings</li>\n <li>- Read the app settings every time the apps comes to forefround</li>\n<br>\n<li>>>>> Form Advanced</li>\n <li>- Device back event</li>\n <li>- Form Transition</li>\n <li>- Get Current Form & Get Previous Form</li> <li>- Idle timeout</li>\n<br>\n<li>>>>> Progress Indicator</li>\n </ol> ",
+    "_top_": {
+        "type": "string",
+        "value": "10dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "_wrapping_": 2,
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "contentalignment": 1,
+    "id": "rtxLayoutBasics",
+    "info": null,
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "d3513e6c1bc14106a2eb7d86a0b44f8c",
+    "linkskin": "sc7100cfd3f34f44943a36d6f0e2c6be",
+    "name": "kony.ui.RichText",
+    "paddinginpixel": false,
+    "parent": "frmApplicationProperties",
+    "pf": "frmApplicationProperties",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "wType": "RichText",
+    "widgetalignment": 5,
+    "zindex": 1
+}
